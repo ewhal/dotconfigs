@@ -1,0 +1,108 @@
+! Xresource file
+
+!dzen2.font: -*-lemon-*-r-normal-*-*-100-*-*-*-*-*-*
+!dzen2.font: -*-droidsans-*-r-normal-*-*-100-*-*-*-*-*-*
+!dzen2.foreground: #d6d7d9
+!dzen2.background: #222326
+
+URxvt*depth: 24
+URxvt*geometry: 100x25
+URxvt.borderColor: #111113
+URxvt.internalBorder: 8
+!URxvt.cursorUnderline: true
+!URxvt.cursorBlink: true
+
+URxvt*iconFile: /usr/share/icons/Flattr/apps/scalable/bash.svg
+
+!URxvt*.transparent: true
+!URxvt*.shading: 15
+
+! -- scrollbar
+URxvt.scrollstyle: plain
+URxvt.scrollBar: false
+URxvt*scrollTtyOuput: false
+URxvt*scrollWidthBuffer: true
+URxvt*scrollTtyKeypress: true
+
+! -- login shell
+URxvt*loginShell: false
+
+! -- font
+!URxvt.font: xft:Terminus:size=12
+URxvt.font:             xft:Terminess Powerline:size=10
+!URxvt.font: xft:Droid Sans Mono:size=10
+!URxvt.font: xft:Ubuntu Mono:size=10
+!URxvt.font: xft:PragmataPro:size=10
+!URxvt.font: xft:Inconsolata:size=10
+!URxvt.font: xft:Liberation Mono:size=10
+!URxvt.font: xft:berry:pixelsize=12
+!URxvt.font: xft:tewi-8
+!URxvt.font: xft:terminus:size=12
+!URxvt.font: xft:Terminus-10
+!URxvt.font: -*-terminus-medium-*-*-*-*-140-*-*-*-*-iso8859-1
+!URxvt.font: xft:tamsyn:size=8
+!URxvt.font: xft:cure-8
+!URxvt.boldFont:
+!URxvt*letterSpace: -1
+!URxvt*lineSpace: 2
+
+
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Uft.hintstyle:  hintfull
+URxvt*buffered: false
+
+! -- perl
+URxvt.perl-ext-common: default,clipboard,vtwheel,matcher
+URxvt.keysym.Mod4-v: perl:clipboard:paste
+URxvt.url-launcher: /usr/bin/firefox
+URxvt.matcher.button: 1
+!URxvt.colorUL: #9472ec
+
+! -- tabs
+!URxvt.tabbed.tabbar-fg: 8
+!URxvt.tabbed.tabbar-bg: 0
+!URxvt.tabbed.tab-fg: 15
+!URxvt.tabbed.tab-bg: 0
+
+! made w/ http://terminal.sexy/
+! special
+! special
+*.foreground:   #dedede
+*.background:   #0c0c0c
+*.cursorColor:  #dedede
+
+! black
+*.color0:       #121313
+*.color8:       #555753
+
+! red
+*.color1:       #cc0000
+*.color9:       #ef2929
+
+! green
+*.color2:       #4e9a06
+*.color10:      #8ae234
+
+! yellow
+*.color3:       #c4a000
+*.color11:      #fce94f
+
+! blue
+*.color4:       #3465a4
+*.color12:      #729fcf
+
+! magenta
+*.color5:       #75507b
+*.color13:      #ad7fa8
+
+! cyan
+*.color6:       #06989a
+*.color14:      #34e2e2
+
+! white
+*.color7:       #d3d7cf
+*.color15:      #eeeeec
+
