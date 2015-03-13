@@ -7,7 +7,7 @@ xset -b
 xrdb -merge ~/.Xresources
 
 #Screen setup
-xrandr --output VGA-0 --mode 1440x900 --output DVI-0 --mode 1024x768 --left-of VGA-0
+xrandr --output LVDS-1 --mode 1280x800 --output VGA-1 --mode 1440x900 --right-of LVDS-1 --output DVI-1 --left-of LVDS-1 --mode 1024c768
 
 #hide mouse when not used
 #unclutter -root -visible &

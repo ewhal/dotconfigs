@@ -236,7 +236,7 @@ bar {
     position top
     # mode hide
     mode dock
-    output VGA-0
+    output LVDS-1
     font pango:Terminus 11px
 
     colors {
