@@ -236,7 +236,7 @@ bar {
     position top
     # mode hide
     mode dock
-    output LVDS-1
+    output LVDS-0
     font pango:Terminus 11px
 
     colors {
@@ -257,6 +257,7 @@ exec --no-startup-id i3-msg 'workspace 2; exec urxvt;'
 exec --no-startup-id i3-msg 'workspace 10; exec thunderbird ; exec qbittorrent'
 exec --no-startup-id i3-msg 'workspace 1; exec firefox ;'
 exec --no-startup-id nm-applet
+#exec /usr/libexec/gnome-settings-daemon
 exec mpd
 #exec ~/.dropbox-dist/dropboxd
 #exec nitrogen --restore

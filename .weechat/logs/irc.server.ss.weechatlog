@@ -1,0 +1,192 @@
+2014-11-16 21:39:32	--	irc: connecting to server SS/6667...
+2014-11-16 21:39:32	=!=	irc: address "SS" not found
+2014-11-16 21:39:32	=!=	irc: error: Name or service not known
+2014-11-16 21:39:32	--	irc: reconnecting to server in 10 seconds
+2014-11-16 21:39:56	--	irc: connecting to server SS/6667...
+2014-11-16 21:39:56	=!=	irc: address "SS" not found
+2014-11-16 21:39:56	=!=	irc: error: Name or service not known
+2014-11-16 21:39:56	--	irc: reconnecting to server in 10 seconds
+2014-11-16 21:40:23	--	irc: connecting to server irc.secure-services.me/6697 (SSL)...
+2014-11-16 21:40:23	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2014-11-16 21:40:23	--	gnutls: receiving 3 certificates
+2014-11-16 21:40:23	--	 - certificate[1] info:
+2014-11-16 21:40:23	--	   - subject `description=Qbr5swYNHRqk12nK,C=AU,CN=irc.secure-services.me,EMAIL=webmaster@secure-services.me', issuer `C=IL,O=StartCom Ltd.,OU=Secure Digital Certificate Signing,CN=StartCom Class 1 Primary Intermediate Server CA', RSA key 4096 bits, signed using RSA-SHA1, activated `2014-10-25 03:39:21 UTC', expires `2015-10-26 06:10:29 UTC', SHA-1 fingerprint `8d578d160fb29976ae9a4a2277a5c409fa11b7f8'
+2014-11-16 21:40:23	--	 - certificate[2] info:
+2014-11-16 21:40:23	--	   - subject `C=IL,O=StartCom Ltd.,OU=Secure Digital Certificate Signing,CN=StartCom Class 1 Primary Intermediate Server CA', issuer `C=IL,O=StartCom Ltd.,OU=Secure Digital Certificate Signing,CN=StartCom Certification Authority', RSA key 2048 bits, signed using RSA-SHA1, activated `2007-10-24 20:54:17 UTC', expires `2017-10-24 20:54:17 UTC', SHA-1 fingerprint `f691fc87efb3135354225a10e127e911d1c7f8cf'
+2014-11-16 21:40:23	--	 - certificate[3] info:
+2014-11-16 21:40:23	--	   - subject `C=IL,O=StartCom Ltd.,OU=Secure Digital Certificate Signing,CN=StartCom Certification Authority', issuer `C=IL,O=StartCom Ltd.,OU=Secure Digital Certificate Signing,CN=StartCom Certification Authority', RSA key 4096 bits, signed using RSA-SHA1, activated `2006-09-17 19:46:36 UTC', expires `2036-09-17 19:46:36 UTC', SHA-1 fingerprint `3e2bf7f2031b96f38ce6c4d8a85d3e2d58476a0f'
+2014-11-16 21:40:23	--	gnutls: peer's certificate is trusted
+2014-11-16 21:40:24	--	irc: connected to irc.secure-services.me/6697 (122.108.192.228)
+2014-11-16 21:40:24	--	irc.secure-services.me: *** Looking up your hostname...
+2014-11-16 21:40:24	--	irc.secure-services.me: *** Found your hostname
+2014-11-16 21:40:24	--	irc: nickname "ewhal4" is already in use, trying nickname "ewhal41"
+2014-11-16 21:40:24	--	Welcome to the Secure Services IRC Network ewhal41!ewhal4@c122-108-192-228.rochd4.qld.optusnet.com.au
+2014-11-16 21:40:24	--	Your host is irc.secure-services.me, running version Unreal3.2.10.1
+2014-11-16 21:40:24	--	This server was created Sat Jul 19 2014 at 20:51:37 EST
+2014-11-16 21:40:24	--	irc.secure-services.me Unreal3.2.10.1 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2014-11-16 21:40:24	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2014-11-16 21:40:24	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=Secure-Services CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2014-11-16 21:40:24	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2014-11-16 21:40:24	--	irc.secure-services.me: *** You are connected to irc.secure-services.me with TLSv1.2-AES128-GCM-SHA256-128bits
+2014-11-16 21:40:24	--	There are 1 users and 9 invisible on 2 servers
+2014-11-16 21:40:24	--	9 :operator(s) online
+2014-11-16 21:40:24	--	3 :channels formed
+2014-11-16 21:40:24	--	I have 2 clients and 1 servers
+2014-11-16 21:40:24	--	2 3 :Current local users 2, max 3
+2014-11-16 21:40:24	--	10 11 :Current global users 10, max 11
+2014-11-16 21:40:24	--	MOTD File is missing
+2014-11-16 21:40:24	--	User mode [+iwxz] by ewhal41
+2014-11-16 21:40:29	--	general: No such channel
+2014-11-16 21:42:54	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2014-11-16 21:42:54	--	gnutls: receiving 3 certificates
+2014-11-16 21:42:54	--	 - certificate[1] info:
+2014-11-16 21:42:54	--	   - subject `description=Qbr5swYNHRqk12nK,C=AU,CN=irc.secure-services.me,EMAIL=webmaster@secure-services.me', issuer `C=IL,O=StartCom Ltd.,OU=Secure Digital Certificate Signing,CN=StartCom Class 1 Primary Intermediate Server CA', RSA key 4096 bits, signed using RSA-SHA1, activated `2014-10-25 03:39:21 UTC', expires `2015-10-26 06:10:29 UTC', SHA-1 fingerprint `8d578d160fb29976ae9a4a2277a5c409fa11b7f8'
+2014-11-16 21:42:54	--	 - certificate[2] info:
+2014-11-16 21:42:54	--	   - subject `C=IL,O=StartCom Ltd.,OU=Secure Digital Certificate Signing,CN=StartCom Class 1 Primary Intermediate Server CA', issuer `C=IL,O=StartCom Ltd.,OU=Secure Digital Certificate Signing,CN=StartCom Certification Authority', RSA key 2048 bits, signed using RSA-SHA1, activated `2007-10-24 20:54:17 UTC', expires `2017-10-24 20:54:17 UTC', SHA-1 fingerprint `f691fc87efb3135354225a10e127e911d1c7f8cf'
+2014-11-16 21:42:54	--	 - certificate[3] info:
+2014-11-16 21:42:54	--	   - subject `C=IL,O=StartCom Ltd.,OU=Secure Digital Certificate Signing,CN=StartCom Certification Authority', issuer `C=IL,O=StartCom Ltd.,OU=Secure Digital Certificate Signing,CN=StartCom Certification Authority', RSA key 4096 bits, signed using RSA-SHA1, activated `2006-09-17 19:46:36 UTC', expires `2036-09-17 19:46:36 UTC', SHA-1 fingerprint `3e2bf7f2031b96f38ce6c4d8a85d3e2d58476a0f'
+2014-11-16 21:42:54	--	gnutls: peer's certificate is trusted
+2014-11-16 21:42:54	--	irc: connected to irc.secure-services.me/6697 (122.108.192.228)
+2014-11-16 21:42:54	--	irc.secure-services.me: *** Looking up your hostname...
+2014-11-16 21:42:54	--	irc.secure-services.me: *** Found your hostname (cached)
+2014-11-16 21:42:54	--	irc: nickname "ewhal4" is already in use, trying nickname "ewhal41"
+2014-11-16 21:42:54	--	Welcome to the Secure Services IRC Network ewhal41!ewhal4@c122-108-192-228.rochd4.qld.optusnet.com.au
+2014-11-16 21:42:54	--	Your host is irc.secure-services.me, running version Unreal3.2.10.1
+2014-11-16 21:42:54	--	This server was created Sat Jul 19 2014 at 20:51:37 EST
+2014-11-16 21:42:54	--	irc.secure-services.me Unreal3.2.10.1 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2014-11-16 21:42:54	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2014-11-16 21:42:54	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=Secure-Services CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2014-11-16 21:42:54	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2014-11-16 21:42:54	--	irc.secure-services.me: *** You are connected to irc.secure-services.me with TLSv1.2-AES128-GCM-SHA256-128bits
+2014-11-16 21:42:54	--	There are 1 users and 9 invisible on 2 servers
+2014-11-16 21:42:54	--	9 :operator(s) online
+2014-11-16 21:42:54	--	3 :channels formed
+2014-11-16 21:42:54	--	I have 2 clients and 1 servers
+2014-11-16 21:42:54	--	2 3 :Current local users 2, max 3
+2014-11-16 21:42:54	--	10 11 :Current global users 10, max 11
+2014-11-16 21:42:54	--	MOTD File is missing
+2014-11-16 21:42:54	--	User mode [+iwxz] by ewhal41
+2014-11-16 21:50:37	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2014-11-16 21:50:37	--	gnutls: receiving 3 certificates
+2014-11-16 21:50:37	--	 - certificate[1] info:
+2014-11-16 21:50:37	--	   - subject `description=Qbr5swYNHRqk12nK,C=AU,CN=irc.secure-services.me,EMAIL=webmaster@secure-services.me', issuer `C=IL,O=StartCom Ltd.,OU=Secure Digital Certificate Signing,CN=StartCom Class 1 Primary Intermediate Server CA', RSA key 4096 bits, signed using RSA-SHA1, activated `2014-10-25 03:39:21 UTC', expires `2015-10-26 06:10:29 UTC', SHA-1 fingerprint `8d578d160fb29976ae9a4a2277a5c409fa11b7f8'
+2014-11-16 21:50:37	--	 - certificate[2] info:
+2014-11-16 21:50:37	--	   - subject `C=IL,O=StartCom Ltd.,OU=Secure Digital Certificate Signing,CN=StartCom Class 1 Primary Intermediate Server CA', issuer `C=IL,O=StartCom Ltd.,OU=Secure Digital Certificate Signing,CN=StartCom Certification Authority', RSA key 2048 bits, signed using RSA-SHA1, activated `2007-10-24 20:54:17 UTC', expires `2017-10-24 20:54:17 UTC', SHA-1 fingerprint `f691fc87efb3135354225a10e127e911d1c7f8cf'
+2014-11-16 21:50:37	--	 - certificate[3] info:
+2014-11-16 21:50:37	--	   - subject `C=IL,O=StartCom Ltd.,OU=Secure Digital Certificate Signing,CN=StartCom Certification Authority', issuer `C=IL,O=StartCom Ltd.,OU=Secure Digital Certificate Signing,CN=StartCom Certification Authority', RSA key 4096 bits, signed using RSA-SHA1, activated `2006-09-17 19:46:36 UTC', expires `2036-09-17 19:46:36 UTC', SHA-1 fingerprint `3e2bf7f2031b96f38ce6c4d8a85d3e2d58476a0f'
+2014-11-16 21:50:37	--	gnutls: peer's certificate is trusted
+2014-11-16 21:50:37	--	irc: connected to irc.secure-services.me/6697 (122.108.192.228)
+2014-11-16 21:50:37	--	irc.secure-services.me: *** Looking up your hostname...
+2014-11-16 21:50:38	--	irc.secure-services.me: *** Found your hostname
+2014-11-16 21:50:38	--	irc: nickname "ewhal4" is already in use, trying nickname "ewhal41"
+2014-11-16 21:50:38	--	Welcome to the Secure Services IRC Network ewhal41!ewhal4@c122-108-192-228.rochd4.qld.optusnet.com.au
+2014-11-16 21:50:38	--	Your host is irc.secure-services.me, running version Unreal3.2.10.1
+2014-11-16 21:50:38	--	This server was created Sat Jul 19 2014 at 20:51:37 EST
+2014-11-16 21:50:38	--	irc.secure-services.me Unreal3.2.10.1 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2014-11-16 21:50:38	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2014-11-16 21:50:38	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=Secure-Services CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2014-11-16 21:50:38	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2014-11-16 21:50:38	--	irc.secure-services.me: *** You are connected to irc.secure-services.me with TLSv1.2-AES128-GCM-SHA256-128bits
+2014-11-16 21:50:38	--	There are 1 users and 9 invisible on 2 servers
+2014-11-16 21:50:38	--	9 :operator(s) online
+2014-11-16 21:50:38	--	3 :channels formed
+2014-11-16 21:50:38	--	I have 2 clients and 1 servers
+2014-11-16 21:50:38	--	2 3 :Current local users 2, max 3
+2014-11-16 21:50:38	--	10 11 :Current global users 10, max 11
+2014-11-16 21:50:38	--	MOTD File is missing
+2014-11-16 21:50:38	--	User mode [+iwxz] by ewhal41
+2014-11-16 21:51:34	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2014-11-16 21:51:34	--	gnutls: receiving 3 certificates
+2014-11-16 21:51:34	--	 - certificate[1] info:
+2014-11-16 21:51:34	--	   - subject `description=Qbr5swYNHRqk12nK,C=AU,CN=irc.secure-services.me,EMAIL=webmaster@secure-services.me', issuer `C=IL,O=StartCom Ltd.,OU=Secure Digital Certificate Signing,CN=StartCom Class 1 Primary Intermediate Server CA', RSA key 4096 bits, signed using RSA-SHA1, activated `2014-10-25 03:39:21 UTC', expires `2015-10-26 06:10:29 UTC', SHA-1 fingerprint `8d578d160fb29976ae9a4a2277a5c409fa11b7f8'
+2014-11-16 21:51:34	--	 - certificate[2] info:
+2014-11-16 21:51:34	--	   - subject `C=IL,O=StartCom Ltd.,OU=Secure Digital Certificate Signing,CN=StartCom Class 1 Primary Intermediate Server CA', issuer `C=IL,O=StartCom Ltd.,OU=Secure Digital Certificate Signing,CN=StartCom Certification Authority', RSA key 2048 bits, signed using RSA-SHA1, activated `2007-10-24 20:54:17 UTC', expires `2017-10-24 20:54:17 UTC', SHA-1 fingerprint `f691fc87efb3135354225a10e127e911d1c7f8cf'
+2014-11-16 21:51:34	--	 - certificate[3] info:
+2014-11-16 21:51:34	--	   - subject `C=IL,O=StartCom Ltd.,OU=Secure Digital Certificate Signing,CN=StartCom Certification Authority', issuer `C=IL,O=StartCom Ltd.,OU=Secure Digital Certificate Signing,CN=StartCom Certification Authority', RSA key 4096 bits, signed using RSA-SHA1, activated `2006-09-17 19:46:36 UTC', expires `2036-09-17 19:46:36 UTC', SHA-1 fingerprint `3e2bf7f2031b96f38ce6c4d8a85d3e2d58476a0f'
+2014-11-16 21:51:34	--	gnutls: peer's certificate is trusted
+2014-11-16 21:51:34	--	irc: connected to irc.secure-services.me/6697 (122.108.192.228)
+2014-11-16 21:51:34	--	irc.secure-services.me: *** Looking up your hostname...
+2014-11-16 21:51:34	--	irc.secure-services.me: *** Found your hostname (cached)
+2014-11-16 21:51:34	--	irc: nickname "ewhal4" is already in use, trying nickname "ewhal41"
+2014-11-16 21:51:34	--	Welcome to the Secure Services IRC Network ewhal41!ewhal4@c122-108-192-228.rochd4.qld.optusnet.com.au
+2014-11-16 21:51:34	--	Your host is irc.secure-services.me, running version Unreal3.2.10.1
+2014-11-16 21:51:34	--	This server was created Sat Jul 19 2014 at 20:51:37 EST
+2014-11-16 21:51:34	--	irc.secure-services.me Unreal3.2.10.1 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2014-11-16 21:51:34	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2014-11-16 21:51:34	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=Secure-Services CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2014-11-16 21:51:34	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2014-11-16 21:51:34	--	irc.secure-services.me: *** You are connected to irc.secure-services.me with TLSv1.2-AES128-GCM-SHA256-128bits
+2014-11-16 21:51:34	--	There are 1 users and 9 invisible on 2 servers
+2014-11-16 21:51:34	--	9 :operator(s) online
+2014-11-16 21:51:34	--	3 :channels formed
+2014-11-16 21:51:34	--	I have 2 clients and 1 servers
+2014-11-16 21:51:34	--	2 3 :Current local users 2, max 3
+2014-11-16 21:51:34	--	10 11 :Current global users 10, max 11
+2014-11-16 21:51:34	--	MOTD File is missing
+2014-11-16 21:51:34	--	User mode [+iwxz] by ewhal41
+2014-11-16 21:55:37	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2014-11-16 21:55:37	--	gnutls: receiving 3 certificates
+2014-11-16 21:55:37	--	 - certificate[1] info:
+2014-11-16 21:55:37	--	   - subject `description=Qbr5swYNHRqk12nK,C=AU,CN=irc.secure-services.me,EMAIL=webmaster@secure-services.me', issuer `C=IL,O=StartCom Ltd.,OU=Secure Digital Certificate Signing,CN=StartCom Class 1 Primary Intermediate Server CA', RSA key 4096 bits, signed using RSA-SHA1, activated `2014-10-25 03:39:21 UTC', expires `2015-10-26 06:10:29 UTC', SHA-1 fingerprint `8d578d160fb29976ae9a4a2277a5c409fa11b7f8'
+2014-11-16 21:55:37	--	 - certificate[2] info:
+2014-11-16 21:55:37	--	   - subject `C=IL,O=StartCom Ltd.,OU=Secure Digital Certificate Signing,CN=StartCom Class 1 Primary Intermediate Server CA', issuer `C=IL,O=StartCom Ltd.,OU=Secure Digital Certificate Signing,CN=StartCom Certification Authority', RSA key 2048 bits, signed using RSA-SHA1, activated `2007-10-24 20:54:17 UTC', expires `2017-10-24 20:54:17 UTC', SHA-1 fingerprint `f691fc87efb3135354225a10e127e911d1c7f8cf'
+2014-11-16 21:55:37	--	 - certificate[3] info:
+2014-11-16 21:55:37	--	   - subject `C=IL,O=StartCom Ltd.,OU=Secure Digital Certificate Signing,CN=StartCom Certification Authority', issuer `C=IL,O=StartCom Ltd.,OU=Secure Digital Certificate Signing,CN=StartCom Certification Authority', RSA key 4096 bits, signed using RSA-SHA1, activated `2006-09-17 19:46:36 UTC', expires `2036-09-17 19:46:36 UTC', SHA-1 fingerprint `3e2bf7f2031b96f38ce6c4d8a85d3e2d58476a0f'
+2014-11-16 21:55:37	--	gnutls: peer's certificate is trusted
+2014-11-16 21:55:37	--	irc: connected to irc.secure-services.me/6697 (122.108.192.228)
+2014-11-16 21:55:37	--	irc.secure-services.me: *** Looking up your hostname...
+2014-11-16 21:55:37	--	irc.secure-services.me: *** Found your hostname (cached)
+2014-11-16 21:55:37	--	irc: nickname "ewhal4" is already in use, trying nickname "ewhal41"
+2014-11-16 21:55:37	--	Welcome to the Secure Services IRC Network ewhal41!ewhal4@c122-108-192-228.rochd4.qld.optusnet.com.au
+2014-11-16 21:55:37	--	Your host is irc.secure-services.me, running version Unreal3.2.10.1
+2014-11-16 21:55:37	--	This server was created Sat Jul 19 2014 at 20:51:37 EST
+2014-11-16 21:55:37	--	irc.secure-services.me Unreal3.2.10.1 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2014-11-16 21:55:37	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2014-11-16 21:55:37	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=Secure-Services CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2014-11-16 21:55:37	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2014-11-16 21:55:37	--	irc.secure-services.me: *** You are connected to irc.secure-services.me with TLSv1.2-AES128-GCM-SHA256-128bits
+2014-11-16 21:55:37	--	There are 1 users and 9 invisible on 2 servers
+2014-11-16 21:55:37	--	9 :operator(s) online
+2014-11-16 21:55:37	--	3 :channels formed
+2014-11-16 21:55:37	--	I have 2 clients and 1 servers
+2014-11-16 21:55:37	--	2 3 :Current local users 2, max 3
+2014-11-16 21:55:37	--	10 11 :Current global users 10, max 11
+2014-11-16 21:55:37	--	MOTD File is missing
+2014-11-16 21:55:37	--	User mode [+iwxz] by ewhal41
+2014-11-16 21:58:10	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2014-11-16 21:58:10	--	gnutls: receiving 3 certificates
+2014-11-16 21:58:10	--	 - certificate[1] info:
+2014-11-16 21:58:10	--	   - subject `description=Qbr5swYNHRqk12nK,C=AU,CN=irc.secure-services.me,EMAIL=webmaster@secure-services.me', issuer `C=IL,O=StartCom Ltd.,OU=Secure Digital Certificate Signing,CN=StartCom Class 1 Primary Intermediate Server CA', RSA key 4096 bits, signed using RSA-SHA1, activated `2014-10-25 03:39:21 UTC', expires `2015-10-26 06:10:29 UTC', SHA-1 fingerprint `8d578d160fb29976ae9a4a2277a5c409fa11b7f8'
+2014-11-16 21:58:10	--	 - certificate[2] info:
+2014-11-16 21:58:10	--	   - subject `C=IL,O=StartCom Ltd.,OU=Secure Digital Certificate Signing,CN=StartCom Class 1 Primary Intermediate Server CA', issuer `C=IL,O=StartCom Ltd.,OU=Secure Digital Certificate Signing,CN=StartCom Certification Authority', RSA key 2048 bits, signed using RSA-SHA1, activated `2007-10-24 20:54:17 UTC', expires `2017-10-24 20:54:17 UTC', SHA-1 fingerprint `f691fc87efb3135354225a10e127e911d1c7f8cf'
+2014-11-16 21:58:10	--	 - certificate[3] info:
+2014-11-16 21:58:10	--	   - subject `C=IL,O=StartCom Ltd.,OU=Secure Digital Certificate Signing,CN=StartCom Certification Authority', issuer `C=IL,O=StartCom Ltd.,OU=Secure Digital Certificate Signing,CN=StartCom Certification Authority', RSA key 4096 bits, signed using RSA-SHA1, activated `2006-09-17 19:46:36 UTC', expires `2036-09-17 19:46:36 UTC', SHA-1 fingerprint `3e2bf7f2031b96f38ce6c4d8a85d3e2d58476a0f'
+2014-11-16 21:58:10	--	gnutls: peer's certificate is trusted
+2014-11-16 21:58:11	--	irc: connected to irc.secure-services.me/6697 (122.108.192.228)
+2014-11-16 21:58:11	--	irc.secure-services.me: *** Looking up your hostname...
+2014-11-16 21:58:11	--	irc.secure-services.me: *** Found your hostname (cached)
+2014-11-16 21:58:11	--	irc: nickname "ewhal4" is already in use, trying nickname "ewhal41"
+2014-11-16 21:58:11	--	Welcome to the Secure Services IRC Network ewhal41!ewhal4@c122-108-192-228.rochd4.qld.optusnet.com.au
+2014-11-16 21:58:11	--	Your host is irc.secure-services.me, running version Unreal3.2.10.1
+2014-11-16 21:58:11	--	This server was created Sat Jul 19 2014 at 20:51:37 EST
+2014-11-16 21:58:11	--	irc.secure-services.me Unreal3.2.10.1 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2014-11-16 21:58:11	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=10 CHANLIMIT=#:10 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2014-11-16 21:58:11	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=Secure-Services CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2014-11-16 21:58:11	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2014-11-16 21:58:11	--	irc.secure-services.me: *** You are connected to irc.secure-services.me with TLSv1.2-AES128-GCM-SHA256-128bits
+2014-11-16 21:58:11	--	There are 1 users and 9 invisible on 2 servers
+2014-11-16 21:58:11	--	9 :operator(s) online
+2014-11-16 21:58:11	--	1 :unknown connection(s)
+2014-11-16 21:58:11	--	3 :channels formed
+2014-11-16 21:58:11	--	I have 2 clients and 1 servers
+2014-11-16 21:58:11	--	2 3 :Current local users 2, max 3
+2014-11-16 21:58:11	--	10 11 :Current global users 10, max 11
+2014-11-16 21:58:11	--	MOTD File is missing
+2014-11-16 21:58:11	--	User mode [+iwxz] by ewhal41
+2014-11-16 22:03:45	=!=	irc: timeout
+2014-11-16 22:03:45	--	irc: reconnecting to server in 10 seconds
+2014-11-16 22:03:55	--	irc: reconnecting to server...
+2014-11-16 22:03:55	--	irc: connecting to server irc.secure-services.me/6697 (SSL)...
+2014-11-16 22:04:29	--	irc: connecting to server irc.secure-services.me/6697 (SSL)...
+2014-11-16 22:05:29	=!=	irc: timeout
+2014-11-16 22:05:29	--	irc: reconnecting to server in 10 seconds

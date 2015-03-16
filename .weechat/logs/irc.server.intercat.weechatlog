@@ -1,0 +1,39 @@
+2014-09-03 00:12:51	--	irc: connecting to server intercat.net/6697 (SSL)...
+2014-09-03 00:13:02	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2014-09-03 00:13:02	--	gnutls: receiving 1 certificate
+2014-09-03 00:13:02	--	 - certificate[1] info:
+2014-09-03 00:13:02	--	   - subject `C=IO,ST=Internet,L=A series of tubes,O=Psychotically Abnormal People Inc,OU=Head of Psychosis,CN=dfrsnet,EMAIL=noreply@dfrsnet', issuer `C=IO,ST=Internet,L=A series of tubes,O=Psychotically Abnormal People Inc,OU=Head of Psychosis,CN=dfrsnet,EMAIL=noreply@dfrsnet', RSA key 4096 bits, signed using RSA-SHA1, activated `2013-07-04 22:39:11 UTC', expires `2013-08-03 22:39:11 UTC', SHA-1 fingerprint `ca7465859d490b74196c13bbe0bfc97819f251e6'
+2014-09-03 00:13:02	=!=	gnutls: certificate has expired
+2014-09-03 00:13:02	=!=	gnutls: the hostname in the certificate does NOT match "intercat.net"
+2014-09-03 00:13:02	=!=	gnutls: peer's certificate is NOT trusted
+2014-09-03 00:13:02	=!=	gnutls: peer's certificate issuer is unknown
+2014-09-03 00:13:02	=!=	irc: TLS handshake failed
+2014-09-03 00:13:02	=!=	irc: error: Error in the certificate.
+2014-09-03 00:13:02	--	irc: reconnecting to server in 10 seconds
+2014-09-03 00:13:12	--	irc: reconnecting to server...
+2014-09-03 00:13:12	--	irc: connecting to server intercat.net/6697 (SSL)...
+2014-09-03 00:13:13	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2014-09-03 00:13:13	--	gnutls: receiving 1 certificate
+2014-09-03 00:13:13	--	 - certificate[1] info:
+2014-09-03 00:13:13	--	   - subject `C=IO,ST=Internet,L=A series of tubes,O=Psychotically Abnormal People Inc,OU=Head of Psychosis,CN=dfrsnet,EMAIL=noreply@dfrsnet', issuer `C=IO,ST=Internet,L=A series of tubes,O=Psychotically Abnormal People Inc,OU=Head of Psychosis,CN=dfrsnet,EMAIL=noreply@dfrsnet', RSA key 4096 bits, signed using RSA-SHA1, activated `2013-07-04 22:39:11 UTC', expires `2013-08-03 22:39:11 UTC', SHA-1 fingerprint `ca7465859d490b74196c13bbe0bfc97819f251e6'
+2014-09-03 00:13:13	=!=	gnutls: certificate has expired
+2014-09-03 00:13:13	=!=	gnutls: the hostname in the certificate does NOT match "intercat.net"
+2014-09-03 00:13:13	=!=	gnutls: peer's certificate is NOT trusted
+2014-09-03 00:13:13	=!=	gnutls: peer's certificate issuer is unknown
+2014-09-03 00:13:13	=!=	irc: TLS handshake failed
+2014-09-03 00:13:13	=!=	irc: error: Error in the certificate.
+2014-09-03 00:13:13	--	irc: reconnecting to server in 20 seconds
+2014-09-03 00:15:55	--	irc: connecting to server intercat.net/6697 (SSL)...
+2014-09-03 00:15:56	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2014-09-03 00:15:56	--	gnutls: receiving 1 certificate
+2014-09-03 00:15:56	--	 - certificate[1] info:
+2014-09-03 00:15:56	--	   - subject `C=IO,ST=Internet,L=A series of tubes,O=Psychotically Abnormal People Inc,OU=Head of Psychosis,CN=dfrsnet,EMAIL=noreply@dfrsnet', issuer `C=IO,ST=Internet,L=A series of tubes,O=Psychotically Abnormal People Inc,OU=Head of Psychosis,CN=dfrsnet,EMAIL=noreply@dfrsnet', RSA key 4096 bits, signed using RSA-SHA1, activated `2013-07-04 22:39:11 UTC', expires `2013-08-03 22:39:11 UTC', SHA-1 fingerprint `ca7465859d490b74196c13bbe0bfc97819f251e6'
+2014-09-03 00:15:56	=!=	gnutls: certificate has expired
+2014-09-03 00:15:56	=!=	gnutls: the hostname in the certificate does NOT match "intercat.net"
+2014-09-03 00:15:56	=!=	gnutls: peer's certificate is NOT trusted
+2014-09-03 00:15:56	=!=	gnutls: peer's certificate issuer is unknown
+2014-09-03 00:15:56	=!=	irc: TLS handshake failed
+2014-09-03 00:15:56	=!=	irc: error: Error in the certificate.
+2014-09-03 00:15:56	--	irc: reconnecting to server in 10 seconds
+2014-09-03 00:16:06	--	irc: reconnecting to server...
+2014-09-03 00:16:06	--	irc: connecting to server intercat.net/6697 (SSL)...

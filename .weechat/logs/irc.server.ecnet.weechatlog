@@ -1,0 +1,142 @@
+2014-11-16 22:02:46	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2014-11-16 22:02:46	--	gnutls: receiving 1 certificate
+2014-11-16 22:02:46	--	 - certificate[1] info:
+2014-11-16 22:02:46	--	   - subject `C=US,ST=Nebraska,L=Lincoln,O=ECNet,OU=IRCd,CN=noodle.irc.ecnet.org', issuer `C=US,ST=Nebraska,L=Lincoln,O=ECNet,OU=IRCd,CN=noodle.irc.ecnet.org', RSA key 1024 bits, signed using RSA-MD5 (broken!), activated `2005-11-13 02:05:38 UTC', expires `2006-11-13 02:05:38 UTC', SHA-1 fingerprint `1b8b02507944f45ad7dad5fca2b1ff3bc28a2712'
+2014-11-16 22:02:46	=!=	gnutls: certificate has expired
+2014-11-16 22:02:46	=!=	gnutls: the hostname in the certificate does NOT match "irc.ecnet.org"
+2014-11-16 22:02:46	=!=	gnutls: peer's certificate is NOT trusted
+2014-11-16 22:02:46	=!=	gnutls: peer's certificate issuer is unknown
+2014-11-16 22:02:47	--	irc: connected to irc.ecnet.org/6697 (72.20.19.235)
+2014-11-16 22:02:48	--	noodle.irc.ecnet.org: *** Looking up your hostname...
+2014-11-16 22:02:48	--	noodle.irc.ecnet.org: *** Found your hostname
+2014-11-16 22:02:49	--	Welcome to the ECNet IRC Network ewhal4!ewhal4@c122-108-192-228.rochd4.qld.optusnet.com.au
+2014-11-16 22:02:49	--	Your host is noodle.irc.ecnet.org, running version Unreal3.2.10
+2014-11-16 22:02:49	--	This server was created Mon Feb 4 2013 at 23:10:45 PST
+2014-11-16 22:02:49	--	noodle.irc.ecnet.org Unreal3.2.10 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2014-11-16 22:02:49	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=30 CHANLIMIT=#:30 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2014-11-16 22:02:49	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=ECNet CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2014-11-16 22:02:49	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2014-11-16 22:02:49	--	noodle.irc.ecnet.org: *** You are connected to noodle.irc.ecnet.org with TLSv1.2-AES128-GCM-SHA256-128bits
+2014-11-16 22:02:49	--	There are 125 users and 94 invisible on 5 servers
+2014-11-16 22:02:49	--	15 :operator(s) online
+2014-11-16 22:02:49	--	42 :channels formed
+2014-11-16 22:02:49	--	I have 34 clients and 1 servers
+2014-11-16 22:02:49	--	34 445 :Current local users 34, max 445
+2014-11-16 22:02:49	--	219 959 :Current global users 219, max 959
+2014-11-16 22:02:49	--	- noodle.irc.ecnet.org Message of the Day -
+2014-11-16 22:02:49	--	- 30/4/2012 2:05
+2014-11-16 22:02:49	--	- _____________________________________________________
+2014-11-16 22:02:49	--	-
+2014-11-16 22:02:49	--	-    /\  \     /\  \     /\__\     /\  \     /\  \
+2014-11-16 22:02:49	--	-   /::\  \   /::\  \   /:| _|_   /::\  \    \:\  \
+2014-11-16 22:02:49	--	-  /::\:\__\ /:/\:\__\ /::|/\__\ /::\:\__\   /::\__\
+2014-11-16 22:02:49	--	-  \:\:\/  / \:\ \/__/ \/|::/  / \:\:\/  /  /:/\/__/
+2014-11-16 22:02:49	--	-   \:\/  /   \:\__\     |:/  /   \:\/  /   \/__/
+2014-11-16 22:02:49	--	-    \/__/     \/__/     \/__/     \/__/
+2014-11-16 22:02:49	--	-
+2014-11-16 22:02:49	--	-    Welcome to ECNet - The Epicenter IRC Network	
+2014-11-16 22:02:49	--	-   You are connecting through noodle.irc.ecnet.org
+2014-11-16 22:02:49	--	-   Sponsored by La Asociación de Lobos de Fuego
+2014-11-16 22:02:49	--	- _____________________________________________________
+2014-11-16 22:02:49	--	-
+2014-11-16 22:02:49	--	-   Server Admin: Heero
+2014-11-16 22:02:49	--	-   Operators: Aven, Methofelis, robin
+2014-11-16 22:02:49	--	- _____________________________________________________
+2014-11-16 22:02:49	--	-
+2014-11-16 22:02:49	--	-   Network Site: http://www.ecnet.org
+2014-11-16 22:02:49	--	-   Rules: http://wiki.ecnet.org/wiki/Rules
+2014-11-16 22:02:49	--	-
+2014-11-16 22:02:49	--	-   Please be sure to read the rules by visiting the
+2014-11-16 22:02:49	--	-   site or typing /rules.
+2014-11-16 22:02:49	--	-
+2014-11-16 22:02:49	--	-   If you have any questions join #ecnet.
+2014-11-16 22:02:49	--	-
+2014-11-16 22:02:49	--	-   Enjoy your stay
+2014-11-16 22:02:49	--	- ______________________________________________________
+2014-11-16 22:02:49	--	End of /MOTD command.
+2014-11-16 22:02:49	--	User mode [+ixz] by ewhal4
+2014-11-16 22:02:49	--	CTCP requested by StatServ: VERSION
+2014-11-16 22:02:49	--	CTCP reply to StatServ: VERSION WeeChat 1.0.1 (Sep 28 2014)
+2014-11-16 22:02:49	--	Global (services@ecnet.org): [Logon News - May 14 2011] Welcome to ECNet! If you require any assistance, or just feel like a chat, feel free to join #ecnet
+2014-11-16 22:02:49	--	NickServ (services@ecnet.org): This nickname is registered and protected.  If it is your
+2014-11-16 22:02:49	--	NickServ (services@ecnet.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2014-11-16 22:02:49	--	NickServ (services@ecnet.org): please choose a different nick.
+2014-11-16 22:06:39	--	MSG(nickserv): identify ***********
+2014-11-16 22:06:40	--	User mode [+r] by services.ecnet.org
+2014-11-16 22:06:40	--	NickServ (services@ecnet.org): Password accepted - you are now recognized.
+2014-11-17 07:23:19	=!=	irc: reading data on socket: error -54 Error in the pull function.
+2014-11-17 07:23:19	--	irc: disconnecting from server...
+2014-11-17 07:23:19	--	irc: disconnected from server
+2014-11-17 07:23:19	--	irc: reconnecting to server in 10 seconds
+2014-11-17 07:23:29	--	irc: reconnecting to server...
+2014-11-17 07:23:29	--	irc: connecting to server irc.ecnet.org/6697 (SSL)...
+2014-11-17 07:23:30	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2014-11-17 07:23:30	--	gnutls: receiving 1 certificate
+2014-11-17 07:23:30	--	 - certificate[1] info:
+2014-11-17 07:23:30	--	   - subject `C=US,ST=Nebraska,L=Lincoln,O=ECNet,OU=IRCd,CN=noodle.irc.ecnet.org', issuer `C=US,ST=Nebraska,L=Lincoln,O=ECNet,OU=IRCd,CN=noodle.irc.ecnet.org', RSA key 1024 bits, signed using RSA-MD5 (broken!), activated `2005-11-13 02:05:38 UTC', expires `2006-11-13 02:05:38 UTC', SHA-1 fingerprint `1b8b02507944f45ad7dad5fca2b1ff3bc28a2712'
+2014-11-17 07:23:30	=!=	gnutls: certificate has expired
+2014-11-17 07:23:30	=!=	gnutls: the hostname in the certificate does NOT match "irc.ecnet.org"
+2014-11-17 07:23:30	=!=	gnutls: peer's certificate is NOT trusted
+2014-11-17 07:23:30	=!=	gnutls: peer's certificate issuer is unknown
+2014-11-17 07:23:31	--	irc: connected to irc.ecnet.org/6697 (72.20.19.235)
+2014-11-17 07:23:31	--	noodle.irc.ecnet.org: *** Looking up your hostname...
+2014-11-17 07:23:33	--	noodle.irc.ecnet.org: *** Found your hostname
+2014-11-17 07:23:33	--	Welcome to the ECNet IRC Network ewhal4!ewhal4@c122-108-192-228.rochd4.qld.optusnet.com.au
+2014-11-17 07:23:33	--	MSG(nickserv): identify ***********
+2014-11-17 07:23:33	--	Your host is noodle.irc.ecnet.org, running version Unreal3.2.10
+2014-11-17 07:23:33	--	This server was created Mon Feb 4 2013 at 23:10:45 PST
+2014-11-17 07:23:33	--	noodle.irc.ecnet.org Unreal3.2.10 iowghraAsORTVSxNCWqBzvdHtGpI lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGjZ
+2014-11-17 07:23:33	--	UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=30 CHANLIMIT=#:30 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+2014-11-17 07:23:33	--	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NETWORK=ECNet CASEMAPPING=ascii EXTBAN=~,qjncrRa ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+2014-11-17 07:23:33	--	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP,STARTTLS :are supported by this server
+2014-11-17 07:23:33	--	noodle.irc.ecnet.org: *** You are connected to noodle.irc.ecnet.org with TLSv1.2-AES128-GCM-SHA256-128bits
+2014-11-17 07:23:33	--	There are 125 users and 105 invisible on 5 servers
+2014-11-17 07:23:33	--	15 :operator(s) online
+2014-11-17 07:23:33	--	46 :channels formed
+2014-11-17 07:23:33	--	I have 38 clients and 1 servers
+2014-11-17 07:23:33	--	38 445 :Current local users 38, max 445
+2014-11-17 07:23:33	--	230 959 :Current global users 230, max 959
+2014-11-17 07:23:33	--	- noodle.irc.ecnet.org Message of the Day -
+2014-11-17 07:23:33	--	- 30/4/2012 2:05
+2014-11-17 07:23:33	--	- _____________________________________________________
+2014-11-17 07:23:33	--	-
+2014-11-17 07:23:33	--	-    /\  \     /\  \     /\__\     /\  \     /\  \
+2014-11-17 07:23:33	--	-   /::\  \   /::\  \   /:| _|_   /::\  \    \:\  \
+2014-11-17 07:23:33	--	-  /::\:\__\ /:/\:\__\ /::|/\__\ /::\:\__\   /::\__\
+2014-11-17 07:23:33	--	-  \:\:\/  / \:\ \/__/ \/|::/  / \:\:\/  /  /:/\/__/
+2014-11-17 07:23:33	--	-   \:\/  /   \:\__\     |:/  /   \:\/  /   \/__/
+2014-11-17 07:23:33	--	-    \/__/     \/__/     \/__/     \/__/
+2014-11-17 07:23:33	--	-
+2014-11-17 07:23:33	--	-    Welcome to ECNet - The Epicenter IRC Network	
+2014-11-17 07:23:33	--	-   You are connecting through noodle.irc.ecnet.org
+2014-11-17 07:23:33	--	-   Sponsored by La Asociación de Lobos de Fuego
+2014-11-17 07:23:33	--	- _____________________________________________________
+2014-11-17 07:23:33	--	-
+2014-11-17 07:23:33	--	-   Server Admin: Heero
+2014-11-17 07:23:33	--	-   Operators: Aven, Methofelis, robin
+2014-11-17 07:23:33	--	- _____________________________________________________
+2014-11-17 07:23:33	--	-
+2014-11-17 07:23:33	--	-   Network Site: http://www.ecnet.org
+2014-11-17 07:23:33	--	-   Rules: http://wiki.ecnet.org/wiki/Rules
+2014-11-17 07:23:33	--	-
+2014-11-17 07:23:33	--	-   Please be sure to read the rules by visiting the
+2014-11-17 07:23:33	--	-   site or typing /rules.
+2014-11-17 07:23:33	--	-
+2014-11-17 07:23:33	--	-   If you have any questions join #ecnet.
+2014-11-17 07:23:33	--	-
+2014-11-17 07:23:33	--	-   Enjoy your stay
+2014-11-17 07:23:33	--	- ______________________________________________________
+2014-11-17 07:23:33	--	End of /MOTD command.
+2014-11-17 07:23:33	--	User mode [+ixz] by ewhal4
+2014-11-17 07:23:33	--	CTCP requested by StatServ: VERSION
+2014-11-17 07:23:33	--	CTCP reply to StatServ: VERSION WeeChat 1.0.1 (Sep 28 2014)
+2014-11-17 07:23:33	--	Global (services@ecnet.org): [Logon News - May 14 2011] Welcome to ECNet! If you require any assistance, or just feel like a chat, feel free to join #ecnet
+2014-11-17 07:23:34	--	NickServ (services@ecnet.org): This nickname is registered and protected.  If it is your
+2014-11-17 07:23:34	--	NickServ (services@ecnet.org): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2014-11-17 07:23:34	--	NickServ (services@ecnet.org): please choose a different nick.
+2014-11-17 07:23:34	--	User mode [+r] by services.ecnet.org
+2014-11-17 07:23:34	--	NickServ (services@ecnet.org): Password accepted - you are now recognized.
+2014-11-17 09:44:00	--	[slimer] (Mibbit@ecnet-54A47683.sub-70-208-130.myvzw.com): http://www.mibbit.com
+2014-11-17 09:44:00	--	[slimer] #infp
+2014-11-17 09:44:00	--	[slimer] 2g2u.irc.ecnet.org (ECNet IRC Network)
+2014-11-17 09:44:00	--	[slimer] End of /WHOIS list.

@@ -1,0 +1,591 @@
+2014-09-03 00:12:08		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-09-03 00:12:45		irc: server intercat created
+2014-09-03 00:13:17		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-09-03 00:14:14	=!=	Error: option "intercat.net.ssl_dhkey_size" not found
+2014-09-03 00:14:21	=!=	Error: option "irc.intercat.net.ssl_dhkey_size" not found
+2014-09-03 00:14:25	=!=	Error: unknown command "/ls" (type /help for help)
+2014-09-03 00:14:27		[core]
+2014-09-03 00:14:27		  away     cursor   history  mute     reload   unset    window 
+2014-09-03 00:14:27		  bar      debug    input    plugin   repeat   upgrade
+2014-09-03 00:14:27		  buffer   eval     key      print    save     uptime 
+2014-09-03 00:14:27		  color    filter   layout   proxy    secure   version
+2014-09-03 00:14:27		  command  help     mouse    quit     set      wait   
+2014-09-03 00:14:27		[python]
+2014-09-03 00:14:27		  python
+2014-09-03 00:14:27		[relay]
+2014-09-03 00:14:27		  relay
+2014-09-03 00:14:27		[aspell]
+2014-09-03 00:14:27		  aspell
+2014-09-03 00:14:27		[trigger]
+2014-09-03 00:14:27		  trigger
+2014-09-03 00:14:27		[xfer]
+2014-09-03 00:14:27		  me  xfer
+2014-09-03 00:14:27		[script]
+2014-09-03 00:14:27		  script
+2014-09-03 00:14:27		[irc]
+2014-09-03 00:14:27		  admin       ignore      msg         remove      topic     
+2014-09-03 00:14:27		  allchan     info        names       restart     trace     
+2014-09-03 00:14:27		  allpv       invite      nick        sajoin      unban     
+2014-09-03 00:14:27		  allserv     ison        notice      samode      unquiet   
+2014-09-03 00:14:27		  ban         join        notify      sanick      userhost  
+2014-09-03 00:14:27		  connect     kick        op          sapart      users     
+2014-09-03 00:14:27		  ctcp        kickban     oper        saquit      version   
+2014-09-03 00:14:27		  cycle       kill        part        server      voice     
+2014-09-03 00:14:27		  dcc         links       ping        service     wallchops 
+2014-09-03 00:14:27		  dehalfop    list        pong        servlist    wallops   
+2014-09-03 00:14:27		  deop        lusers      query       squery      who       
+2014-09-03 00:14:27		  devoice     map         quiet       squit       whois     
+2014-09-03 00:14:27		  die         me          quote       stats       whowas    
+2014-09-03 00:14:27		  disconnect  mode        reconnect   summon    
+2014-09-03 00:14:27		  halfop      motd        rehash      time      
+2014-09-03 00:14:27		[charset]
+2014-09-03 00:14:27		  charset
+2014-09-03 00:14:27		[lua]
+2014-09-03 00:14:27		  lua
+2014-09-03 00:14:27		[tcl]
+2014-09-03 00:14:27		  tcl
+2014-09-03 00:14:27		[guile]
+2014-09-03 00:14:27		  guile
+2014-09-03 00:14:27		[ruby]
+2014-09-03 00:14:27		  ruby
+2014-09-03 00:14:27		[alias]
+2014-09-03 00:14:27		  AAWAY    BEEP     CLOSE    KB       N        T        W      
+2014-09-03 00:14:27		  alias    BYE      EXIT     LEAVE    Q        UB       WC     
+2014-09-03 00:14:27		  AME      C        IG       M        REDRAW   UMODE    WI     
+2014-09-03 00:14:27		  AMSG     CHAT     J        MSGBUF   SAY      unalias  WII    
+2014-09-03 00:14:27		  ANICK    CL       K        MUB      SIGNOFF  V        WW     
+2014-09-03 00:14:27		[perl]
+2014-09-03 00:14:27		  perl
+2014-09-03 00:14:27		[exec]
+2014-09-03 00:14:27		  exec
+2014-09-03 00:14:27		[logger]
+2014-09-03 00:14:27		  logger
+2014-09-03 00:14:44	=!=	Error: option "irc.server.chat.freenode.net.ssl_dhkey_size" not found
+2014-09-03 00:14:53	=!=	Error: option "intercat.net.ssl_dhkey_size" not found
+2014-09-03 00:14:57	=!=	Error: option "intercat.ssl_dhkey_size" not found
+2014-09-03 00:16:00	=!=	Error: unknown command "/stop" (type /help for help)
+2014-09-03 00:16:08		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-09-03 00:16:11	=!=	Error: unknown command "/log" (type /help for help)
+2014-09-03 00:16:12	=!=	Error: unknown command "/logs" (type /help for help)
+2014-09-03 00:16:14		[core]
+2014-09-03 00:16:14		  away     cursor   history  mute     reload   unset    window 
+2014-09-03 00:16:14		  bar      debug    input    plugin   repeat   upgrade
+2014-09-03 00:16:14		  buffer   eval     key      print    save     uptime 
+2014-09-03 00:16:14		  color    filter   layout   proxy    secure   version
+2014-09-03 00:16:14		  command  help     mouse    quit     set      wait   
+2014-09-03 00:16:14		[python]
+2014-09-03 00:16:14		  python
+2014-09-03 00:16:14		[relay]
+2014-09-03 00:16:14		  relay
+2014-09-03 00:16:14		[aspell]
+2014-09-03 00:16:14		  aspell
+2014-09-03 00:16:14		[trigger]
+2014-09-03 00:16:14		  trigger
+2014-09-03 00:16:14		[xfer]
+2014-09-03 00:16:14		  me  xfer
+2014-09-03 00:16:14		[script]
+2014-09-03 00:16:14		  script
+2014-09-03 00:16:14		[irc]
+2014-09-03 00:16:14		  admin       ignore      msg         remove      topic     
+2014-09-03 00:16:14		  allchan     info        names       restart     trace     
+2014-09-03 00:16:14		  allpv       invite      nick        sajoin      unban     
+2014-09-03 00:16:14		  allserv     ison        notice      samode      unquiet   
+2014-09-03 00:16:14		  ban         join        notify      sanick      userhost  
+2014-09-03 00:16:14		  connect     kick        op          sapart      users     
+2014-09-03 00:16:14		  ctcp        kickban     oper        saquit      version   
+2014-09-03 00:16:14		  cycle       kill        part        server      voice     
+2014-09-03 00:16:14		  dcc         links       ping        service     wallchops 
+2014-09-03 00:16:14		  dehalfop    list        pong        servlist    wallops   
+2014-09-03 00:16:14		  deop        lusers      query       squery      who       
+2014-09-03 00:16:14		  devoice     map         quiet       squit       whois     
+2014-09-03 00:16:14		  die         me          quote       stats       whowas    
+2014-09-03 00:16:14		  disconnect  mode        reconnect   summon    
+2014-09-03 00:16:14		  halfop      motd        rehash      time      
+2014-09-03 00:16:14		[charset]
+2014-09-03 00:16:14		  charset
+2014-09-03 00:16:14		[lua]
+2014-09-03 00:16:14		  lua
+2014-09-03 00:16:14		[tcl]
+2014-09-03 00:16:14		  tcl
+2014-09-03 00:16:14		[guile]
+2014-09-03 00:16:14		  guile
+2014-09-03 00:16:14		[ruby]
+2014-09-03 00:16:14		  ruby
+2014-09-03 00:16:14		[alias]
+2014-09-03 00:16:14		  AAWAY    BEEP     CLOSE    KB       N        T        W      
+2014-09-03 00:16:14		  alias    BYE      EXIT     LEAVE    Q        UB       WC     
+2014-09-03 00:16:14		  AME      C        IG       M        REDRAW   UMODE    WI     
+2014-09-03 00:16:14		  AMSG     CHAT     J        MSGBUF   SAY      unalias  WII    
+2014-09-03 00:16:14		  ANICK    CL       K        MUB      SIGNOFF  V        WW     
+2014-09-03 00:16:14		[perl]
+2014-09-03 00:16:14		  perl
+2014-09-03 00:16:14		[exec]
+2014-09-03 00:16:14		  exec
+2014-09-03 00:16:14		[logger]
+2014-09-03 00:16:14		  logger
+2014-09-03 00:16:32	=!=	You can not write text in this buffer
+2014-09-03 00:16:39		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-09-03 00:16:43		[core]
+2014-09-03 00:16:43		  away     cursor   history  mute     reload   unset    window 
+2014-09-03 00:16:43		  bar      debug    input    plugin   repeat   upgrade
+2014-09-03 00:16:43		  buffer   eval     key      print    save     uptime 
+2014-09-03 00:16:43		  color    filter   layout   proxy    secure   version
+2014-09-03 00:16:43		  command  help     mouse    quit     set      wait   
+2014-09-03 00:16:43		[python]
+2014-09-03 00:16:43		  python
+2014-09-03 00:16:43		[relay]
+2014-09-03 00:16:43		  relay
+2014-09-03 00:16:43		[aspell]
+2014-09-03 00:16:43		  aspell
+2014-09-03 00:16:43		[trigger]
+2014-09-03 00:16:43		  trigger
+2014-09-03 00:16:43		[xfer]
+2014-09-03 00:16:43		  me  xfer
+2014-09-03 00:16:43		[script]
+2014-09-03 00:16:43		  script
+2014-09-03 00:16:43		[irc]
+2014-09-03 00:16:43		  admin       ignore      msg         remove      topic     
+2014-09-03 00:16:43		  allchan     info        names       restart     trace     
+2014-09-03 00:16:43		  allpv       invite      nick        sajoin      unban     
+2014-09-03 00:16:43		  allserv     ison        notice      samode      unquiet   
+2014-09-03 00:16:43		  ban         join        notify      sanick      userhost  
+2014-09-03 00:16:43		  connect     kick        op          sapart      users     
+2014-09-03 00:16:43		  ctcp        kickban     oper        saquit      version   
+2014-09-03 00:16:43		  cycle       kill        part        server      voice     
+2014-09-03 00:16:43		  dcc         links       ping        service     wallchops 
+2014-09-03 00:16:43		  dehalfop    list        pong        servlist    wallops   
+2014-09-03 00:16:43		  deop        lusers      query       squery      who       
+2014-09-03 00:16:43		  devoice     map         quiet       squit       whois     
+2014-09-03 00:16:43		  die         me          quote       stats       whowas    
+2014-09-03 00:16:43		  disconnect  mode        reconnect   summon    
+2014-09-03 00:16:43		  halfop      motd        rehash      time      
+2014-09-03 00:16:43		[charset]
+2014-09-03 00:16:43		  charset
+2014-09-03 00:16:43		[lua]
+2014-09-03 00:16:43		  lua
+2014-09-03 00:16:43		[tcl]
+2014-09-03 00:16:43		  tcl
+2014-09-03 00:16:43		[guile]
+2014-09-03 00:16:43		  guile
+2014-09-03 00:16:43		[ruby]
+2014-09-03 00:16:43		  ruby
+2014-09-03 00:16:43		[alias]
+2014-09-03 00:16:43		  AAWAY    BEEP     CLOSE    KB       N        T        W      
+2014-09-03 00:16:43		  alias    BYE      EXIT     LEAVE    Q        UB       WC     
+2014-09-03 00:16:43		  AME      C        IG       M        REDRAW   UMODE    WI     
+2014-09-03 00:16:43		  AMSG     CHAT     J        MSGBUF   SAY      unalias  WII    
+2014-09-03 00:16:43		  ANICK    CL       K        MUB      SIGNOFF  V        WW     
+2014-09-03 00:16:43		[perl]
+2014-09-03 00:16:43		  perl
+2014-09-03 00:16:43		[exec]
+2014-09-03 00:16:43		  exec
+2014-09-03 00:16:43		[logger]
+2014-09-03 00:16:43		  logger
+2014-09-03 00:16:51	=!=	Error with command "/connect" (help on command: /help connect)
+2014-09-03 00:16:55		[irc]  /connect  <server> [<server>...] [-<option>[=<value>]] [-no<option>] [-nojoin] [-switch]
+2014-09-03 00:16:55		                 -all|-auto|-open [-nojoin] [-switch]
+2014-09-03 00:16:55		connect to IRC server(s)
+2014-09-03 00:16:55		    server: server name, which can be:
+2014-09-03 00:16:55		            - internal server name (created by /server add, recommended usage)
+2014-09-03 00:16:55		            - hostname/port or IP/port (this will create a TEMPORARY server), port is 6667 by default
+2014-09-03 00:16:55		            - URL with format: irc[6][s]://[nickname[:password]@]irc.example.org[:port][/#channel1][,#channel2[...]]
+2014-09-03 00:16:55		    option: set option for server (for boolean option, value can be omitted)
+2014-09-03 00:16:55		  nooption: set boolean option to 'off' (for example: -nossl)
+2014-09-03 00:16:55		      -all: connect to all servers defined in configuration
+2014-09-03 00:16:55		     -auto: connect to servers with autoconnect enabled
+2014-09-03 00:16:55		     -open: connect to all opened servers that are not currently connected
+2014-09-03 00:16:55		   -nojoin: do not join any channel (even if autojoin is enabled on server)
+2014-09-03 00:16:55		   -switch: switch to next server address
+2014-09-03 00:16:55		To disconnect from a server or stop any connection attempt, use command /disconnect.
+2014-09-03 00:16:55		Examples:
+2014-09-03 00:16:55		  /connect freenode
+2014-09-03 00:16:55		  /connect irc.oftc.net/6667
+2014-09-03 00:16:55		  /connect irc6.oftc.net/6667 -ipv6
+2014-09-03 00:16:55		  /connect irc6.oftc.net/6697 -ipv6 -ssl
+2014-09-03 00:16:55		  /connect my.server.org/6697 -ssl -password=test
+2014-09-03 00:16:55		  /connect irc://nick@irc.oftc.net/#channel
+2014-09-03 00:16:55		  /connect -switch
+2014-09-03 21:52:40		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-09-03 21:52:45		[core]
+2014-09-03 21:52:45		  away     buffer   command  debug    filter   history  key      mouse    plugin   proxy    reload   save     set      upgrade  version  window 
+2014-09-03 21:52:45		  bar      color    cursor   eval     help     input    layout   mute     print    quit     repeat   secure   unset    uptime   wait   
+2014-09-03 21:52:45		[python]
+2014-09-03 21:52:45		  python
+2014-09-03 21:52:45		[relay]
+2014-09-03 21:52:45		  relay
+2014-09-03 21:52:45		[aspell]
+2014-09-03 21:52:45		  aspell
+2014-09-03 21:52:45		[trigger]
+2014-09-03 21:52:45		  trigger
+2014-09-03 21:52:45		[xfer]
+2014-09-03 21:52:45		  me  xfer
+2014-09-03 21:52:45		[script]
+2014-09-03 21:52:45		  script
+2014-09-03 21:52:45		[irc]
+2014-09-03 21:52:45		  admin       ctcp        die         ison        list        msg         oper        quote       samode      servlist    topic       version     whowas    
+2014-09-03 21:52:45		  allchan     cycle       disconnect  join        lusers      names       part        reconnect   sanick      squery      trace       voice     
+2014-09-03 21:52:45		  allpv       dcc         halfop      kick        map         nick        ping        rehash      sapart      squit       unban       wallchops 
+2014-09-03 21:52:45		  allserv     dehalfop    ignore      kickban     me          notice      pong        remove      saquit      stats       unquiet     wallops   
+2014-09-03 21:52:45		  ban         deop        info        kill        mode        notify      query       restart     server      summon      userhost    who       
+2014-09-03 21:52:45		  connect     devoice     invite      links       motd        op          quiet       sajoin      service     time        users       whois     
+2014-09-03 21:52:45		[charset]
+2014-09-03 21:52:45		  charset
+2014-09-03 21:52:45		[lua]
+2014-09-03 21:52:45		  lua
+2014-09-03 21:52:45		[tcl]
+2014-09-03 21:52:45		  tcl
+2014-09-03 21:52:45		[guile]
+2014-09-03 21:52:45		  guile
+2014-09-03 21:52:45		[ruby]
+2014-09-03 21:52:45		  ruby
+2014-09-03 21:52:45		[alias]
+2014-09-03 21:52:45		  AAWAY    AME      ANICK    BYE      CHAT     CLOSE    IG       K        LEAVE    MSGBUF   N        REDRAW   SIGNOFF  UB       unalias  W        WI       WW     
+2014-09-03 21:52:45		  alias    AMSG     BEEP     C        CL       EXIT     J        KB       M        MUB      Q        SAY      T        UMODE    V        WC       WII    
+2014-09-03 21:52:45		[perl]
+2014-09-03 21:52:45		  perl
+2014-09-03 21:52:45		[exec]
+2014-09-03 21:52:45		  exec
+2014-09-03 21:52:45		[logger]
+2014-09-03 21:52:45		  logger
+2014-09-03 21:52:47	=!=	Error with command "/connect" (help on command: /help connect)
+2014-09-03 21:52:51	=!=	Error with command "/server add" (help on command: /help server)
+2014-09-03 21:52:53		All servers:
+2014-09-03 21:52:53		   freenode
+2014-09-03 21:52:53		   intercat
+2014-09-03 21:53:47	=!=	Error: unknown command "/salias" (type /help for help)
+2014-09-03 21:53:50		List of aliases:
+2014-09-03 21:53:50		  AAWAY => allserv /away
+2014-09-03 21:53:50		  AME => allchan /me
+2014-09-03 21:53:50		  AMSG => allchan /msg *
+2014-09-03 21:53:50		  ANICK => allserv /nick
+2014-09-03 21:53:50		  BEEP => print -beep
+2014-09-03 21:53:50		  BYE => quit
+2014-09-03 21:53:50		  C => buffer clear
+2014-09-03 21:53:50		  CHAT => dcc chat
+2014-09-03 21:53:50		  CL => buffer clear
+2014-09-03 21:53:50		  CLOSE => buffer close
+2014-09-03 21:53:50		  EXIT => quit
+2014-09-03 21:53:50		  IG => ignore
+2014-09-03 21:53:50		  J => join
+2014-09-03 21:53:50		  K => kick
+2014-09-03 21:53:50		  KB => kickban
+2014-09-03 21:53:50		  LEAVE => part
+2014-09-03 21:53:50		  M => msg
+2014-09-03 21:53:50		  MSGBUF => command -buffer $1 * /input send $2-
+2014-09-03 21:53:50		  MUB => unban *
+2014-09-03 21:53:50		  N => names
+2014-09-03 21:53:50		  Q => query
+2014-09-03 21:53:50		  REDRAW => window refresh
+2014-09-03 21:53:50		  SAY => msg *
+2014-09-03 21:53:50		  SIGNOFF => quit
+2014-09-03 21:53:50		  T => topic
+2014-09-03 21:53:50		  UB => unban
+2014-09-03 21:53:50		  UMODE => mode $nick
+2014-09-03 21:53:50		  V => command core version
+2014-09-03 21:53:50		  W => who
+2014-09-03 21:53:50		  WC => window merge
+2014-09-03 21:53:50		  WI => whois
+2014-09-03 21:53:50		  WII => whois $1 $1
+2014-09-03 21:53:50		  WW => whowas
+2014-09-03 21:53:55	=!=	irc: command "nick" must be executed on irc buffer (server or channel)
+2014-09-03 21:54:30		script: downloading list of scripts...
+2014-09-03 21:54:35		script: 280 scripts for WeeChat 1.0
+2014-09-03 21:54:37		perl: loading script "/home/ewhal4/.weechat/perl/iset.pl"
+2014-09-03 21:54:37		perl: registered script "iset", version 3.5 (Interactive Set for configuration options)
+2014-09-03 21:54:37		New key binding (context "mouse"): @chat(perl.iset):button1 => hsignal:iset_mouse
+2014-09-03 21:54:37		New key binding (context "mouse"): @chat(perl.iset):button2* => hsignal:iset_mouse
+2014-09-03 21:54:37		New key binding (context "mouse"): @chat(perl.iset):wheeldown => /repeat 5 /iset **down
+2014-09-03 21:54:37		New key binding (context "mouse"): @chat(perl.iset):wheelup => /repeat 5 /iset **up
+2014-09-03 21:59:36		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-09-03 21:59:38	=!=	You can not write text in this buffer
+2014-09-03 21:59:42	=!=	You can not write text in this buffer
+2014-11-16 21:25:26		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-11-16 21:25:30		script: 279 scripts for WeeChat 1.0.1
+2014-11-16 21:25:45		perl: unloading script "iset"
+2014-11-16 21:25:45		perl: script removed: /home/ewhal4/.weechat/perl/autoload/iset.pl
+2014-11-16 21:25:45		perl: script removed: /home/ewhal4/.weechat/perl/iset.pl
+2014-11-16 21:25:45		perl: loading script "/home/ewhal4/.weechat/perl/iset.pl"
+2014-11-16 21:25:45		perl: registered script "iset", version 3.6 (Interactive Set for configuration options)
+2014-11-16 21:26:21		irc: server Parabox created
+2014-11-16 21:26:45		irc: server Rizon created
+2014-11-16 21:27:06		irc: server SS created
+2014-11-16 21:29:03		irc: server ECNET created
+2014-11-16 21:29:19		Option changed: irc.server.ECNET.ssl_verify = off  (default: (undefined))
+2014-11-16 21:30:02	=!=	Error with command "/server remove Parabox" (help on command: /help server)
+2014-11-16 21:30:08	=!=	Error with command "/server delete Parabox" (help on command: /help server)
+2014-11-16 21:30:10		irc: server Parabox has been deleted
+2014-11-16 21:30:20		irc: server Parabox created
+2014-11-16 21:30:29		irc: server SS has been deleted
+2014-11-16 21:30:36		irc: server SS created
+2014-11-16 21:30:48		irc: server Rizon has been deleted
+2014-11-16 21:30:57		irc: server Rizon created
+2014-11-16 21:31:08		[file] (xfer.conf)
+2014-11-16 21:31:08		  xfer.file.download_path = "%h/xfer"
+2014-11-16 21:31:08		1 option (matching with "xfer.file.download_path")
+2014-11-16 21:35:38	=!=	Error: unknown command "/theme" (type /help for help)
+2014-11-16 21:35:47	=!=	Error: unknown command "/theme" (type /help for help)
+2014-11-16 21:35:50	=!=	No help available, "theme" is not a command or an option
+2014-11-16 21:36:18	=!=	No help available, "theme" is not a command or an option
+2014-11-16 21:36:31		Options reloaded from sec.conf
+2014-11-16 21:36:31		Options reloaded from weechat.conf
+2014-11-16 21:36:31		Options reloaded from plugins.conf
+2014-11-16 21:36:31		Options reloaded from relay.conf
+2014-11-16 21:36:31		Options reloaded from aspell.conf
+2014-11-16 21:36:31		Options reloaded from trigger.conf
+2014-11-16 21:36:31		Options reloaded from xfer.conf
+2014-11-16 21:36:31		Options reloaded from script.conf
+2014-11-16 21:36:31		Options reloaded from irc.conf
+2014-11-16 21:36:31		Options reloaded from charset.conf
+2014-11-16 21:36:31		Options reloaded from alias.conf
+2014-11-16 21:36:31		Options reloaded from exec.conf
+2014-11-16 21:36:31		Options reloaded from logger.conf
+2014-11-16 21:36:31		Options reloaded from iset.conf
+2014-11-16 21:36:34	=!=	No help available, "theme" is not a command or an option
+2014-11-16 21:36:43		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-11-16 21:36:48	=!=	No help available, "theme" is not a command or an option
+2014-11-16 21:37:15	=!=	Error: unknown command "/" (type /help for help)
+2014-11-16 21:37:22		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-11-16 21:37:27		[python/theme]  /theme  list [<text>]
+2014-11-16 21:37:27		                        info|show [<theme>]
+2014-11-16 21:37:27		                        install <theme>
+2014-11-16 21:37:27		                        installfile <file>
+2014-11-16 21:37:27		                        undo
+2014-11-16 21:37:27		                        save <file>
+2014-11-16 21:37:27		                        backup
+2014-11-16 21:37:27		                        restore
+2014-11-16 21:37:27		                        export [-white] <file>
+2014-11-16 21:37:27		WeeChat theme manager
+2014-11-16 21:37:27		       list: list themes (search text if given)
+2014-11-16 21:37:27		       info: show info about theme (without argument: for current theme)
+2014-11-16 21:37:27		       show: show all options in theme (without argument: for current theme)
+2014-11-16 21:37:27		    install: install a theme from repository
+2014-11-16 21:37:27		installfile: load theme from a file
+2014-11-16 21:37:27		       undo: undo last theme install
+2014-11-16 21:37:27		       save: save current theme in a file
+2014-11-16 21:37:27		     backup: backup current theme (by default in ~/.weechat/themes/_backup.theme); this is done the first time script is loaded
+2014-11-16 21:37:27		    restore: restore theme backuped by script
+2014-11-16 21:37:27		     export: save current theme as HTML in a file (with "-white": use white background in HTML)
+2014-11-16 21:37:27		Examples:
+2014-11-16 21:37:27		  /theme save /tmp/flashcode.theme => save current theme
+2014-11-16 21:38:22		Theme saved to "/home/ewhal4/.weechat/themes/_undo.theme"
+2014-11-16 21:38:22		Theme "/home/ewhal4/weechat.theme" installed (116 options set)
+2014-11-16 21:39:05		Theme saved to "/home/ewhal4/.weechat/themes/_undo.theme"
+2014-11-16 21:39:05		Theme "/home/ewhal4/weechat.theme" installed (116 options set)
+2014-11-16 21:39:10	=!=	Error with command "/connect" (help on command: /help connect)
+2014-11-16 21:39:28	=!=	irc: command "nick" must be executed on irc buffer (server or channel)
+2014-11-16 21:39:32		irc: server SS created (temporary server, NOT SAVED!)
+2014-11-16 21:39:44		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-11-16 21:39:52		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-11-16 21:39:56		irc: server SS created (temporary server, NOT SAVED!)
+2014-11-16 21:40:00		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-11-16 21:40:20		irc: server SS created
+2014-11-16 21:41:06	=!=	Error: unknown command "/ns" (type /help for help)
+2014-11-16 21:41:13	=!=	Error: unknown command "/ns" (type /help for help)
+2014-11-16 21:42:53		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-11-16 21:43:13		irc: server Parabox created
+2014-11-16 21:44:39		Option changed: irc.server.Parabox.autoconnect = on  (default: (undefined))
+2014-11-16 21:45:12	=!=	irc: already connected to server "SS"!
+2014-11-16 21:45:12	=!=	Error with command "/connect SS" (help on command: /help connect)
+2014-11-16 21:45:29	=!=	irc: already connected to server "SS"!
+2014-11-16 21:45:29	=!=	Error with command "/connect SS" (help on command: /help connect)
+2014-11-16 21:50:28	=!=	Error: option "irc.server.Parabox.autokjoin" not found
+2014-11-16 21:50:37		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-11-16 21:51:20		Option changed: irc.server.Parabox.autojoin = "#jakeoria,#spam,#spam-theatre,#theatre"  (default: (undefined))
+2014-11-16 21:51:25		Option changed: irc.server.Parabox.autojoin = "#jakeoria,#spam,#spam-theatre,#theatre"  (default: (undefined))
+2014-11-16 21:51:30	=!=	Error: WeeChat main buffer can't be closed
+2014-11-16 21:51:33		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-11-16 21:55:05		irc: server Rizon created
+2014-11-16 21:55:37		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-11-16 21:56:05		irc: server Rizon has been deleted
+2014-11-16 21:56:51		irc: server Rizon created
+2014-11-16 21:57:43		Option changed: irc.server.Rizon.ssl_verify = off  (default: (undefined))
+2014-11-16 21:58:04		irc: server SSL created (temporary server, NOT SAVED!)
+2014-11-16 21:58:10		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-11-16 21:59:30		Option changed: irc.server.Parabox.command = "/ns identify G01t0n@WIM!"  (default: (undefined))
+2014-11-16 21:59:39		Option changed: irc.server.SS.command = "/ns identify G01t0n@WIM!"  (default: (undefined))
+2014-11-16 21:59:44		Option changed: irc.server.Rizon.command = "/ns identify G01t0n@WIM!"  (default: (undefined))
+2014-11-16 22:00:19		Option changed: irc.server.SS.autojoin = "#general,#opers,#spam"  (default: (undefined))
+2014-11-16 22:00:50		irc: server irc.ecnet.org/+6697 created
+2014-11-16 22:01:05		irc: server ECNET created
+2014-11-16 22:01:13		Option changed: irc.server.ECNET.ssl_verify = off  (default: (undefined))
+2014-11-16 22:01:38		Option changed: irc.server.ECNET.command = "/ns identify G01t0n@WIM!"  (default: (undefined))
+2014-11-16 22:02:22		Option changed: irc.server.ECNET.autojoin = "#infp,#INTP,#intj,#laserchat"  (default: (undefined))
+2014-11-16 22:02:40		Option changed: irc.server.Rizon.autojoin = "#/g/sicp,#news"  (default: (undefined))
+2014-11-16 22:02:45		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2014-11-16 22:02:48	=!=	Error: unknown command "/ns" (type /help for help)
+2014-11-16 22:02:49	=!=	Error: unknown command "/ns" (type /help for help)
+2014-11-16 22:02:49	=!=	Error: unknown command "/ns" (type /help for help)
+2014-11-16 22:03:27	=!=	Error: unknown command "/ns" (type /help for help)
+2014-11-16 22:04:09		irc: server SS has been deleted
+2014-11-16 22:04:25		irc: server SS created
+2014-11-16 22:05:30		irc: server SS has been deleted
+2014-11-16 22:06:01		irc: server SS created
+2014-11-16 22:06:09	=!=	irc: command "msg" must be executed on irc buffer (server or channel)
+2014-11-16 22:08:19		irc: server SS has been deleted
+2014-11-16 22:08:41		irc: server SS created
+2014-11-16 22:09:17		Option changed: irc.server.Parabox.command = "/msg nickserv identify G01t0n@WIM!"  (default: (undefined))
+2014-11-16 22:09:58		Option changed: irc.server.Rizon.command = "/msg nickserv identify G01t0n@WIM!"  (default: (undefined))
+2014-11-16 22:10:48		Option changed: irc.server.ECNET.command = "/msg nickserv identify G01t0n@WIM!"  (default: (undefined))
+2014-11-16 22:11:12		Option changed: irc.look.smart_filter = on
+2014-11-16 22:11:17		Filter "joinquit" added:
+2014-11-16 22:11:17		  [joinquit] buffer: * / tags: irc_join,irc_part,irc_quit / regex: * 
+2014-11-16 22:13:40		perl: loading script "/home/ewhal4/.weechat/perl/beep.pl"
+2014-11-16 22:13:40		perl: registered script "beep", version 1.1 (Beep (terminal bell) and/or run command on highlight/private message or new DCC)
+2014-11-16 22:15:46		irc: server Secure created
+2014-11-16 22:16:49		Option changed: irc.server.Secure.command = "/msg nickserv identify G01t0n@WIM!"  (default: (undefined))
+2014-11-16 22:17:52		Option changed: irc.server.Secure.autojoin = "#general,#spam,#opers"  (default: (undefined))
+2014-11-16 22:17:57	=!=	irc: already connected to server "Secure"!
+2014-11-16 22:17:57	=!=	Error with command "/connect Secure" (help on command: /help connect)
+2014-11-16 22:33:29	=!=	irc: already connected to server "Secure"!
+2014-11-16 22:33:29	=!=	Error with command "/connect Secure" (help on command: /help connect)
+2014-11-16 22:36:21	=!=	irc: command "part" must be executed on irc buffer (server or channel)
+2014-11-16 22:36:34	=!=	Error with command "/script close" (help on command: /help script)
+2014-11-16 22:39:59		Option changed: weechat.plugin.autoload = "*,!lua,!tcl,!ruby,!fifo,!logger,!xfer,!relay"  (default: "*")
+2014-11-16 22:40:18		Option changed: aspell.check.default_dict = "EN"  (default: "")
+2014-11-16 22:40:49		Option changed: aspell.check.default_dict = "en"  (default: "")
+2014-11-16 22:41:00		Option changed: aspell.check.suggestions = 3  (default: -1)
+2014-11-16 22:41:06		Option changed: aspell.color.suggestions = *green  (default: default)
+2014-11-16 22:41:20		aspell: "irc.Parabox.#jakeoria" => en
+2014-11-16 22:41:20		aspell: "irc.Parabox.#spam" => en
+2014-11-16 22:41:20		aspell: "irc.Parabox.#spam-theatre" => en
+2014-11-16 22:41:20		aspell: "irc.Parabox.#theatre" => en
+2014-11-16 22:41:20		aspell: "irc.Rizon.#/g/sicp" => en
+2014-11-16 22:41:20		aspell: "irc.Rizon.#news" => en
+2014-11-16 22:41:20		aspell: "irc.ECNET.#infp" => en
+2014-11-16 22:41:20		aspell: "irc.ECNET.#INTP" => en
+2014-11-16 22:41:20		aspell: "irc.ECNET.#intj" => en
+2014-11-16 22:41:20		aspell: "irc.ECNET.#laserchat" => en
+2014-11-16 22:41:20		aspell: "irc.Secure.#general" => en
+2014-11-16 22:41:20		aspell: "irc.Secure.#spam" => en
+2014-11-16 22:41:20		aspell: "irc.Secure.#opers" => en
+2014-11-16 22:41:28		Aspell enabled
+2014-11-16 22:41:39		script: script "iset.pl" is already installed and up-to-date
+2014-11-16 22:41:43		perl: loading script "/home/ewhal4/.weechat/perl/buffers.pl"
+2014-11-16 22:41:44		perl: registered script "buffers", version 4.9 (Sidebar with list of buffers)
+2014-11-16 22:41:44		New key binding (context "mouse"): @bar(buffers):ctrl-wheeldown => hsignal:buffers_mouse
+2014-11-16 22:41:44		New key binding (context "mouse"): @bar(buffers):ctrl-wheelup => hsignal:buffers_mouse
+2014-11-16 22:41:44		New key binding (context "mouse"): @item(buffers):button2* => hsignal:buffers_mouse
+2014-11-16 22:41:44		New key binding (context "mouse"): @item(buffers):button1* => hsignal:buffers_mouse
+2014-11-16 22:41:45		python: loading script "/home/ewhal4/.weechat/python/text_item.py"
+2014-11-16 22:41:45		python: registered script "text_item", version 0.4 (add a plain text or evaluated content to item bar)
+2014-11-16 22:41:46		python: loading script "/home/ewhal4/.weechat/python/notify.py"
+2014-11-16 22:41:46		python: stdout/stderr: Missing package(s) for notify: No module named notify2
+2014-11-16 22:41:46		python: stdout/stderr: You must have notify2 installed.
+2014-11-16 22:41:46		python: stdout/stderr: Traceback (most recent call last):
+2014-11-16 22:41:46		python: stdout/stderr:   File "/home/ewhal4/.weechat/python/notify.py", line 74, in <module>
+2014-11-16 22:41:46		python: stdout/stderr:     "low"      : notify2.URGENCY_LOW,
+2014-11-16 22:41:46		python: stdout/stderr: NameError: name 'notify2' is not defined
+2014-11-16 22:41:46	=!=	python: unable to parse file "/home/ewhal4/.weechat/python/notify.py"
+2014-11-16 22:41:48		python: loading script "/home/ewhal4/.weechat/python/translate.py"
+2014-11-16 22:41:48		python: registered script "translate", version 0.7 (Translate string using Google translate API)
+2014-11-16 22:41:50		perl: loading script "/home/ewhal4/.weechat/perl/highmon.pl"
+2014-11-16 22:41:50		perl: registered script "highmon", version 2.5 (Highlight Monitor)
+2014-11-16 22:41:50		This appears to be the first time highmon has been run. For help and common set up hints see /highmon help
+2014-11-16 22:41:52		python: loading script "/home/ewhal4/.weechat/python/buffer_autoset.py"
+2014-11-16 22:41:52		python: registered script "buffer_autoset", version 0.6 (Auto-set buffer properties when a buffer is opened)
+2014-11-16 22:41:55		python: loading script "/home/ewhal4/.weechat/python/urlserver.py"
+2014-11-16 22:41:55		python: registered script "urlserver", version 1.7 (Shorten URLs with own HTTP server)
+2014-11-16 22:41:55		URL server listening on ('127.0.0.1', 56898)
+2014-11-16 22:41:57		perl: loading script "/home/ewhal4/.weechat/perl/sort_buffers.pl"
+2014-11-16 22:41:57		perl: registered script "sort_buffers", version 0.4 (irc-buffers will be sorted alphabetically or in reverse order)
+2014-11-16 22:41:58		python: loading script "/home/ewhal4/.weechat/python/cmd_help.py"
+2014-11-16 22:41:58		python: registered script "cmd_help", version 0.4 (Contextual command line help)
+2014-11-16 22:42:00		perl: loading script "/home/ewhal4/.weechat/perl/pushover.pl"
+2014-11-16 22:42:00		perl: registered script "pushover", version 1.1 (Send push notifications to your mobile devices using Pushover, NMA or Pushbullet)
+2014-11-16 22:43:04		Option changed: weechat.bar.buffers.size_max = 12  (default: 0)
+2014-11-16 22:43:09		Option changed: buffers.color.current_fg = *white  (default: lightcyan)
+2014-11-16 22:43:47		Option changed: irc.server_default.away_check = 5  (default: 0)
+2014-11-16 22:43:52		Option changed: irc.server_default.away_check_max_nicks = 25
+2014-11-16 22:44:11		Trigger "beep_pv" created
+2014-11-16 22:44:30		Bar "activetitle" created
+2014-11-16 22:44:34		Option changed: weechat.bar.activetitle.priority = 500  (default: 0)
+2014-11-16 22:44:39		Option changed: weechat.bar.activetitle.conditions = "${active}"  (default: "")
+2014-11-16 22:44:45		Option changed: weechat.bar.activetitle.color_fg = *white  (default: default)
+2014-11-16 22:44:50		Option changed: weechat.bar.activetitle.color_bg = 31  (default: default)
+2014-11-16 22:44:57		Option changed: weechat.bar.activetitle.color_bg = 0  (default: default)
+2014-11-16 22:45:05	=!=	Error: failed to create bar "activetitle"
+2014-11-16 22:45:10	=!=	Error: failed to create bar "activetitle"
+2014-11-16 22:45:22	=!=	Error with command "/bar remove activetitle" (help on command: /help bar)
+2014-11-16 22:45:38	=!=	Error with command "/bar remove activetitle window top 1 0 buffer_title" (help on command: /help bar)
+2014-11-16 22:45:48		[core]  /bar  list|listfull|listitems
+2014-11-16 22:45:48		              add <name> <type>[,<condition>] <position> <size> <separator> <item1>[,<item2>...]
+2014-11-16 22:45:48		              default [input|title|status|nicklist]
+2014-11-16 22:45:48		              del <name>|-all
+2014-11-16 22:45:48		              set <name> <option> <value>
+2014-11-16 22:45:48		              hide|show|toggle <name>
+2014-11-16 22:45:48		              scroll <name> <window> <scroll_value>
+2014-11-16 22:45:48		manage bars
+2014-11-16 22:45:48		         list: list all bars
+2014-11-16 22:45:48		     listfull: list all bars (verbose)
+2014-11-16 22:45:48		    listitems: list all bar items
+2014-11-16 22:45:48		          add: add a new bar
+2014-11-16 22:45:48		         name: name of bar (must be unique)
+2014-11-16 22:45:48		         type:   root: outside windows,
+2014-11-16 22:45:48		               window: inside windows, with optional conditions (see below)
+2014-11-16 22:45:48		    condition: condition(s) for displaying bar (only for type "window"):
+2014-11-16 22:45:48		                 active: on active window
+2014-11-16 22:45:48		               inactive: on inactive windows
+2014-11-16 22:45:48		               nicklist: on windows with nicklist
+2014-11-16 22:45:48		               other condition: see /help weechat.bar.xxx.conditions and /help eval
+2014-11-16 22:45:48		               without condition, the bar is always displayed
+2014-11-16 22:45:48		     position: bottom, top, left or right
+2014-11-16 22:45:48		         size: size of bar (in chars)
+2014-11-16 22:45:48		    separator: 1 for using separator (line), 0 or nothing means no separator
+2014-11-16 22:45:48		    item1,...: items for this bar (items can be separated by comma (space between items) or "+" (glued items))
+2014-11-16 22:45:48		      default: create a default bar (all default bars if no bar name is given)
+2014-11-16 22:45:48		          del: delete a bar (or all bars with -all)
+2014-11-16 22:45:48		          set: set a value for a bar property
+2014-11-16 22:45:48		       option: option to change (for options list, look at /set weechat.bar.<barname>.*)
+2014-11-16 22:45:48		        value: new value for option
+2014-11-16 22:45:48		         hide: hide a bar
+2014-11-16 22:45:48		         show: show an hidden bar
+2014-11-16 22:45:48		       toggle: hide/show a bar
+2014-11-16 22:45:48		       scroll: scroll bar
+2014-11-16 22:45:48		       window: window number (use '*' for current window or for root bars)
+2014-11-16 22:45:48		 scroll_value: value for scroll: 'x' or 'y' (optional), followed by '+', '-', 'b' (beginning) or 'e' (end), value (for +/-), and optional % (to scroll by % of width/height, otherwise value is number of chars)
+2014-11-16 22:45:48		Examples:
+2014-11-16 22:45:48		  create a bar with time, buffer number + name, and completion:
+2014-11-16 22:45:48		    /bar add mybar root bottom 1 0 [time],buffer_number+:+buffer_name,completion
+2014-11-16 22:45:48		  hide a bar:
+2014-11-16 22:45:48		    /bar hide mybar
+2014-11-16 22:45:48		  scroll nicklist 10 lines down on current buffer:
+2014-11-16 22:45:48		    /bar scroll nicklist * y+10
+2014-11-16 22:45:48		  scroll to end of nicklist on current buffer:
+2014-11-16 22:45:48		    /bar scroll nicklist * ye
+2014-11-16 22:45:55		Bar "activetitle" deleted
+2014-11-16 22:46:40		Option changed: weechat.bar.nicklist.size = 15  (default: 0)
+2014-11-16 22:46:45		Option changed: weechat.bar.nicklist.size_max = 15  (default: 0)
+2014-11-16 22:46:49		Option changed: weechat.bar.nicklist.separator = off  (default: on)
+2014-11-16 22:47:04		Option changed: weechat.bar.nicklist.conditions = "${nicklist} && ${window.number} == 1 || ${window.number} == 5"  (default: "${nicklist}")
+2014-11-16 22:47:33		Option changed: iset.color.bg_selected = 31  (default: red)
+2014-11-16 22:47:36		Option changed: iset.color.option_selected = *white  (default: white)
+2014-11-16 22:47:40		Option changed: iset.color.type_selected = *229  (default: yellow)
+2014-11-16 22:47:44		Option changed: iset.color.value_selected = *121  (default: lightcyan)
+2014-11-16 22:47:47		Option changed: iset.color.type = 229  (default: brown)
+2014-11-16 22:47:51		Option changed: iset.color.value = 121  (default: cyan)
+2014-11-16 22:57:18		[pushover] Error: API call failed. (Most likely the service is having trouble.)
+2014-11-16 22:57:43		[pushover] Error: API call failed. (Most likely the service is having trouble.)
+2014-11-16 22:58:02		[pushover] Error: API call failed. (Most likely the service is having trouble.)
+2014-11-16 23:06:01		URL server stopped
+2014-11-16 23:06:01		URL server listening on ('127.0.0.1', 39853)
+2014-11-16 23:06:01		Option changed: plugins.var.python.urlserver.http_hostname = "127.0.0.1"
+2014-11-16 23:06:06		URL server stopped
+2014-11-16 23:06:06		URL server listening on ('127.0.0.1', 30012)
+2014-11-16 23:06:06		Option changed: plugins.var.python.urlserver.http_port = "30012"
+2014-11-16 23:06:11		Option changed: plugins.var.python.urlserver.http_allowed_ips = "^127.0.0.1$"
+2014-11-16 23:06:16		Option changed: plugins.var.python.urlserver.http_url_prefix = "xox"
+2014-11-16 23:06:22		Option changed: plugins.var.python.urlserver.msg_ignore_buffers = "core.weechat,python.grep,irc.bitlbee.#twitter_pascalpoitras,irc.freenode.##news,perl.highmon"
+2014-11-16 23:08:42		[pushover] Error: API call failed. (Most likely the service is having trouble.)
+2014-11-16 23:09:48	=!=	Error: unknown command "/scipts" (type /help for help)
+2014-11-16 23:13:31	=!=	Error: unknown command "/stop" (type /help for help)
+2014-11-16 23:13:46		xfer: incoming file from Ginpachi-Sensei (62.210.152.82, irc.Rizon), name: [Odd-Jobs]_Gintama_JUMP_FESTA_Anime_Tour_2008_[DVD][729D89DC].mkv, 167850669 bytes (protocol: dcc)
+2014-11-16 23:14:27	=!=	xfer: file [Odd-Jobs]_Gintama_JUMP_FESTA_Anime_Tour_2008_[DVD][729D89DC].mkv received from Ginpachi-Sensei (62.210.152.82): FAILED
+2014-11-17 02:49:51		[pushover] Error: API call failed. (Most likely the service is having trouble.)
+2014-11-17 10:22:47		[pushover] Error: API call failed. (Most likely the service is having trouble.)
+2014-11-17 10:23:03		[pushover] Error: API call failed. (Most likely the service is having trouble.)
+2014-11-17 10:23:33		[pushover] Error: API call failed. (Most likely the service is having trouble.)
+2014-11-17 10:25:36		[pushover] Error: API call failed. (Most likely the service is having trouble.)
+2014-11-17 10:30:42		[pushover] Error: API call failed. (Most likely the service is having trouble.)
+2014-11-17 10:31:50		[pushover] Error: API call failed. (Most likely the service is having trouble.)
+2014-11-17 10:31:56		[pushover] Error: API call failed. (Most likely the service is having trouble.)
+2014-11-17 10:37:03		[pushover] Error: API call failed. (Most likely the service is having trouble.)

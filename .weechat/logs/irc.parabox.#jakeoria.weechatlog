@@ -1,0 +1,234 @@
+2014-11-16 21:51:39	-->	ewhal41 (ewhal4@cat-640F11B4.rochd4.qld.optusnet.com.au) has joined #jakeoria
+2014-11-16 21:51:39	--	Topic for #jakeoria is "unreal/anope update because services broke, register your nicks || Welcome to the land of Jakeoria, Intercat. We do what we must, because we can. || "I didn't read any of it but I can tell from the number of words that the proof is definitely there." || "Why does the FBI keep arresting all my friends!?" ||"
+2014-11-16 21:51:39	--	Topic set by sudden on Sun, 16 Nov 2014 21:22:43
+2014-11-16 21:51:39	--	Channel #jakeoria: 5 nicks (3 ops, 0 halfops, 0 voices, 2 normals)
+2014-11-16 21:51:41	--	Channel created on Sun, 16 Nov 2014 10:44:54
+2014-11-16 21:55:42	-->	ewhal41 (ewhal4@cat-640F11B4.rochd4.qld.optusnet.com.au) has joined #jakeoria
+2014-11-16 21:55:42	--	Topic for #jakeoria is "unreal/anope update because services broke, register your nicks || Welcome to the land of Jakeoria, Intercat. We do what we must, because we can. || "I didn't read any of it but I can tell from the number of words that the proof is definitely there." || "Why does the FBI keep arresting all my friends!?" ||"
+2014-11-16 21:55:42	--	Topic set by sudden on Sun, 16 Nov 2014 21:22:43
+2014-11-16 21:55:42	--	Channel #jakeoria: 5 nicks (3 ops, 0 halfops, 0 voices, 2 normals)
+2014-11-16 21:55:45	--	Channel created on Sun, 16 Nov 2014 10:44:54
+2014-11-16 21:58:14	-->	ewhal41 (ewhal4@cat-640F11B4.rochd4.qld.optusnet.com.au) has joined #jakeoria
+2014-11-16 21:58:14	--	Topic for #jakeoria is "unreal/anope update because services broke, register your nicks || Welcome to the land of Jakeoria, Intercat. We do what we must, because we can. || "I didn't read any of it but I can tell from the number of words that the proof is definitely there." || "Why does the FBI keep arresting all my friends!?" ||"
+2014-11-16 21:58:14	--	Topic set by sudden on Sun, 16 Nov 2014 21:22:43
+2014-11-16 21:58:14	--	Channel #jakeoria: 5 nicks (3 ops, 0 halfops, 0 voices, 2 normals)
+2014-11-16 21:58:16	--	Channel created on Sun, 16 Nov 2014 10:44:54
+2014-11-16 22:02:49	-->	ewhal4 (ewhal4@cat-640F11B4.rochd4.qld.optusnet.com.au) has joined #jakeoria
+2014-11-16 22:02:49	--	Topic for #jakeoria is "unreal/anope update because services broke, register your nicks || Welcome to the land of Jakeoria, Intercat. We do what we must, because we can. || "I didn't read any of it but I can tell from the number of words that the proof is definitely there." || "Why does the FBI keep arresting all my friends!?" ||"
+2014-11-16 22:02:49	--	Topic set by sudden on Sun, 16 Nov 2014 21:22:43
+2014-11-16 22:02:49	--	Channel #jakeoria: 4 nicks (2 ops, 0 halfops, 0 voices, 2 normals)
+2014-11-16 22:02:51	--	Channel created on Sun, 16 Nov 2014 10:44:54
+2014-11-16 22:14:39	ewhal4	So I switched over to Weechat just then
+2014-11-16 22:18:49	ewhal4	It was pretty easy to switch over to
+2014-11-16 23:05:46	~sudden	it looks better and is easier to use
+2014-11-16 23:06:03	~sudden	I read some of their source and I dislike how they do things so I'll stick to irssi
+2014-11-16 23:06:58	ewhal4	I really like it over Hexchat
+2014-11-16 23:07:05	ewhal4	Much better
+2014-11-16 23:07:15	-->	monkey (monkey@cat-393FA028.a319.priv.bahnhof.se) has joined #jakeoria
+2014-11-16 23:07:21	monkey	weechat here
+2014-11-16 23:07:33	monkey	brb
+2014-11-16 23:09:58	analys	yo
+2014-11-16 23:10:15	ewhal4	Hello analys 
+2014-11-16 23:10:24	analys	Hi there.
+2014-11-16 23:10:48	ewhal4	I quite like the plugins for weechat
+2014-11-16 23:16:41	monkey	having a nicklist is certainly useful
+2014-11-16 23:17:07	 *	monkey tries multiple servers with weechat
+2014-11-16 23:17:18	monkey	eew, the "/me" command looks fugl
+2014-11-16 23:17:18	monkey	y
+2014-11-16 23:17:25	ewhal4	I'm on 4 servers at any time
+2014-11-16 23:17:32	ewhal4	It seems to work well with Weechat
+2014-11-16 23:18:59	monkey	nice, it supports irc urls
+2014-11-16 23:20:30	<--	monkey (monkey@cat-393FA028.a319.priv.bahnhof.se) has quit (Quit: WeeChat 1.0.1)
+2014-11-16 23:20:50	~sudden	eww, branded quit message
+2014-11-16 23:21:14	analys	It's often the default.
+2014-11-16 23:21:22	analys	(unless you mean it can't be changed)
+2014-11-16 23:21:25	analys	most clients do it
+2014-11-16 23:21:45	ewhal4	I disable join and quit messages
+2014-11-16 23:21:57	~sudden	of course
+2014-11-16 23:22:45	~sudden	analys: did you try to see if "*Serv*" nicks was blocked for normal clients?
+2014-11-16 23:22:51	~sudden	*were
+2014-11-16 23:29:59	analys	I did
+2014-11-16 23:30:10	analys	Though my intention was *Serv, not *Serv*
+2014-11-16 23:38:36	ewhal4	:q
+2014-11-16 23:39:11	ewhal4	lol
+2014-11-16 23:56:54	~sudden	ok
+2014-11-16 23:57:03	~sudden	my though process went:
+2014-11-16 23:58:11	~sudden	if you were to try *Serv first and have it succeed you know it checks it and it can be possible for it to be catched by *Serv*
+2014-11-16 23:58:16	~sudden	so you only need to check one time
+2014-11-16 23:58:22	~sudden	because it's a catch all situation
+2014-11-16 23:58:31	~sudden	if you tested *Serv* first
+2014-11-16 23:58:53	~sudden	you'd need to test *Serv to know if there actually was something that did it
+2014-11-16 23:59:09	~sudden	so the first example just shows you're on your way to an answer instantly
+2014-11-16 23:59:36	~sudden	while the other has a possibility of you trying two times before you'll have it confirmed for you that there actually is a block for certain nicks
+2014-11-16 23:59:47	~sudden	so --
+2014-11-17 00:00:08	~sudden	I thought it'd be more likely to try *Serv*
+2014-11-17 00:00:18	~sudden	in your case
+2014-11-17 00:10:42	analys	Well, I dismissed the possibility as it would be silly.
+2014-11-17 00:10:59	analys	to disallow *serv*
+2014-11-17 00:12:02	~sudden	that is a good point
+2014-11-17 00:12:06	~sudden	I did not think of that
+2014-11-17 00:36:37	analys	;-;
+2014-11-17 00:36:38	analys	'
+2014-11-17 00:36:38	analys	'
+2014-11-17 00:36:38	analys	'
+2014-11-17 00:38:20	<--	analys (analys@cat-46890CBA.hviv.nl) has quit (Input/output error)
+2014-11-17 00:38:45	-->	analys (analys@cat-DC62EB39.telenet.unc.edu) has joined #jakeoria
+2014-11-17 00:52:11	~sudden	http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-77282.jpg
+2014-11-17 00:54:25	~sudden	ever since I sent that consciousness video to cai
+2014-11-17 00:54:40	~sudden	I've been thinking a lot about ...
+2014-11-17 00:54:43	~sudden	what is
+2014-11-17 00:56:44	~sudden	I don't know what category I should place these thoughts in
+2014-11-17 00:57:04	analys	"Pending Categorisation"
+2014-11-17 00:57:20	~sudden	probably close to buffhism or taoism
+2014-11-17 00:57:28	~sudden	I don't know much about them
+2014-11-17 00:57:56	~sudden	I've come to the conclusion that everything just is
+2014-11-17 00:58:04	~sudden	and that's how it is
+2014-11-17 00:58:37	~sudden	self-referencial and there's nothing in the whole universe that can do anything about what already is and what is ever going to be
+2014-11-17 00:58:58	~sudden	not nessecarily deterministic
+2014-11-17 00:59:14	~sudden	I've eliminated time out of the equation
+2014-11-17 00:59:16	~sudden	ignoring it
+2014-11-17 00:59:28	~sudden	and it doesn't matter if time exists
+2014-11-17 00:59:38	~sudden	everything still is
+2014-11-17 01:00:53	~sudden	(I've got to be clear that I don't suddenly stop believing in time, time as a messurement is useful. whether it's real or not doesn't matter)
+2014-11-17 01:01:05	~sudden	*grammar/spelling
+2014-11-17 01:01:19	~sudden	*didn't
+2014-11-17 01:02:11	analys	The thing is though, if all actions are fixed, then this sort of reflection seems unlikely.
+2014-11-17 01:02:55	~sudden	elaborate?
+2014-11-17 01:04:18	analys	Well, the arbitrariness of e.g. switching between reflecting on this and ignoring it/thinking about other things, seems unlikely to be fixed.
+2014-11-17 01:04:47	analys	I mean there's no way to say definitively that it isn't, but it just seems unlikely.
+2014-11-17 01:06:41	~sudden	before this I thought everything was deterministic. all actions. I didn't care because I didn't know what was going to happen next. it didn't matter if everything were deterministic or not.
+2014-11-17 01:06:55	~sudden	what I said now is not the same
+2014-11-17 01:06:59	~sudden	it sounds like it is
+2014-11-17 01:08:37	~sudden	what I "learned" from this is that I should stop running ahead of myself
+2014-11-17 01:57:16	-->	yumi (yumi@cat-393FA028.a319.priv.bahnhof.se) has joined #jakeoria
+2014-11-17 01:57:40	~sudden	yumi: welcome back
+2014-11-17 02:13:19	~sudden	https://en.wikipedia.org/wiki/Test
+2014-11-17 02:13:20	yumi	Title: Test - Wikipedia, the free encyclopedia
+2014-11-17 02:26:18	<--	yumi (yumi@cat-393FA028.a319.priv.bahnhof.se) has quit (Input/output error)
+2014-11-17 02:49:40	~sudden	ewhal4: I rewrote my ircbot for the zillionth time
+2014-11-17 02:49:55	~sudden	with functions only
+2014-11-17 02:50:05	~sudden	reusable functions from my irc server
+2014-11-17 02:50:12	~sudden	(functional programming is glorious)
+2014-11-17 02:50:16	~sudden	and
+2014-11-17 02:50:20	~sudden	I made
+2014-11-17 02:50:27	~sudden	something amazing
+2014-11-17 02:50:34	~sudden	it's an ircbot with --
+2014-11-17 02:50:41	~sudden	a reloadable internal loop
+2014-11-17 02:50:45	~sudden	internal loop
+2014-11-17 02:50:48	~sudden	the main one
+2014-11-17 02:50:58	~sudden	you can modify it
+2014-11-17 02:51:22	~sudden	and if it fails to load it discards the new error loop and keeps the old one
+2014-11-17 02:51:30	~sudden	no broken pipes
+2014-11-17 02:51:36	~sudden	!!!
+2014-11-17 02:52:00	~sudden	*discards the new loop with errors and k-
+2014-11-17 02:52:16	~sudden	I'm pleased with this
+2014-11-17 02:52:31	~sudden	and I love the fact that this makes the whole plugin infrastructure reloadable
+2014-11-17 02:52:40	~sudden	I can point it anywhere I want
+2014-11-17 02:55:01	~sudden	the only drawback I have now
+2014-11-17 02:55:05	~sudden	which can be fixed
+2014-11-17 02:55:18	~sudden	is
+2014-11-17 02:55:23	~sudden	when I start the bot
+2014-11-17 02:55:30	~sudden	it creates a container of things
+2014-11-17 02:56:13	~sudden	in that container it puts the state the plugins, the user, the channels etc
+2014-11-17 02:56:29	~sudden	that object gets passed to plugins
+2014-11-17 02:56:46	~sudden	and it's not changable in anyway
+2014-11-17 02:57:03	~sudden	becasue the core/hard/soft reloading functionaity isn't separated yet
+2014-11-17 02:57:06	~sudden	when it is
+2014-11-17 02:57:16	~sudden	I can modify plugin parameters and such
+2014-11-17 03:02:29	~sudden	the loop structure which needs to be static
+2014-11-17 03:02:35	~sudden	is two lines
+2014-11-17 03:03:46	~sudden	while recv(sock,bufsize,buf): loop(sock,buf,packet,mods,param)
+2014-11-17 03:04:22	~sudden	and that's the whole bot
+2014-11-17 03:04:25	~sudden	those two lines
+2014-11-17 03:22:51	~sudden	cool, I just added a core_reload functionality while it was running that just reloads the core and not everything
+2014-11-17 03:25:22	~sudden	interesting
+2014-11-17 03:25:36	~sudden	I found a bug in the standard library
+2014-11-17 03:25:42	~sudden	where globals where used
+2014-11-17 03:25:58	~sudden	in the urllib.request part more specifically
+2014-11-17 03:26:21	~sudden	if I reload that library and try to request something a timeout value disappears
+2014-11-17 03:26:26	~sudden	and resets to non float
+2014-11-17 03:26:33	~sudden	so it complains about it not being a float
+2014-11-17 03:26:38	~sudden	globals are bad
+2014-11-17 03:27:13	~sudden	only global variables
+2014-11-17 03:27:16	~sudden	constants are ok
+2014-11-17 05:05:42	-->	cai (cai@cat-3294A1C5.pip.aber.ac.uk) has joined #jakeoria
+2014-11-17 05:12:49	<--	cai (cai@cat-3294A1C5.pip.aber.ac.uk) has quit (Ping timeout: 185 seconds)
+2014-11-17 05:22:02	-->	cai (cai@cat-3294A1C5.pip.aber.ac.uk) has joined #jakeoria
+2014-11-17 06:07:33	<--	cai (cai@cat-3294A1C5.pip.aber.ac.uk) has quit (Ping timeout: 185 seconds)
+2014-11-17 07:23:27	--	irc: disconnected from server
+2014-11-17 07:23:56	-->	ewhal4 (ewhal4@B05025D7.E92E5A6.D339CD51.IP) has joined #jakeoria
+2014-11-17 07:23:56	--	Topic for #jakeoria is "unreal/anope update because services broke, register your nicks || Welcome to the land of Jakeoria, Intercat. We do what we must, because we can. || "I didn't read any of it but I can tell from the number of words that the proof is definitely there." || "Why does the FBI keep arresting all my friends!?" ||"
+2014-11-17 07:23:56	--	Topic set by sudden on Sun, 16 Nov 2014 21:22:43
+2014-11-17 07:23:56	--	Channel #jakeoria: 4 nicks (2 ops, 0 halfops, 0 voices, 2 normals)
+2014-11-17 07:24:04	--	Channel created on Sun, 16 Nov 2014 10:44:54
+2014-11-17 09:06:18	-->	cai (cai@cat-3294A1C5.pip.aber.ac.uk) has joined #jakeoria
+2014-11-17 09:37:29	<--	cai (cai@cat-3294A1C5.pip.aber.ac.uk) has quit (Ping timeout: 186 seconds)
+2014-11-17 10:06:20	-->	yumi (yumi@A3CEC25D.B8B8A40F.921728F3.IP) has joined #jakeoria
+2014-11-17 10:06:37	~sudden	http://i3wm.org/docs/userguide.html
+2014-11-17 10:06:38	yumi	Title: i3: i3 User’s Guide
+2014-11-17 10:07:52	ewhal4	I've been considering switching to i3 for awhile now
+2014-11-17 10:08:05	~sudden	it's glorious
+2014-11-17 10:08:10	-->	cai (cai@cat-3294A1C5.pip.aber.ac.uk) has joined #jakeoria
+2014-11-17 10:08:21	~sudden	I just configured it to force webbrowsers on a specific workspace
+2014-11-17 10:08:30	~sudden	which is named "www" for obvious reasons
+2014-11-17 10:08:36	~sudden	and skype to one
+2014-11-17 10:08:45	~sudden	making it a floating window
+2014-11-17 10:08:49	~sudden	and vlc to one
+2014-11-17 10:09:02	ewhal4	How is it for multiple monitors?
+2014-11-17 10:09:11	~sudden	removed borders for terminals but kept them on all other windows
+2014-11-17 10:09:22	~sudden	it works
+2014-11-17 10:09:30	ewhal4	Also sudden why not mpv?
+2014-11-17 10:09:36	~sudden	mpv
+2014-11-17 10:09:36	~sudden	?
+2014-11-17 10:09:42	ewhal4	instead of VLC
+2014-11-17 10:09:47	~sudden	I don't know
+2014-11-17 10:09:50	~sudden	old habits
+2014-11-17 10:10:01	ewhal4	mpv is the best video player ever I love it
+2014-11-17 10:10:18	~sudden	multiple screens can have the same or different workspace
+2014-11-17 10:10:40	~sudden	and if you for example drag a window to one screen of the same workspace and make it fullscreen
+2014-11-17 10:10:48	~sudden	it will be fullscreen on the monitor it's on
+2014-11-17 10:10:56	~sudden	which is something many windowmanagers fail at
+2014-11-17 10:11:16	ewhal4	I think I will switch over to it
+2014-11-17 10:11:27	ewhal4	It just sounds amazing
+2014-11-17 10:11:43	~sudden	you'll never have to worry about draging windows, if you don't need to ofc
+2014-11-17 10:12:09	 *	sudden jumps up and down
+2014-11-17 10:12:24	~sudden	I love how I can disassemble and reassemble yumi 
+2014-11-17 10:12:36	 *	sudden pokes in yumi's insides
+2014-11-17 10:12:51	~sudden	"On the Fly(tm)"
+2014-11-17 10:13:03	~sudden	hi cai 
+2014-11-17 10:13:08	~sudden	register your nick
+2014-11-17 10:14:42	~sudden	I just watched this https://www.youtube.com/watch?v=hzf3hTUKk8U
+2014-11-17 10:14:49	~sudden	good video
+2014-11-17 10:17:09	ewhal4	Poor yumi 
+2014-11-17 10:17:25	~sudden	http://google.com
+2014-11-17 10:17:26	yumi	Title: Google
+2014-11-17 10:17:28	~sudden	that works
+2014-11-17 10:18:30	~sudden	aha!
+2014-11-17 10:18:50	 *	sudden picks her apart -- delicately
+2014-11-17 10:19:46	~sudden	yumi: softreload
+2014-11-17 10:19:52	~sudden	https://www.youtube.com/watch?v=hzf3hTUKk8U
+2014-11-17 10:19:53	yumi	Title: Functional Programming is Terrible - YouTube
+2014-11-17 10:19:57	~sudden	!!!
+2014-11-17 10:20:02	ewhal4	That is awesome
+2014-11-17 10:20:34	~sudden	I can give you a shell account now
+2014-11-17 10:20:37	~sudden	becasue I'm bored
+2014-11-17 10:20:40	ewhal4	pls do
+2014-11-17 10:20:51	~sudden	pick a name and a password
+2014-11-17 10:22:45	~sudden	ewhal4: done
+2014-11-17 10:22:51	ewhal4	Thank you
+2014-11-17 10:24:46	~sudden	programs can be requested, tmux is your friend
+2014-11-17 10:25:34	~sudden	I'll see if I can intercat.net/~ewhal4
+2014-11-17 10:28:12	ewhal4	I have no idea what I could use it for lol
+2014-11-17 10:28:41	~sudden	it seems you don't have a home folder
+2014-11-17 10:28:44	~sudden	oops
+2014-11-17 10:29:02	cai	I'll move back to the registered nick eventually
+2014-11-17 10:29:08	cai	just getting used to this first
+2014-11-17 10:29:18	ewhal4	Hello cai 
+2014-11-17 10:29:26	cai	hi ewhal
+2014-11-17 10:29:31	cai	shit went down at my flat
+2014-11-17 10:29:41	ewhal4	What happened?
+2014-11-17 10:29:49	cai	someone got really drunk
+2014-11-17 10:29:50	cai	then broke down
+2014-11-17 10:30:29	cai	I would have been more active on here if it wasnt for that
+2014-11-17 10:39:23	<--	cai (cai@cat-3294A1C5.pip.aber.ac.uk) has quit (Ping timeout: 186 seconds)
+2014-11-17 10:43:52	~sudden	entertaining
