@@ -29,7 +29,7 @@ URxvt*loginShell: false
 
 ! -- font
 !URxvt.font: xft:Terminus:size=12
-URxvt.font:             xft:Terminess Powerline:size=10
+URxvt.font:             xft:Terminess Powerline:size=13
 !URxvt.font: xft:Droid Sans Mono:size=10
 !URxvt.font: xft:Ubuntu Mono:size=10
 !URxvt.font: xft:PragmataPro:size=10

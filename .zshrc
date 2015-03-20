@@ -164,9 +164,16 @@ yt() {
     IFS='&' read -r URL LIST <<< "$@"
     mpv $(youtube-dl -g "$URL")
 }
-aws() {
-    ssh -i ~/.ssh/id_rsa ec2-user@52.11.80.194  
+desktop() {
+    ssh ewhal4@192.168.0.18
 }
+pi() {
+    ssh pi@192.168.0.21
+}
+fancontrol() {
+    echo level $1 | sudo tee /proc/acpi/ibm/fan
+}
+
 countdown() {
     secs=$(($1 * 60))
     while [ $secs -gt 0 ]; do
