@@ -12,6 +12,7 @@ xrdb -merge ~/.Xresources
 
 #hide mouse when not used
 #unclutter -root -visible &
+#compton --backend glx --paint-on-overlay --vsync opengl-swc
 
 eval `dbus-launch --sh-syntax --exit-with-session`
 
