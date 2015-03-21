@@ -1,7 +1,0 @@
-dropbox.com:HSTS	0	16507	1441788684701,1,1
-services.addons.mozilla.org:HSTS	0	16507	1457772470118,1,0
-www.facebook.com:HSTS	0	16507	1441788620656,1,0
-blocklist.addons.mozilla.org:HSTS	0	16507	1457772588282,1,0
-www.dropbox.com:HSTS	0	16507	1441788825602,1,1
-cf.dropboxstatic.com:HSTS	0	16507	1441788778564,1,1
-analytics.twitter.com:HSTS	0	16507	2057375140459,1,0
