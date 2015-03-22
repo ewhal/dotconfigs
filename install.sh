@@ -10,7 +10,7 @@ ADDONS="https://addons.mozilla.org/firefox/downloads/latest/722/addon-722-latest
 cwd=$(pwd)
 
 echo "Installing needed packages"
-yaourt -S i3 conky powerline-fonts-git rxvt-unicode mpd ncmpcppp dmenu nm-applet vim mpd-git tmux zsh mpc screenfetch speedtest-cli scrot  xfce4-screenshooter
+yaourt -S i3 conky powerline-fonts-git rxvt-unicode mpd ncmpcppp dmenu nm-applet vim mpd-git tmux zsh mpc screenfetch speedtest-cli scrot  xfce4-screenshooter python2-potr
 
 echo "Installing oh-my-zsh"
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
