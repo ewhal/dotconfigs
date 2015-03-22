@@ -28,7 +28,7 @@ echo "Setting up firefox"
 
 for a in $ADDONS
 do
-    echo "wget $a"
+   "wget $a"
 done
 
 firefox *.xpi
