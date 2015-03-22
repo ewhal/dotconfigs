@@ -33,5 +33,6 @@ done
 firefox *.xpi
 rm *.xpi
 ln -fs $(pwd)/twily.vimp /home/$NAME/colors/twily.vimp
-vim
+echo "Please visit twily.info for more Firefox rice and run vim to install plugins"
+
 
