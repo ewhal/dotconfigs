@@ -6,7 +6,7 @@ echo "Please enter your firefox profile name"
 read PROFILE
 
 FILES=".zshrc .Xresources .vimrc .weechat .i3 .tmux.conf .bin .xinitrc .ncmpcpp .conkyrc .mpd .vimperatorrc"
-ADDONS="https://addons.mozilla.org/firefox/downloads/latest/722/addon-722-latest.xpi https://www.eff.org/files/https-everywhere-latest.xpi https://addons.mozilla.org/firefox/downloads/latest/334572/addon-334572-latest.xpi https://addons.mozilla.org/firefox/downloads/latest/953/addon-953-latest.xpi https://addons.mozilla.org/firefox/downloads/file/161685/greasemonkey-0.9.22-fx.xpi https://addons.mozilla.org/firefox/downloads/latest/2108/addon-2108-latest.xpi https://addons.mozilla.org/firefox/downloads/file/298890/vimperator-3.9-fx.xpi https://github.com/RequestPolicyContinued/requestpolicy/releases/download/v1.0.beta8.2/requestpolicy-1-0-beta8-2.xpi"
+ADDONS="https://addons.mozilla.org/firefox/downloads/latest/722/addon-722-latest.xpi https://www.eff.org/files/https-everywhere-latest.xpi https://addons.mozilla.org/firefox/downloads/latest/334572/addon-334572-latest.xpi https://addons.mozilla.org/firefox/downloads/latest/953/addon-953-latest.xpi https://addons.mozilla.org/firefox/downloads/file/161685/greasemonkey-0.9.22-fx.xpi https://addons.mozilla.org/firefox/downloads/latest/2108/addon-2108-latest.xpi https://addons.mozilla.org/firefox/downloads/file/298890/vimperator-3.9-fx.xpi https://github.com/RequestPolicyContinued/requestpolicy/releases/download/v1.0.beta8.2/requestpolicy-1-0-beta8-2.xpi https://addons.mozilla.org/firefox/downloads/file/120824/open_with-5.0.3-sm+fx.xpi"
 cwd=$(pwd)
 
 echo "Installing needed packages"
