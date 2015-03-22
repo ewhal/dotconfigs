@@ -20,4 +20,12 @@ Fonts
 Text editor
     vim
 
-./install.sh to setup everything
+Run ./install.sh to setup everything
+Visit twily.info for stylish 
+setup openwith to /usr/bin/mpv
+
+clone into .bin if you want some extra scripts
+https://github.com/vosh/scripts
+
+For a different colourscheme visit
+http://terminal.sexy/
