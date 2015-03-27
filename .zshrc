@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/home/ewhal4/.oh-my-zsh
+export ZSH=/home/ewhal/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -151,7 +151,7 @@ setopt nonomatch
 RPROMPT="%{$fg_bold[blue]%}%~%{$reset_color%}"
 
 
-export PATH=$PATH:/home/ewhal4/.bin
+export PATH=$PATH:/home/ewhal/.bin
 
 #framebuffer colors
 if [ "$TERM" = "linux" ]; then
@@ -165,7 +165,7 @@ yt() {
     mpv $(youtube-dl -g "$URL")
 }
 desktop() {
-    ssh ewhal4@192.168.0.18
+    ssh ewhal4@192.168.0.17
 }
 pi() {
     ssh pi@192.168.0.21
@@ -249,4 +249,4 @@ export INFINALITY_FT_USE_VARIOUS_TWEAKS=true
 
 # Enable Zsh command highlighting
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-export DEFAULT_USER="ewhal4"
+export DEFAULT_USER="ewhal"

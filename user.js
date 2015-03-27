@@ -1,7 +1,7 @@
 /* Add your desired preferences to user.js in your Firefox profile's folder */
 
 // Turn off the new tab page, and make it about:blank
-user_pref("browser.newtab.url", "/home/ewhal4/Git/dot-configs/homepage.html"); 
+user_pref("browser.newtab.url", "/home/ewhal/dot-configs/homepage.html"); 
 
 // Turn off Geolocation
 user_pref("geo.enabled", false); 
@@ -54,5 +54,5 @@ user_pref("ui.submenuDelay", 0);
 // Set a "do-not-track" header to tell sites not to track browsing habits
 user_pref("privacy.donottrackheader.enabled", true);
 
-user_pref("browser.startup.homepage", "/home/ewhal4/Git/dot-configs/homepage.html");
+user_pref("browser.startup.homepage", "/home/ewhal/dot-configs/homepage.html");
 

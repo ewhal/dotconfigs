@@ -19176,3 +19176,1603 @@ Mar 22 00:46 : client: [36] opened from [::1]:51549
 Mar 22 00:46 : client: [36] closed
 Mar 22 02:12 : client: [37] opened from [::1]:52854
 Mar 22 02:12 : client: [37] closed
+Mar 23 18:15 : client: [0] opened from [::1]:49722
+Mar 23 18:15 : avahi: Service 'Music Player' successfully established.
+Mar 23 18:15 : client: [0] closed
+Mar 23 18:15 : client: [1] opened from [::1]:49723
+Mar 23 18:15 : client: [1] closed
+Mar 23 18:15 : client: [2] opened from [::1]:49724
+Mar 23 18:15 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 23 18:15 : client: [2] closed
+Mar 23 18:16 : client: [3] opened from [::1]:49729
+Mar 23 18:16 : client: [3] closed
+Mar 23 18:17 : avahi: Client Disconnected, will reconnect shortly
+Mar 23 18:20 : avahi: Service 'Music Player' successfully established.
+Mar 23 18:22 : avahi: Client Disconnected, will reconnect shortly
+Mar 23 18:22 : avahi: Client Disconnected, will reconnect shortly
+Mar 23 18:23 : client: [0] opened from [::1]:52545
+Mar 23 18:23 : client: [0] closed
+Mar 23 18:23 : avahi: Service 'Music Player' successfully established.
+Mar 23 18:23 : client: [1] opened from [::1]:52546
+Mar 23 18:23 : client: [1] closed
+Mar 23 18:23 : client: [2] opened from [::1]:52550
+Mar 23 18:23 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 23 18:23 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 23 18:23 : player: played "Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac"
+Mar 23 18:23 : client: [2] closed
+Mar 23 18:23 : client: [3] opened from [::1]:52578
+Mar 23 18:23 : client: [3] closed
+Mar 23 18:26 : client: [4] opened from [::1]:52584
+Mar 23 18:26 : client: [4] closed
+Mar 23 18:53 : client: [5] opened from [::1]:53081
+Mar 23 18:53 : client: [5] closed
+Mar 23 18:55 : client: [6] opened from [::1]:53143
+Mar 23 20:16 : client: [7] opened from [::1]:54908
+Mar 23 20:16 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 23 20:16 : client: [7] closed
+Mar 23 20:16 : client: [6] closed
+Mar 23 20:16 : client: [8] opened from [::1]:54909
+Mar 23 20:16 : client: [8] closed
+Mar 23 20:16 : client: [9] opened from [::1]:54910
+Mar 23 20:16 : client: [9] closed
+Mar 23 20:16 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp3, 0 channels, s16p): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Mar 23 20:16 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp3, 0 channels, s16p): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Mar 23 20:16 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp3, 0 channels, s16p): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Mar 23 20:16 : ffmpeg/mp3: Could not find codec parameters for stream 0 (Audio: mp3, 0 channels, s16p): unspecified frame size
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+Mar 23 20:16 : client: [10] opened from [::1]:54911
+Mar 23 20:16 : player: played "Biosphere & Pete Namlook - The Fires Of Ork 2/CDImage.ape"
+Mar 23 20:16 : player: played "https://r-a-d.io/main.mp3"
+Mar 23 20:41 : client: [11] opened from [::1]:55515
+Mar 23 20:41 : client: [11] closed
+Mar 23 20:41 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 23 20:41 : client: [12] opened from [::1]:55517
+Mar 23 20:41 : client: [12] closed
+Mar 23 20:45 : client: [13] opened from [::1]:55565
+Mar 23 20:45 : client: [13] closed
+Mar 23 20:46 : player: played "03 aldnoah0rch-4rain.flac"
+Mar 23 21:03 : client: [14] opened from [::1]:55897
+Mar 23 21:03 : client: [14] closed
+Mar 23 21:03 : client: [15] opened from [::1]:55898
+Mar 23 21:03 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 23 21:03 : client: [15] closed
+Mar 23 21:07 : client: [16] opened from [::1]:56034
+Mar 23 21:07 : player: played "Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac"
+Mar 23 21:07 : client: [16] closed
+Mar 23 21:22 : client: [17] opened from [::1]:56094
+Mar 23 21:22 : client: [17] closed
+Mar 24 00:18 : client: [10] closed
+Mar 24 00:23 : client: [18] opened from [::1]:56944
+Mar 24 00:23 : client: [18] closed
+Mar 24 00:23 : client: [19] opened from [::1]:56945
+Mar 24 00:23 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 24 00:23 : client: [19] closed
+Mar 24 00:25 : client: [20] opened from [::1]:56986
+Mar 24 00:25 : client: [20] closed
+Mar 24 09:04 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 24 09:05 : avahi: Service 'Music Player' successfully established.
+Mar 24 09:22 : client: [0] opened from [::1]:54602
+Mar 24 09:22 : client: [0] closed
+Mar 24 09:22 : client: [1] opened from [::1]:54603
+Mar 24 09:22 : client: [1] closed
+Mar 24 10:58 : avahi: Client Disconnected, will reconnect shortly
+Mar 24 10:58 : avahi: Client Disconnected, will reconnect shortly
+Mar 24 10:59 : avahi: Service 'Music Player' successfully established.
+Mar 24 16:07 : avahi: Service 'Music Player' successfully established.
+Mar 24 16:07 : curl: curl failed: Could not resolve host: stream.r-a-d.io
+Mar 24 16:07 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 24 16:44 : client: [0] opened from [::1]:36362
+Mar 24 16:44 : client: [0] closed
+Mar 24 16:48 : client: [1] opened from [::1]:36440
+Mar 24 16:48 : client: [1] closed
+Mar 24 23:11 : client: [2] opened from [::1]:38540
+Mar 24 23:11 : client: [2] closed
+Mar 24 23:11 : client: [3] opened from [::1]:38541
+Mar 24 23:11 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 24 23:11 : client: [3] closed
+Mar 24 23:41 : client: [4] opened from [::1]:38816
+Mar 24 23:41 : client: [4] closed
+Mar 25 09:56 : avahi: Service 'Music Player' successfully established.
+Mar 25 10:56 : client: [0] opened from [::1]:50589
+Mar 25 10:56 : client: [0] closed
+Mar 25 10:56 : client: [1] opened from [::1]:50590
+Mar 25 10:56 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 25 10:56 : client: [1] closed
+Mar 25 10:56 : client: [2] opened from [::1]:50594
+Mar 25 10:57 : client: [2] closed
+Mar 25 11:22 : client: [3] opened from [::1]:52219
+Mar 25 11:22 : client: [3] closed
+Mar 25 12:12 : avahi: Client Disconnected, will reconnect shortly
+Mar 25 12:12 : avahi: Client Disconnected, will reconnect shortly
+Mar 25 12:13 : avahi: Service 'Music Player' successfully established.
+Mar 25 12:15 : avahi: Service 'Music Player' successfully established.
+Mar 25 15:25 : client: [0] opened from [::1]:46858
+Mar 25 15:25 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 25 15:25 : client: [0] closed
+Mar 25 15:52 : client: [1] opened from [::1]:47463
+Mar 25 15:52 : client: [1] closed
+Mar 25 15:52 : client: [2] opened from [::1]:47468
+Mar 25 15:52 : client: [2] closed
+Mar 25 15:57 : client: [3] opened from [::1]:47544
+Mar 25 15:57 : client: [3] closed
+Mar 25 15:57 : client: [4] opened from [::1]:47552
+Mar 25 15:57 : client: [4] closed
+Mar 25 15:58 : client: [5] opened from [::1]:47553
+Mar 25 15:58 : client: [5] closed
+Mar 25 17:22 : client: [6] opened from [::1]:48151
+Mar 25 17:22 : client: [6] closed
+Mar 25 17:22 : client: [7] opened from [::1]:48152
+Mar 25 17:22 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 25 17:22 : client: [7] closed
+Mar 25 17:58 : client: [8] opened from [::1]:48569
+Mar 25 17:58 : client: [8] closed
+Mar 25 17:59 : client: [9] opened from [::1]:48570
+Mar 25 17:59 : client: [9] closed
+Mar 25 18:19 : client: [10] opened from [::1]:48720
+Mar 25 18:19 : client: [10] closed
+Mar 25 18:42 : client: [11] opened from [::1]:48844
+Mar 25 18:42 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 25 18:42 : client: [11] closed
+Mar 25 18:58 : client: [12] opened from [::1]:48898
+Mar 25 18:58 : client: [12] closed
+Mar 25 19:06 : client: [13] opened from [::1]:48974
+Mar 25 19:06 : client: [13] closed
+Mar 25 19:06 : client: [14] opened from [::1]:48975
+Mar 25 19:06 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 25 19:06 : client: [14] closed
+Mar 25 19:11 : client: [15] opened from [::1]:49018
+Mar 25 19:11 : client: [15] closed
+Mar 25 19:14 : client: [16] opened from [::1]:49149
+Mar 25 19:14 : client: [16] closed
+Mar 25 19:30 : client: [17] opened from [::1]:49218
+Mar 25 19:30 : client: [17] closed
+Mar 25 19:36 : client: [18] opened from [::1]:49322
+Mar 25 19:36 : client: [18] closed
+Mar 25 19:56 : client: [19] opened from [::1]:49535
+Mar 25 19:56 : client: [19] closed
+Mar 25 20:07 : client: [20] opened from [::1]:49808
+Mar 25 20:07 : client: [20] closed
+Mar 25 22:31 : client: [21] opened from [::1]:50364
+Mar 25 22:31 : client: [21] closed
+Mar 25 22:32 : client: [22] opened from [::1]:50366
+Mar 25 22:32 : client: [22] closed
+Mar 25 23:22 : client: [23] opened from [::1]:50459
+Mar 25 23:22 : client: [23] closed
+Mar 25 23:25 : client: [24] opened from [::1]:50462
+Mar 25 23:25 : client: [24] closed
+Mar 26 01:11 : client: [25] opened from [::1]:50569
+Mar 26 01:11 : client: [25] closed
+Mar 26 01:25 : client: [26] opened from [::1]:50578
+Mar 26 01:25 : client: [26] closed
+Mar 26 01:27 : client: [27] opened from [::1]:50579
+Mar 26 01:27 : client: [27] closed
+Mar 26 01:29 : client: [28] opened from [::1]:50582
+Mar 26 01:29 : client: [28] closed
+Mar 26 01:29 : client: [29] opened from [::1]:50583
+Mar 26 01:29 : client: [29] closed
+Mar 26 08:59 : client: [30] opened from [::1]:52357
+Mar 26 08:59 : client: [30] closed
+Mar 26 08:59 : client: [31] opened from [::1]:52358
+Mar 26 08:59 : client: [31] closed
+Mar 26 08:59 : client: [32] opened from [::1]:52359
+Mar 26 08:59 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 26 08:59 : client: [32] closed
+Mar 26 09:07 : client: [33] opened from [::1]:52366
+Mar 26 09:07 : client: [33] closed
+Mar 26 09:28 : client: [34] opened from [::1]:52382
+Mar 26 09:28 : client: [34] closed
+Mar 26 09:28 : curl: curl failed: SSL read: error:00000000:lib(0):func(0):reason(0), errno 104
+Mar 26 09:28 : errno: Failed to open "/mnt/nfs4/music/Biosphere & Pete Namlook - The Fires Of Ork 2/CDImage.ape": No such file or directory
+Mar 26 09:29 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 26 09:29 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/Biosphere & Pete Namlook - The Fires Of Ork 2/CDImage.ape": No such file or directory
+Mar 26 09:29 : player: played "Biosphere & Pete Namlook - The Fires Of Ork 2/CDImage.ape"
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/02 - AZPV.mp3": No such file or directory
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/02 - AZPV.mp3": No such file or directory
+Mar 26 09:29 : player: played "02 - AZPV.mp3"
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/01 aldnoah0rch-&z.flac": No such file or directory
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/01 aldnoah0rch-&z.flac": No such file or directory
+Mar 26 09:29 : player: played "01 aldnoah0rch-&z.flac"
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/02 aldnoah0rch-aCY0rt.flac": No such file or directory
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/02 aldnoah0rch-aCY0rt.flac": No such file or directory
+Mar 26 09:29 : player: played "02 aldnoah0rch-aCY0rt.flac"
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/03 aldnoah0rch-4rain.flac": No such file or directory
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/03 aldnoah0rch-4rain.flac": No such file or directory
+Mar 26 09:29 : player: played "03 aldnoah0rch-4rain.flac"
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/04 aldnoah0rch-@0p.flac": No such file or directory
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/04 aldnoah0rch-@0p.flac": No such file or directory
+Mar 26 09:29 : player: played "04 aldnoah0rch-@0p.flac"
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/05 aldnoah0rch-adlib.flac": No such file or directory
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/05 aldnoah0rch-adlib.flac": No such file or directory
+Mar 26 09:29 : player: played "05 aldnoah0rch-adlib.flac"
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/06 birth・gt・music.flac": No such file or directory
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/06 birth・gt・music.flac": No such file or directory
+Mar 26 09:29 : player: played "06 birth・gt・music.flac"
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/07 battle・game・music.flac": No such file or directory
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/07 battle・game・music.flac": No such file or directory
+Mar 26 09:29 : player: played "07 battle・game・music.flac"
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/08 bpm・gain・mute.flac": No such file or directory
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/08 bpm・gain・mute.flac": No such file or directory
+Mar 26 09:29 : player: played "08 bpm・gain・mute.flac"
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/09 haondla-orez1.flac": No such file or directory
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/09 haondla-orez1.flac": No such file or directory
+Mar 26 09:29 : player: played "09 haondla-orez1.flac"
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/10 haondla-orez2.flac": No such file or directory
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/10 haondla-orez2.flac": No such file or directory
+Mar 26 09:29 : player: played "10 haondla-orez2.flac"
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/11 haondla-orez3.flac": No such file or directory
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/11 haondla-orez3.flac": No such file or directory
+Mar 26 09:29 : player: played "11 haondla-orez3.flac"
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/12 haondla-orez4.flac": No such file or directory
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/12 haondla-orez4.flac": No such file or directory
+Mar 26 09:29 : player: played "12 haondla-orez4.flac"
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/13 az-p1@n05罪vers.flac": No such file or directory
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/13 az-p1@n05罪vers.flac": No such file or directory
+Mar 26 09:29 : player: played "13 az-p1@n05罪vers.flac"
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/14 az-p1@n0adlib1.flac": No such file or directory
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/14 az-p1@n0adlib1.flac": No such file or directory
+Mar 26 09:29 : player: played "14 az-p1@n0adlib1.flac"
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/15 az-p1@n0adlib2.flac": No such file or directory
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/15 az-p1@n0adlib2.flac": No such file or directory
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/16 az-p1@n0adlib3.flac": No such file or directory
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/16 az-p1@n0adlib3.flac": No such file or directory
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/17 Harmonious.flac": No such file or directory
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/17 Harmonious.flac": No such file or directory
+Mar 26 09:29 : player: played "17 Harmonious.flac"
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/18 Harmonious -Instrumental-.flac": No such file or directory
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/18 Harmonious -Instrumental-.flac": No such file or directory
+Mar 26 09:29 : player: played "18 Harmonious -Instrumental-.flac"
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/19 Harmonious -Short Ver.-.flac": No such file or directory
+Mar 26 09:29 : errno: Failed to open "/mnt/nfs4/music/19 Harmonious -Short Ver.-.flac": No such file or directory
+Mar 26 09:29 : player: played "19 Harmonious -Short Ver.-.flac"
+Mar 26 16:44 : client: [35] opened from [::1]:52830
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/01 - Give Life Back to Music.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/01 - Give Life Back to Music.mp3": No such file or directory
+Mar 26 16:44 : player: played "01 - Give Life Back to Music.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/~_1 Hour Ultimate Nightcore Mix_~.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/~_1 Hour Ultimate Nightcore Mix_~.mp3": No such file or directory
+Mar 26 16:44 : player: played "~_1 Hour Ultimate Nightcore Mix_~.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/01 - Give Life Back to Music.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/01 - Give Life Back to Music.mp3": No such file or directory
+Mar 26 16:44 : player: played "01 - Give Life Back to Music.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/01 - No differences.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/01 - No differences.mp3": No such file or directory
+Mar 26 16:44 : player: played "01 - No differences.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/02 - AZPV.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/02 - AZPV.mp3": No such file or directory
+Mar 26 16:44 : player: played "02 - AZPV.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/02 - The Game of Love.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/02 - The Game of Love.mp3": No such file or directory
+Mar 26 16:44 : player: played "02 - The Game of Love.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/03 - A-0picturez.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/03 - A-0picturez.mp3": No such file or directory
+Mar 26 16:44 : player: played "03 - A-0picturez.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/03 - Giorgio by Moroder.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/03 - Giorgio by Moroder.mp3": No such file or directory
+Mar 26 16:44 : player: played "03 - Giorgio by Moroder.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/04 - MKAlieZ.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/04 - MKAlieZ.mp3": No such file or directory
+Mar 26 16:44 : player: played "04 - MKAlieZ.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/04 - Within.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/04 - Within.mp3": No such file or directory
+Mar 26 16:44 : player: played "04 - Within.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/05 - 20140910.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/05 - 20140910.mp3": No such file or directory
+Mar 26 16:44 : player: played "05 - 20140910.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/06 - AZ-Kat.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/06 - AZ-Kat.mp3": No such file or directory
+Mar 26 16:44 : player: played "06 - AZ-Kat.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/05 - Instant Crush (feat. Julian Casablancas).mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/05 - Instant Crush (feat. Julian Casablancas).mp3": No such file or directory
+Mar 26 16:44 : player: played "05 - Instant Crush (feat. Julian Casablancas).mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/06 - Lose Yourself to Dance (feat. Pharrell Williams).mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/06 - Lose Yourself to Dance (feat. Pharrell Williams).mp3": No such file or directory
+Mar 26 16:44 : player: played "06 - Lose Yourself to Dance (feat. Pharrell Williams).mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/07 - Kanascene.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/07 - Kanascene.mp3": No such file or directory
+Mar 26 16:44 : player: played "07 - Kanascene.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/07 - Touch (feat. Paul Williams).mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/07 - Touch (feat. Paul Williams).mp3": No such file or directory
+Mar 26 16:44 : player: played "07 - Touch (feat. Paul Williams).mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/08 - AD2014-7.5 7.9-0A.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/08 - AD2014-7.5 7.9-0A.mp3": No such file or directory
+Mar 26 16:44 : player: played "08 - AD2014-7.5 7.9-0A.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/08 - Get Lucky (feat. Pharrell Williams).mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/08 - Get Lucky (feat. Pharrell Williams).mp3": No such file or directory
+Mar 26 16:44 : player: played "08 - Get Lucky (feat. Pharrell Williams).mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/09 - AL C-@.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/09 - AL C-@.mp3": No such file or directory
+Mar 26 16:44 : player: played "09 - AL C-@.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/09 - Beyond.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/09 - Beyond.mp3": No such file or directory
+Mar 26 16:44 : player: played "09 - Beyond.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/1 Hour Unbelievable Nightcore Mega Mix.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/1 Hour Unbelievable Nightcore Mega Mix.mp3": No such file or directory
+Mar 26 16:44 : player: played "1 Hour Unbelievable Nightcore Mega Mix.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/1-Hour Epic Music _ Two Steps From Hell Vol. 1 - YouTube.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/1-Hour Epic Music _ Two Steps From Hell Vol. 1 - YouTube.mp3": No such file or directory
+Mar 26 16:44 : player: played "1-Hour Epic Music _ Two Steps From Hell Vol. 1 - YouTube.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/1-Hour Epic Music _ Two Steps From Hell Vol. 2.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/1-Hour Epic Music _ Two Steps From Hell Vol. 2.mp3": No such file or directory
+Mar 26 16:44 : player: played "1-Hour Epic Music _ Two Steps From Hell Vol. 2.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/10 - Motherboard.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/10 - Motherboard.mp3": No such file or directory
+Mar 26 16:44 : player: played "10 - Motherboard.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/10 - The Call to Arms.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/10 - The Call to Arms.mp3": No such file or directory
+Mar 26 16:44 : player: played "10 - The Call to Arms.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/11 - Fragments of Time (feat. Todd Edwards).mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/11 - Fragments of Time (feat. Todd Edwards).mp3": No such file or directory
+Mar 26 16:44 : player: played "11 - Fragments of Time (feat. Todd Edwards).mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/11 - Troyard.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/11 - Troyard.mp3": No such file or directory
+Mar 26 16:44 : player: played "11 - Troyard.mp3"
+Mar 26 16:44 : client: [35] closed
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/12 - Kasei.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/12 - Kasei.mp3": No such file or directory
+Mar 26 16:44 : player: played "12 - Kasei.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/13 - Contact.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/13 - Contact.mp3": No such file or directory
+Mar 26 16:44 : player: played "13 - Contact.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/13 - R0B0T.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/13 - R0B0T.mp3": No such file or directory
+Mar 26 16:44 : player: played "13 - R0B0T.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/14 - SiTE-n0w1.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/14 - SiTE-n0w1.mp3": No such file or directory
+Mar 26 16:44 : player: played "14 - SiTE-n0w1.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/15 - al-door0.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/15 - al-door0.mp3": No such file or directory
+Mar 26 16:44 : player: played "15 - al-door0.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/16 - Ver$.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/16 - Ver$.mp3": No such file or directory
+Mar 26 16:44 : player: played "16 - Ver$.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/17 - as-inaho.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/17 - as-inaho.mp3": No such file or directory
+Mar 26 16:44 : player: played "17 - as-inaho.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/18 - Chikyuu wo Kasei.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/18 - Chikyuu wo Kasei.mp3": No such file or directory
+Mar 26 16:44 : player: played "18 - Chikyuu wo Kasei.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/19 - AcyOrt.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/19 - AcyOrt.mp3": No such file or directory
+Mar 26 16:44 : player: played "19 - AcyOrt.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/2 Hours Nightcore and Trance Mix.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/2 Hours Nightcore and Trance Mix.mp3": No such file or directory
+Mar 26 16:44 : player: played "2 Hours Nightcore and Trance Mix.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/20 - BRE@THLESS.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/20 - BRE@THLESS.mp3": No such file or directory
+Mar 26 16:44 : player: played "20 - BRE@THLESS.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Best Melodic Trance Songs 2012 - Reach me.mp4": No such file or directory
+Mar 26 16:44 : player: played "Best Melodic Trance Songs 2012 - Reach me.mp4"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Best Melodic Trance Songs 2012 - Tears of Elysia.mp4": No such file or directory
+Mar 26 16:44 : player: played "Best Melodic Trance Songs 2012 - Tears of Elysia.mp4"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/DFO - TRAIN TRAIN I LOVE MY STATION.mp4": No such file or directory
+Mar 26 16:44 : player: played "DFO - TRAIN TRAIN I LOVE MY STATION.mp4"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Dj S3rl - Break Em.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Dj S3rl - Break Em.mp3": No such file or directory
+Mar 26 16:44 : player: played "Dj S3rl - Break Em.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Epic 1 Hour Nightcore Mix.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Epic 1 Hour Nightcore Mix.mp3": No such file or directory
+Mar 26 16:44 : player: played "Epic 1 Hour Nightcore Mix.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/ForeverPandering - A SONG ABOUT LONELY WEEABOOS.mp4": No such file or directory
+Mar 26 16:44 : player: played "ForeverPandering - A SONG ABOUT LONELY WEEABOOS.mp4"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/ForeverPandering - Madoka - Ante Up.mp4": No such file or directory
+Mar 26 16:44 : player: played "ForeverPandering - Madoka - Ante Up.mp4"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Highschool never ends. Nightcore..mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Highschool never ends. Nightcore..mp3": No such file or directory
+Mar 26 16:44 : player: played "Highschool never ends. Nightcore..mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/League of Legends Music_ Get Jinxed.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/League of Legends Music_ Get Jinxed.mp3": No such file or directory
+Mar 26 16:44 : player: played "League of Legends Music_ Get Jinxed.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Machine Doll wa Kizutsukanai ED TV Size Loop.mp4": No such file or directory
+Mar 26 16:44 : player: played "Machine Doll wa Kizutsukanai ED TV Size Loop.mp4"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/maria holic ED full!!-e3K7p3tFxvw.mp4": No such file or directory
+Mar 26 16:44 : player: played "maria holic ED full!!-e3K7p3tFxvw.mp4"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/MTC - S3RL.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/MTC - S3RL.mp3": No such file or directory
+Mar 26 16:44 : player: played "MTC - S3RL.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore  - Lucifer's  Angel.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore  - Lucifer's  Angel.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore  - Lucifer's  Angel.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - A Demon's Fate.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - A Demon's Fate.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore - A Demon's Fate.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Always.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Always.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore - Always.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Always(1).mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Always(1).mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore - Always(1).mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Angel of Darkness lyrics.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Angel of Darkness lyrics.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore - Angel of Darkness lyrics.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Bring Me To Life.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Bring Me To Life.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore - Bring Me To Life.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Calling All The Monsters.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Calling All The Monsters.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore - Calling All The Monsters.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - changed the way you kiss me.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - changed the way you kiss me.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore - changed the way you kiss me.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Children Of Darkness.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Children Of Darkness.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore - Children Of Darkness.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Cocaine.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Cocaine.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore - Cocaine.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Crawling Back To You.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Crawling Back To You.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore - Crawling Back To You.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Deliver Us From Evil.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Deliver Us From Evil.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore - Deliver Us From Evil.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Dirty dancer.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Dirty dancer.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore - Dirty dancer.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - dirty little secret.mp4": No such file or directory
+Mar 26 16:44 : player: played "Nightcore - dirty little secret.mp4"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - hero.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - hero.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore - hero.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Infinity.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Infinity.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore - Infinity.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Last resort.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Last resort.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore - Last resort.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Lights.mp4": No such file or directory
+Mar 26 16:44 : player: played "Nightcore - Lights.mp4"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Magenta.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Magenta.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore - Magenta.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Me Against The World.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Me Against The World.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore - Me Against The World.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Monsters.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Monsters.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore - Monsters.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Numb.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Numb.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore - Numb.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Poison.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Poison.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore - Poison.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - She Wolf.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - She Wolf.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore - She Wolf.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Star Struck.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Star Struck.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore - Star Struck.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Sweetest Ass In The World.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Sweetest Ass In The World.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore - Sweetest Ass In The World.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - The Hell Song.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - The Hell Song.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore - The Hell Song.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Vanilla Twilight..mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Vanilla Twilight..mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore - Vanilla Twilight..mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Who's That Chick.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Who's That Chick.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore - Who's That Chick.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore -Raindrops.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore -Raindrops.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore -Raindrops.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore Face Down.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore Face Down.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore Face Down.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore II_ Ravers Fantasy.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore II_ Ravers Fantasy.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore II_ Ravers Fantasy.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore Mix 1 Hour.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore Mix 1 Hour.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore Mix 1 Hour.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/NightCore SPECIAL REMIX _-).mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/NightCore SPECIAL REMIX _-).mp3": No such file or directory
+Mar 26 16:44 : player: played "NightCore SPECIAL REMIX _-).mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore- Dance With the Devil.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore- Dance With the Devil.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore- Dance With the Devil.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore- Glad You Came.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore- Glad You Came.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore- Glad You Came.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore- Good Time.mp4": No such file or directory
+Mar 26 16:44 : player: played "Nightcore- Good Time.mp4"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore- Headphones.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore- Headphones.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore- Headphones.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore--Cannibal.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore--Cannibal.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore--Cannibal.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore-Scream For my ice Cream.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore-Scream For my ice Cream.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore-Scream For my ice Cream.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore-Whispers in the Dark.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Nightcore-Whispers in the Dark.mp3": No such file or directory
+Mar 26 16:44 : player: played "Nightcore-Whispers in the Dark.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/Before my body is dry.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/Before my body is dry.mp3": No such file or directory
+Mar 26 16:44 : player: played "KLK OST MP3/Before my body is dry.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/Blumenkranz.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/Blumenkranz.mp3": No such file or directory
+Mar 26 16:44 : player: played "KLK OST MP3/Blumenkranz.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/I want to know.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/I want to know.mp3": No such file or directory
+Mar 26 16:44 : player: played "KLK OST MP3/I want to know.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK.mp3": No such file or directory
+Mar 26 16:44 : player: played "KLK OST MP3/KLK.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK1.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK1.mp3": No such file or directory
+Mar 26 16:44 : player: played "KLK OST MP3/KLK1.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK10.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK10.mp3": No such file or directory
+Mar 26 16:44 : player: played "KLK OST MP3/KLK10.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK11.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK11.mp3": No such file or directory
+Mar 26 16:44 : player: played "KLK OST MP3/KLK11.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK2.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK2.mp3": No such file or directory
+Mar 26 16:44 : player: played "KLK OST MP3/KLK2.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK3.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK3.mp3": No such file or directory
+Mar 26 16:44 : player: played "KLK OST MP3/KLK3.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK4.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK4.mp3": No such file or directory
+Mar 26 16:44 : player: played "KLK OST MP3/KLK4.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK5.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK5.mp3": No such file or directory
+Mar 26 16:44 : player: played "KLK OST MP3/KLK5.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK6.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK6.mp3": No such file or directory
+Mar 26 16:44 : player: played "KLK OST MP3/KLK6.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK7.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK7.mp3": No such file or directory
+Mar 26 16:44 : player: played "KLK OST MP3/KLK7.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK8.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK8.mp3": No such file or directory
+Mar 26 16:44 : player: played "KLK OST MP3/KLK8.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK9.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK9.mp3": No such file or directory
+Mar 26 16:44 : player: played "KLK OST MP3/KLK9.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/Light your heart up.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/Light your heart up.mp3": No such file or directory
+Mar 26 16:44 : player: played "KLK OST MP3/Light your heart up.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/Suck your blood.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/Suck your blood.mp3": No such file or directory
+Mar 26 16:44 : player: played "KLK OST MP3/Suck your blood.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/Till I Die.mp3": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/Till I Die.mp3": No such file or directory
+Mar 26 16:44 : player: played "KLK OST MP3/Till I Die.mp3"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/01.Savant - Mother Earth.flac": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/01.Savant - Mother Earth.flac": No such file or directory
+Mar 26 16:44 : player: played "Savant - Alchemist (2012) FLAC/01.Savant - Mother Earth.flac"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/02.Savant - Sky Is The Limit (feat Donny Goines).flac": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/02.Savant - Sky Is The Limit (feat Donny Goines).flac": No such file or directory
+Mar 26 16:44 : player: played "Savant - Alchemist (2012) FLAC/02.Savant - Sky Is The Limit (feat Donny Goines).flac"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/04.Savant - Alchemist (feat Gino Sydal).flac": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/04.Savant - Alchemist (feat Gino Sydal).flac": No such file or directory
+Mar 26 16:44 : player: played "Savant - Alchemist (2012) FLAC/04.Savant - Alchemist (feat Gino Sydal).flac"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/05.Savant - Dancer In The Dark.flac": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/05.Savant - Dancer In The Dark.flac": No such file or directory
+Mar 26 16:44 : player: played "Savant - Alchemist (2012) FLAC/05.Savant - Dancer In The Dark.flac"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/06.Savant - Hungry Eyes (feat Qwentalis).flac": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/06.Savant - Hungry Eyes (feat Qwentalis).flac": No such file or directory
+Mar 26 16:44 : player: played "Savant - Alchemist (2012) FLAC/06.Savant - Hungry Eyes (feat Qwentalis).flac"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/07.Savant - Sustainer.flac": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/07.Savant - Sustainer.flac": No such file or directory
+Mar 26 16:44 : player: played "Savant - Alchemist (2012) FLAC/07.Savant - Sustainer.flac"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/08.Savant - Witchcraft.flac": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/08.Savant - Witchcraft.flac": No such file or directory
+Mar 26 16:44 : player: played "Savant - Alchemist (2012) FLAC/08.Savant - Witchcraft.flac"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/09.Savant - Redemption.flac": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/09.Savant - Redemption.flac": No such file or directory
+Mar 26 16:44 : player: played "Savant - Alchemist (2012) FLAC/09.Savant - Redemption.flac"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/10.Savant - Konami Kode (feat. Donny Goines).flac": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/10.Savant - Konami Kode (feat. Donny Goines).flac": No such file or directory
+Mar 26 16:44 : player: played "Savant - Alchemist (2012) FLAC/10.Savant - Konami Kode (feat. Donny Goines).flac"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/11.Savant - Melody Circus.flac": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/11.Savant - Melody Circus.flac": No such file or directory
+Mar 26 16:44 : player: played "Savant - Alchemist (2012) FLAC/11.Savant - Melody Circus.flac"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/12.Savant - Fat Cat Shuffle.flac": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/12.Savant - Fat Cat Shuffle.flac": No such file or directory
+Mar 26 16:44 : player: played "Savant - Alchemist (2012) FLAC/12.Savant - Fat Cat Shuffle.flac"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/14.Savant - The Horror.flac": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/14.Savant - The Horror.flac": No such file or directory
+Mar 26 16:44 : player: played "Savant - Alchemist (2012) FLAC/14.Savant - The Horror.flac"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/13.Savant - Bananonymous.flac": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/13.Savant - Bananonymous.flac": No such file or directory
+Mar 26 16:44 : player: played "Savant - Alchemist (2012) FLAC/13.Savant - Bananonymous.flac"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/15.Savant - Manslaughter (feat Svanur Papparazzi).flac": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/15.Savant - Manslaughter (feat Svanur Papparazzi).flac": No such file or directory
+Mar 26 16:44 : player: played "Savant - Alchemist (2012) FLAC/15.Savant - Manslaughter (feat Svanur Papparazzi).flac"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/16.Savant - Paradisco.flac": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/16.Savant - Paradisco.flac": No such file or directory
+Mar 26 16:44 : player: played "Savant - Alchemist (2012) FLAC/16.Savant - Paradisco.flac"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/17.Savant - Black Magic.flac": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/17.Savant - Black Magic.flac": No such file or directory
+Mar 26 16:44 : player: played "Savant - Alchemist (2012) FLAC/17.Savant - Black Magic.flac"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/18.Savant - Face Off.flac": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/18.Savant - Face Off.flac": No such file or directory
+Mar 26 16:44 : player: played "Savant - Alchemist (2012) FLAC/18.Savant - Face Off.flac"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/19.Savant - Pirate Bay (feat Twistex).flac": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/19.Savant - Pirate Bay (feat Twistex).flac": No such file or directory
+Mar 26 16:44 : player: played "Savant - Alchemist (2012) FLAC/19.Savant - Pirate Bay (feat Twistex).flac"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/20.Savant - No Time For Pussy.flac": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/20.Savant - No Time For Pussy.flac": No such file or directory
+Mar 26 16:44 : player: played "Savant - Alchemist (2012) FLAC/20.Savant - No Time For Pussy.flac"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/21.Savant - The Beginning Is Near.flac": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/21.Savant - The Beginning Is Near.flac": No such file or directory
+Mar 26 16:44 : player: played "Savant - Alchemist (2012) FLAC/21.Savant - The Beginning Is Near.flac"
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac": No such file or directory
+Mar 26 16:44 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac": No such file or directory
+Mar 26 16:44 : player: played "Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac"
+Mar 26 16:49 : client: [36] opened from [::1]:52874
+Mar 26 16:49 : client: [36] closed
+Mar 26 16:52 : client: [37] opened from [::1]:53219
+Mar 26 16:52 : client: [37] closed
+Mar 26 16:53 : client: [38] opened from [::1]:53222
+Mar 26 16:53 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac": No such file or directory
+Mar 26 16:53 : player: played "Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac"
+Mar 26 16:53 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/21.Savant - The Beginning Is Near.flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/21.Savant - The Beginning Is Near.flac": No such file or directory
+Mar 26 16:53 : player: played "Savant - Alchemist (2012) FLAC/21.Savant - The Beginning Is Near.flac"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac": No such file or directory
+Mar 26 16:53 : player: played "Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac"
+Mar 26 16:53 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/21.Savant - The Beginning Is Near.flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/21.Savant - The Beginning Is Near.flac": No such file or directory
+Mar 26 16:53 : player: played "Savant - Alchemist (2012) FLAC/21.Savant - The Beginning Is Near.flac"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac": No such file or directory
+Mar 26 16:53 : player: played "Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac"
+Mar 26 16:53 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/21.Savant - The Beginning Is Near.flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/21.Savant - The Beginning Is Near.flac": No such file or directory
+Mar 26 16:53 : player: played "Savant - Alchemist (2012) FLAC/21.Savant - The Beginning Is Near.flac"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac": No such file or directory
+Mar 26 16:53 : player: played "Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac"
+Mar 26 16:53 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/21.Savant - The Beginning Is Near.flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/21.Savant - The Beginning Is Near.flac": No such file or directory
+Mar 26 16:53 : player: played "Savant - Alchemist (2012) FLAC/21.Savant - The Beginning Is Near.flac"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac": No such file or directory
+Mar 26 16:53 : player: played "Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac"
+Mar 26 16:53 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/19 Harmonious -Short Ver.-.flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/19 Harmonious -Short Ver.-.flac": No such file or directory
+Mar 26 16:53 : player: played "19 Harmonious -Short Ver.-.flac"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/19 Harmonious -Short Ver.-.flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/19 Harmonious -Short Ver.-.flac": No such file or directory
+Mar 26 16:53 : player: played "19 Harmonious -Short Ver.-.flac"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/19 Harmonious -Short Ver.-.flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/19 Harmonious -Short Ver.-.flac": No such file or directory
+Mar 26 16:53 : player: played "19 Harmonious -Short Ver.-.flac"
+Mar 26 16:53 : client: [38] closed
+Mar 26 16:53 : client: [39] opened from [::1]:53230
+Mar 26 16:53 : client: [39] closed
+Mar 26 16:53 : client: [40] opened from [::1]:53232
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/~_1 Hour Ultimate Nightcore Mix_~.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/~_1 Hour Ultimate Nightcore Mix_~.mp3": No such file or directory
+Mar 26 16:53 : player: played "~_1 Hour Ultimate Nightcore Mix_~.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/01 - Give Life Back to Music.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/01 - Give Life Back to Music.mp3": No such file or directory
+Mar 26 16:53 : player: played "01 - Give Life Back to Music.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/01 - No differences.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/01 - No differences.mp3": No such file or directory
+Mar 26 16:53 : player: played "01 - No differences.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/02 - AZPV.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/02 - AZPV.mp3": No such file or directory
+Mar 26 16:53 : player: played "02 - AZPV.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/02 - The Game of Love.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/02 - The Game of Love.mp3": No such file or directory
+Mar 26 16:53 : player: played "02 - The Game of Love.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/03 - A-0picturez.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/03 - A-0picturez.mp3": No such file or directory
+Mar 26 16:53 : player: played "03 - A-0picturez.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/03 - Giorgio by Moroder.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/03 - Giorgio by Moroder.mp3": No such file or directory
+Mar 26 16:53 : player: played "03 - Giorgio by Moroder.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/04 - MKAlieZ.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/04 - MKAlieZ.mp3": No such file or directory
+Mar 26 16:53 : player: played "04 - MKAlieZ.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/04 - Within.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/04 - Within.mp3": No such file or directory
+Mar 26 16:53 : player: played "04 - Within.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/05 - 20140910.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/05 - 20140910.mp3": No such file or directory
+Mar 26 16:53 : player: played "05 - 20140910.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/06 - AZ-Kat.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/06 - AZ-Kat.mp3": No such file or directory
+Mar 26 16:53 : player: played "06 - AZ-Kat.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/05 - Instant Crush (feat. Julian Casablancas).mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/05 - Instant Crush (feat. Julian Casablancas).mp3": No such file or directory
+Mar 26 16:53 : player: played "05 - Instant Crush (feat. Julian Casablancas).mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/06 - Lose Yourself to Dance (feat. Pharrell Williams).mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/06 - Lose Yourself to Dance (feat. Pharrell Williams).mp3": No such file or directory
+Mar 26 16:53 : player: played "06 - Lose Yourself to Dance (feat. Pharrell Williams).mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/07 - Kanascene.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/07 - Kanascene.mp3": No such file or directory
+Mar 26 16:53 : player: played "07 - Kanascene.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/07 - Touch (feat. Paul Williams).mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/07 - Touch (feat. Paul Williams).mp3": No such file or directory
+Mar 26 16:53 : player: played "07 - Touch (feat. Paul Williams).mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/08 - AD2014-7.5 7.9-0A.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/08 - AD2014-7.5 7.9-0A.mp3": No such file or directory
+Mar 26 16:53 : player: played "08 - AD2014-7.5 7.9-0A.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/08 - Get Lucky (feat. Pharrell Williams).mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/08 - Get Lucky (feat. Pharrell Williams).mp3": No such file or directory
+Mar 26 16:53 : player: played "08 - Get Lucky (feat. Pharrell Williams).mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/09 - AL C-@.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/09 - AL C-@.mp3": No such file or directory
+Mar 26 16:53 : player: played "09 - AL C-@.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/09 - Beyond.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/09 - Beyond.mp3": No such file or directory
+Mar 26 16:53 : player: played "09 - Beyond.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/1 Hour Unbelievable Nightcore Mega Mix.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/1 Hour Unbelievable Nightcore Mega Mix.mp3": No such file or directory
+Mar 26 16:53 : player: played "1 Hour Unbelievable Nightcore Mega Mix.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/1-Hour Epic Music _ Two Steps From Hell Vol. 1 - YouTube.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/1-Hour Epic Music _ Two Steps From Hell Vol. 1 - YouTube.mp3": No such file or directory
+Mar 26 16:53 : player: played "1-Hour Epic Music _ Two Steps From Hell Vol. 1 - YouTube.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/1-Hour Epic Music _ Two Steps From Hell Vol. 2.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/1-Hour Epic Music _ Two Steps From Hell Vol. 2.mp3": No such file or directory
+Mar 26 16:53 : player: played "1-Hour Epic Music _ Two Steps From Hell Vol. 2.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/10 - Motherboard.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/10 - Motherboard.mp3": No such file or directory
+Mar 26 16:53 : player: played "10 - Motherboard.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/10 - The Call to Arms.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/10 - The Call to Arms.mp3": No such file or directory
+Mar 26 16:53 : player: played "10 - The Call to Arms.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/11 - Fragments of Time (feat. Todd Edwards).mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/11 - Fragments of Time (feat. Todd Edwards).mp3": No such file or directory
+Mar 26 16:53 : player: played "11 - Fragments of Time (feat. Todd Edwards).mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/11 - Troyard.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/11 - Troyard.mp3": No such file or directory
+Mar 26 16:53 : player: played "11 - Troyard.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/12 - Kasei.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/12 - Kasei.mp3": No such file or directory
+Mar 26 16:53 : player: played "12 - Kasei.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/13 - Contact.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/13 - Contact.mp3": No such file or directory
+Mar 26 16:53 : player: played "13 - Contact.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/13 - R0B0T.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/13 - R0B0T.mp3": No such file or directory
+Mar 26 16:53 : player: played "13 - R0B0T.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/14 - SiTE-n0w1.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/14 - SiTE-n0w1.mp3": No such file or directory
+Mar 26 16:53 : player: played "14 - SiTE-n0w1.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/15 - al-door0.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/15 - al-door0.mp3": No such file or directory
+Mar 26 16:53 : player: played "15 - al-door0.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/16 - Ver$.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/16 - Ver$.mp3": No such file or directory
+Mar 26 16:53 : player: played "16 - Ver$.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/17 - as-inaho.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/17 - as-inaho.mp3": No such file or directory
+Mar 26 16:53 : player: played "17 - as-inaho.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/18 - Chikyuu wo Kasei.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/18 - Chikyuu wo Kasei.mp3": No such file or directory
+Mar 26 16:53 : player: played "18 - Chikyuu wo Kasei.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/19 - AcyOrt.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/19 - AcyOrt.mp3": No such file or directory
+Mar 26 16:53 : player: played "19 - AcyOrt.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/2 Hours Nightcore and Trance Mix.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/2 Hours Nightcore and Trance Mix.mp3": No such file or directory
+Mar 26 16:53 : player: played "2 Hours Nightcore and Trance Mix.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/20 - BRE@THLESS.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/20 - BRE@THLESS.mp3": No such file or directory
+Mar 26 16:53 : player: played "20 - BRE@THLESS.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Best Melodic Trance Songs 2012 - Reach me.mp4": No such file or directory
+Mar 26 16:53 : player: played "Best Melodic Trance Songs 2012 - Reach me.mp4"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Best Melodic Trance Songs 2012 - Tears of Elysia.mp4": No such file or directory
+Mar 26 16:53 : player: played "Best Melodic Trance Songs 2012 - Tears of Elysia.mp4"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/DFO - TRAIN TRAIN I LOVE MY STATION.mp4": No such file or directory
+Mar 26 16:53 : player: played "DFO - TRAIN TRAIN I LOVE MY STATION.mp4"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Dj S3rl - Break Em.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Dj S3rl - Break Em.mp3": No such file or directory
+Mar 26 16:53 : player: played "Dj S3rl - Break Em.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Epic 1 Hour Nightcore Mix.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Epic 1 Hour Nightcore Mix.mp3": No such file or directory
+Mar 26 16:53 : player: played "Epic 1 Hour Nightcore Mix.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/ForeverPandering - A SONG ABOUT LONELY WEEABOOS.mp4": No such file or directory
+Mar 26 16:53 : player: played "ForeverPandering - A SONG ABOUT LONELY WEEABOOS.mp4"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/ForeverPandering - Madoka - Ante Up.mp4": No such file or directory
+Mar 26 16:53 : player: played "ForeverPandering - Madoka - Ante Up.mp4"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Highschool never ends. Nightcore..mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Highschool never ends. Nightcore..mp3": No such file or directory
+Mar 26 16:53 : player: played "Highschool never ends. Nightcore..mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/League of Legends Music_ Get Jinxed.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/League of Legends Music_ Get Jinxed.mp3": No such file or directory
+Mar 26 16:53 : player: played "League of Legends Music_ Get Jinxed.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Machine Doll wa Kizutsukanai ED TV Size Loop.mp4": No such file or directory
+Mar 26 16:53 : player: played "Machine Doll wa Kizutsukanai ED TV Size Loop.mp4"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/maria holic ED full!!-e3K7p3tFxvw.mp4": No such file or directory
+Mar 26 16:53 : player: played "maria holic ED full!!-e3K7p3tFxvw.mp4"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/MTC - S3RL.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/MTC - S3RL.mp3": No such file or directory
+Mar 26 16:53 : player: played "MTC - S3RL.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore  - Lucifer's  Angel.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore  - Lucifer's  Angel.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore  - Lucifer's  Angel.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - A Demon's Fate.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - A Demon's Fate.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore - A Demon's Fate.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Always.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Always.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore - Always.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Always(1).mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Always(1).mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore - Always(1).mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Angel of Darkness lyrics.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Angel of Darkness lyrics.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore - Angel of Darkness lyrics.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Bring Me To Life.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Bring Me To Life.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore - Bring Me To Life.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Calling All The Monsters.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Calling All The Monsters.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore - Calling All The Monsters.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - changed the way you kiss me.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - changed the way you kiss me.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore - changed the way you kiss me.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Children Of Darkness.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Children Of Darkness.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore - Children Of Darkness.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Cocaine.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Cocaine.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore - Cocaine.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Crawling Back To You.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Crawling Back To You.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore - Crawling Back To You.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Deliver Us From Evil.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Deliver Us From Evil.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore - Deliver Us From Evil.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Dirty dancer.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Dirty dancer.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - dirty little secret.mp4": No such file or directory
+Mar 26 16:53 : player: played "Nightcore - dirty little secret.mp4"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - hero.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - hero.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore - hero.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Infinity.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Infinity.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore - Infinity.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Last resort.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Last resort.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore - Last resort.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Lights.mp4": No such file or directory
+Mar 26 16:53 : player: played "Nightcore - Lights.mp4"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Magenta.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Magenta.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore - Magenta.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Me Against The World.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Me Against The World.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore - Me Against The World.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Monsters.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Monsters.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore - Monsters.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Numb.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Numb.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore - Numb.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Poison.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Poison.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore - Poison.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - She Wolf.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - She Wolf.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore - She Wolf.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Star Struck.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Star Struck.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore - Star Struck.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Sweetest Ass In The World.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Sweetest Ass In The World.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore - Sweetest Ass In The World.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - The Hell Song.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - The Hell Song.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore - The Hell Song.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Vanilla Twilight..mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Vanilla Twilight..mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore - Vanilla Twilight..mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Who's That Chick.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Who's That Chick.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore - Who's That Chick.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore -Raindrops.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore -Raindrops.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore -Raindrops.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore Face Down.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore Face Down.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore Face Down.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore II_ Ravers Fantasy.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore II_ Ravers Fantasy.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore II_ Ravers Fantasy.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore Mix 1 Hour.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore Mix 1 Hour.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore Mix 1 Hour.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/NightCore SPECIAL REMIX _-).mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/NightCore SPECIAL REMIX _-).mp3": No such file or directory
+Mar 26 16:53 : player: played "NightCore SPECIAL REMIX _-).mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore- Dance With the Devil.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore- Dance With the Devil.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore- Dance With the Devil.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore- Glad You Came.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore- Glad You Came.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore- Glad You Came.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore- Good Time.mp4": No such file or directory
+Mar 26 16:53 : player: played "Nightcore- Good Time.mp4"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore- Headphones.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore- Headphones.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore- Headphones.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore--Cannibal.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore--Cannibal.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore--Cannibal.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore-Scream For my ice Cream.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore-Scream For my ice Cream.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore-Scream For my ice Cream.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore-Whispers in the Dark.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Nightcore-Whispers in the Dark.mp3": No such file or directory
+Mar 26 16:53 : player: played "Nightcore-Whispers in the Dark.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/Before my body is dry.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/Before my body is dry.mp3": No such file or directory
+Mar 26 16:53 : player: played "KLK OST MP3/Before my body is dry.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/Blumenkranz.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/Blumenkranz.mp3": No such file or directory
+Mar 26 16:53 : player: played "KLK OST MP3/Blumenkranz.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/I want to know.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/I want to know.mp3": No such file or directory
+Mar 26 16:53 : player: played "KLK OST MP3/I want to know.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK.mp3": No such file or directory
+Mar 26 16:53 : player: played "KLK OST MP3/KLK.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK1.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK1.mp3": No such file or directory
+Mar 26 16:53 : player: played "KLK OST MP3/KLK1.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK10.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK10.mp3": No such file or directory
+Mar 26 16:53 : player: played "KLK OST MP3/KLK10.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK11.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK11.mp3": No such file or directory
+Mar 26 16:53 : player: played "KLK OST MP3/KLK11.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK2.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK2.mp3": No such file or directory
+Mar 26 16:53 : player: played "KLK OST MP3/KLK2.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK3.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK3.mp3": No such file or directory
+Mar 26 16:53 : player: played "KLK OST MP3/KLK3.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK4.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK4.mp3": No such file or directory
+Mar 26 16:53 : player: played "KLK OST MP3/KLK4.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK5.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK5.mp3": No such file or directory
+Mar 26 16:53 : player: played "KLK OST MP3/KLK5.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK6.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK6.mp3": No such file or directory
+Mar 26 16:53 : player: played "KLK OST MP3/KLK6.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK7.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK7.mp3": No such file or directory
+Mar 26 16:53 : player: played "KLK OST MP3/KLK7.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK8.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK8.mp3": No such file or directory
+Mar 26 16:53 : player: played "KLK OST MP3/KLK8.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK9.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK9.mp3": No such file or directory
+Mar 26 16:53 : player: played "KLK OST MP3/KLK9.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/Light your heart up.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/Light your heart up.mp3": No such file or directory
+Mar 26 16:53 : player: played "KLK OST MP3/Light your heart up.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/Suck your blood.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/Suck your blood.mp3": No such file or directory
+Mar 26 16:53 : player: played "KLK OST MP3/Suck your blood.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/Till I Die.mp3": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/Till I Die.mp3": No such file or directory
+Mar 26 16:53 : player: played "KLK OST MP3/Till I Die.mp3"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/01.Savant - Mother Earth.flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/01.Savant - Mother Earth.flac": No such file or directory
+Mar 26 16:53 : player: played "Savant - Alchemist (2012) FLAC/01.Savant - Mother Earth.flac"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/02.Savant - Sky Is The Limit (feat Donny Goines).flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/02.Savant - Sky Is The Limit (feat Donny Goines).flac": No such file or directory
+Mar 26 16:53 : player: played "Savant - Alchemist (2012) FLAC/02.Savant - Sky Is The Limit (feat Donny Goines).flac"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/04.Savant - Alchemist (feat Gino Sydal).flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/04.Savant - Alchemist (feat Gino Sydal).flac": No such file or directory
+Mar 26 16:53 : player: played "Savant - Alchemist (2012) FLAC/04.Savant - Alchemist (feat Gino Sydal).flac"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/05.Savant - Dancer In The Dark.flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/05.Savant - Dancer In The Dark.flac": No such file or directory
+Mar 26 16:53 : player: played "Savant - Alchemist (2012) FLAC/05.Savant - Dancer In The Dark.flac"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/06.Savant - Hungry Eyes (feat Qwentalis).flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/06.Savant - Hungry Eyes (feat Qwentalis).flac": No such file or directory
+Mar 26 16:53 : player: played "Savant - Alchemist (2012) FLAC/06.Savant - Hungry Eyes (feat Qwentalis).flac"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/07.Savant - Sustainer.flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/07.Savant - Sustainer.flac": No such file or directory
+Mar 26 16:53 : player: played "Savant - Alchemist (2012) FLAC/07.Savant - Sustainer.flac"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/08.Savant - Witchcraft.flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/08.Savant - Witchcraft.flac": No such file or directory
+Mar 26 16:53 : player: played "Savant - Alchemist (2012) FLAC/08.Savant - Witchcraft.flac"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/09.Savant - Redemption.flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/09.Savant - Redemption.flac": No such file or directory
+Mar 26 16:53 : player: played "Savant - Alchemist (2012) FLAC/09.Savant - Redemption.flac"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/10.Savant - Konami Kode (feat. Donny Goines).flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/10.Savant - Konami Kode (feat. Donny Goines).flac": No such file or directory
+Mar 26 16:53 : player: played "Savant - Alchemist (2012) FLAC/10.Savant - Konami Kode (feat. Donny Goines).flac"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/11.Savant - Melody Circus.flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/11.Savant - Melody Circus.flac": No such file or directory
+Mar 26 16:53 : player: played "Savant - Alchemist (2012) FLAC/11.Savant - Melody Circus.flac"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/12.Savant - Fat Cat Shuffle.flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/12.Savant - Fat Cat Shuffle.flac": No such file or directory
+Mar 26 16:53 : player: played "Savant - Alchemist (2012) FLAC/12.Savant - Fat Cat Shuffle.flac"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/14.Savant - The Horror.flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/14.Savant - The Horror.flac": No such file or directory
+Mar 26 16:53 : player: played "Savant - Alchemist (2012) FLAC/14.Savant - The Horror.flac"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/13.Savant - Bananonymous.flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/13.Savant - Bananonymous.flac": No such file or directory
+Mar 26 16:53 : player: played "Savant - Alchemist (2012) FLAC/13.Savant - Bananonymous.flac"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/15.Savant - Manslaughter (feat Svanur Papparazzi).flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/15.Savant - Manslaughter (feat Svanur Papparazzi).flac": No such file or directory
+Mar 26 16:53 : player: played "Savant - Alchemist (2012) FLAC/15.Savant - Manslaughter (feat Svanur Papparazzi).flac"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/16.Savant - Paradisco.flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/16.Savant - Paradisco.flac": No such file or directory
+Mar 26 16:53 : player: played "Savant - Alchemist (2012) FLAC/16.Savant - Paradisco.flac"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/17.Savant - Black Magic.flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/17.Savant - Black Magic.flac": No such file or directory
+Mar 26 16:53 : player: played "Savant - Alchemist (2012) FLAC/17.Savant - Black Magic.flac"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/18.Savant - Face Off.flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/18.Savant - Face Off.flac": No such file or directory
+Mar 26 16:53 : player: played "Savant - Alchemist (2012) FLAC/18.Savant - Face Off.flac"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/19.Savant - Pirate Bay (feat Twistex).flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/19.Savant - Pirate Bay (feat Twistex).flac": No such file or directory
+Mar 26 16:53 : player: played "Savant - Alchemist (2012) FLAC/19.Savant - Pirate Bay (feat Twistex).flac"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/20.Savant - No Time For Pussy.flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/20.Savant - No Time For Pussy.flac": No such file or directory
+Mar 26 16:53 : player: played "Savant - Alchemist (2012) FLAC/20.Savant - No Time For Pussy.flac"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/21.Savant - The Beginning Is Near.flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/21.Savant - The Beginning Is Near.flac": No such file or directory
+Mar 26 16:53 : player: played "Savant - Alchemist (2012) FLAC/21.Savant - The Beginning Is Near.flac"
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac": No such file or directory
+Mar 26 16:53 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac": No such file or directory
+Mar 26 16:53 : player: played "Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac"
+Mar 26 16:53 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 26 16:54 : client: [40] closed
+Mar 26 16:57 : client: [41] opened from [::1]:53262
+Mar 26 16:57 : client: [41] closed
+Mar 26 19:00 : client: [42] opened from [::1]:54151
+Mar 26 19:00 : client: [42] closed
+Mar 26 19:00 : client: [43] opened from [::1]:54155
+Mar 26 19:00 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 26 19:00 : client: [43] closed
+Mar 26 19:04 : client: [44] opened from [::1]:54169
+Mar 26 19:04 : client: [44] closed
+Mar 26 19:25 : client: [45] opened from [::1]:54266
+Mar 26 19:25 : client: [45] closed
+Mar 26 19:35 : client: [46] opened from [::1]:54667
+Mar 26 19:35 : client: [46] closed
+Mar 26 19:39 : client: [47] opened from [::1]:54687
+Mar 26 19:39 : client: [47] closed
+Mar 26 19:54 : client: [48] opened from [::1]:54821
+Mar 26 19:54 : client: [48] closed
+Mar 27 17:48 : client: [49] opened from [::1]:58665
+Mar 27 17:48 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 27 17:48 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 27 17:49 : avahi: Service 'Music Player' successfully established.
+Mar 27 17:50 : client: [0] opened from [::1]:33907
+Mar 27 17:50 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 27 17:50 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac": No such file or directory
+Mar 27 17:50 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac": No such file or directory
+Mar 27 17:50 : player: played "Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac"
+Mar 27 17:50 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 27 17:50 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/21.Savant - The Beginning Is Near.flac": No such file or directory
+Mar 27 17:50 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/21.Savant - The Beginning Is Near.flac": No such file or directory
+Mar 27 17:50 : player: played "Savant - Alchemist (2012) FLAC/21.Savant - The Beginning Is Near.flac"
+Mar 27 17:50 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac": No such file or directory
+Mar 27 17:50 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac": No such file or directory
+Mar 27 17:50 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 27 17:50 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/21.Savant - The Beginning Is Near.flac": No such file or directory
+Mar 27 17:50 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/21.Savant - The Beginning Is Near.flac": No such file or directory
+Mar 27 17:50 : player: played "Savant - Alchemist (2012) FLAC/21.Savant - The Beginning Is Near.flac"
+Mar 27 17:50 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac": No such file or directory
+Mar 27 17:50 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac": No such file or directory
+Mar 27 17:50 : player: played "Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac"
+Mar 27 17:50 : client: [0] closed
+Mar 27 18:19 : client: [1] opened from [::1]:34198
+Mar 27 18:19 : client: [1] closed
+Mar 27 18:47 : client: [2] opened from [::1]:34329
+Mar 27 18:47 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 27 18:47 : client: [2] closed
+Mar 27 19:24 : client: [3] opened from [::1]:34367
+Mar 27 19:24 : client: [3] closed
+Mar 27 19:46 : client: [4] opened from [::1]:34383
+Mar 27 19:46 : client: [4] closed
+Mar 27 19:57 : client: [5] opened from [::1]:34394
+Mar 27 19:57 : client: [5] closed
+Mar 27 20:09 : client: [6] opened from [::1]:34504
+Mar 27 20:09 : client: [6] closed
+Mar 27 20:59 : client: [7] opened from [::1]:35308
+Mar 27 20:59 : client: [7] closed
+Mar 27 21:05 : client: [8] opened from [::1]:35454
+Mar 27 21:05 : client: [8] closed
+Mar 27 22:03 : client: [9] opened from [::1]:36035
+Mar 27 22:03 : client: [9] closed
+Mar 27 22:50 : client: [10] opened from [::1]:36675
+Mar 27 22:50 : client: [10] closed
+Mar 27 22:52 : client: [11] opened from [::1]:36681
+Mar 27 22:52 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac": No such file or directory
+Mar 27 22:52 : player: played "Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac"
+Mar 27 22:52 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac": No such file or directory
+Mar 27 22:52 : player: played "Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac"
+Mar 27 22:52 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 27 22:52 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 27 22:52 : client: [11] closed
+Mar 27 22:52 : client: [12] opened from [::1]:36686
+Mar 27 22:52 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac": No such file or directory
+Mar 27 22:52 : player: played "Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac"
+Mar 27 22:52 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 27 22:52 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 27 22:52 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 27 22:52 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 27 22:52 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 27 22:52 : client: [13] opened from [::1]:36693
+Mar 27 22:52 : client: [13] closed
+Mar 27 22:52 : client: [14] opened from [::1]:36694
+Mar 27 22:52 : player: played "https://stream.r-a-d.io/main.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Biosphere & Pete Namlook - The Fires Of Ork 2/CDImage.ape": No such file or directory
+Mar 27 22:52 : player: played "Biosphere & Pete Namlook - The Fires Of Ork 2/CDImage.ape"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/02 - AZPV.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/02 - AZPV.mp3": No such file or directory
+Mar 27 22:52 : player: played "02 - AZPV.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/01 aldnoah0rch-&z.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/01 aldnoah0rch-&z.flac": No such file or directory
+Mar 27 22:52 : player: played "01 aldnoah0rch-&z.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/02 aldnoah0rch-aCY0rt.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/02 aldnoah0rch-aCY0rt.flac": No such file or directory
+Mar 27 22:52 : player: played "02 aldnoah0rch-aCY0rt.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/03 aldnoah0rch-4rain.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/03 aldnoah0rch-4rain.flac": No such file or directory
+Mar 27 22:52 : player: played "03 aldnoah0rch-4rain.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/04 aldnoah0rch-@0p.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/04 aldnoah0rch-@0p.flac": No such file or directory
+Mar 27 22:52 : player: played "04 aldnoah0rch-@0p.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/05 aldnoah0rch-adlib.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/05 aldnoah0rch-adlib.flac": No such file or directory
+Mar 27 22:52 : player: played "05 aldnoah0rch-adlib.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/06 birth・gt・music.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/06 birth・gt・music.flac": No such file or directory
+Mar 27 22:52 : player: played "06 birth・gt・music.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/07 battle・game・music.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/07 battle・game・music.flac": No such file or directory
+Mar 27 22:52 : player: played "07 battle・game・music.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/08 bpm・gain・mute.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/08 bpm・gain・mute.flac": No such file or directory
+Mar 27 22:52 : player: played "08 bpm・gain・mute.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/09 haondla-orez1.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/09 haondla-orez1.flac": No such file or directory
+Mar 27 22:52 : player: played "09 haondla-orez1.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/10 haondla-orez2.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/10 haondla-orez2.flac": No such file or directory
+Mar 27 22:52 : player: played "10 haondla-orez2.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/11 haondla-orez3.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/11 haondla-orez3.flac": No such file or directory
+Mar 27 22:52 : player: played "11 haondla-orez3.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/12 haondla-orez4.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/12 haondla-orez4.flac": No such file or directory
+Mar 27 22:52 : player: played "12 haondla-orez4.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/13 az-p1@n05罪vers.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/13 az-p1@n05罪vers.flac": No such file or directory
+Mar 27 22:52 : player: played "13 az-p1@n05罪vers.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/14 az-p1@n0adlib1.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/14 az-p1@n0adlib1.flac": No such file or directory
+Mar 27 22:52 : player: played "14 az-p1@n0adlib1.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/15 az-p1@n0adlib2.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/15 az-p1@n0adlib2.flac": No such file or directory
+Mar 27 22:52 : player: played "15 az-p1@n0adlib2.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/16 az-p1@n0adlib3.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/16 az-p1@n0adlib3.flac": No such file or directory
+Mar 27 22:52 : player: played "16 az-p1@n0adlib3.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/17 Harmonious.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/17 Harmonious.flac": No such file or directory
+Mar 27 22:52 : player: played "17 Harmonious.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/18 Harmonious -Instrumental-.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/18 Harmonious -Instrumental-.flac": No such file or directory
+Mar 27 22:52 : player: played "18 Harmonious -Instrumental-.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/19 Harmonious -Short Ver.-.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/19 Harmonious -Short Ver.-.flac": No such file or directory
+Mar 27 22:52 : player: played "19 Harmonious -Short Ver.-.flac"
+Mar 27 22:52 : client: [14] closed
+Mar 27 22:52 : client: [15] opened from [::1]:36695
+Mar 27 22:52 : client: [15] closed
+Mar 27 22:52 : client: [16] opened from [::1]:36696
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/01 - Give Life Back to Music.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/01 - Give Life Back to Music.mp3": No such file or directory
+Mar 27 22:52 : player: played "01 - Give Life Back to Music.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/~_1 Hour Ultimate Nightcore Mix_~.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/~_1 Hour Ultimate Nightcore Mix_~.mp3": No such file or directory
+Mar 27 22:52 : player: played "~_1 Hour Ultimate Nightcore Mix_~.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/01 - Give Life Back to Music.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/01 - Give Life Back to Music.mp3": No such file or directory
+Mar 27 22:52 : player: played "01 - Give Life Back to Music.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/01 - No differences.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/01 - No differences.mp3": No such file or directory
+Mar 27 22:52 : player: played "01 - No differences.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/02 - AZPV.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/02 - AZPV.mp3": No such file or directory
+Mar 27 22:52 : player: played "02 - AZPV.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/02 - The Game of Love.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/02 - The Game of Love.mp3": No such file or directory
+Mar 27 22:52 : player: played "02 - The Game of Love.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/03 - A-0picturez.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/03 - A-0picturez.mp3": No such file or directory
+Mar 27 22:52 : player: played "03 - A-0picturez.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/03 - Giorgio by Moroder.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/03 - Giorgio by Moroder.mp3": No such file or directory
+Mar 27 22:52 : player: played "03 - Giorgio by Moroder.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/04 - MKAlieZ.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/04 - MKAlieZ.mp3": No such file or directory
+Mar 27 22:52 : player: played "04 - MKAlieZ.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/04 - Within.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/04 - Within.mp3": No such file or directory
+Mar 27 22:52 : player: played "04 - Within.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/05 - 20140910.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/05 - 20140910.mp3": No such file or directory
+Mar 27 22:52 : player: played "05 - 20140910.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/06 - AZ-Kat.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/06 - AZ-Kat.mp3": No such file or directory
+Mar 27 22:52 : player: played "06 - AZ-Kat.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/05 - Instant Crush (feat. Julian Casablancas).mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/05 - Instant Crush (feat. Julian Casablancas).mp3": No such file or directory
+Mar 27 22:52 : player: played "05 - Instant Crush (feat. Julian Casablancas).mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/06 - Lose Yourself to Dance (feat. Pharrell Williams).mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/06 - Lose Yourself to Dance (feat. Pharrell Williams).mp3": No such file or directory
+Mar 27 22:52 : player: played "06 - Lose Yourself to Dance (feat. Pharrell Williams).mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/07 - Kanascene.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/07 - Kanascene.mp3": No such file or directory
+Mar 27 22:52 : player: played "07 - Kanascene.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/07 - Touch (feat. Paul Williams).mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/07 - Touch (feat. Paul Williams).mp3": No such file or directory
+Mar 27 22:52 : player: played "07 - Touch (feat. Paul Williams).mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/08 - AD2014-7.5 7.9-0A.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/08 - AD2014-7.5 7.9-0A.mp3": No such file or directory
+Mar 27 22:52 : player: played "08 - AD2014-7.5 7.9-0A.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/08 - Get Lucky (feat. Pharrell Williams).mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/08 - Get Lucky (feat. Pharrell Williams).mp3": No such file or directory
+Mar 27 22:52 : player: played "08 - Get Lucky (feat. Pharrell Williams).mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/09 - AL C-@.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/09 - AL C-@.mp3": No such file or directory
+Mar 27 22:52 : player: played "09 - AL C-@.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/09 - Beyond.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/09 - Beyond.mp3": No such file or directory
+Mar 27 22:52 : player: played "09 - Beyond.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/1 Hour Unbelievable Nightcore Mega Mix.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/1 Hour Unbelievable Nightcore Mega Mix.mp3": No such file or directory
+Mar 27 22:52 : player: played "1 Hour Unbelievable Nightcore Mega Mix.mp3"
+Mar 27 22:52 : client: [16] closed
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/1-Hour Epic Music _ Two Steps From Hell Vol. 1 - YouTube.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/1-Hour Epic Music _ Two Steps From Hell Vol. 1 - YouTube.mp3": No such file or directory
+Mar 27 22:52 : player: played "1-Hour Epic Music _ Two Steps From Hell Vol. 1 - YouTube.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/1-Hour Epic Music _ Two Steps From Hell Vol. 2.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/1-Hour Epic Music _ Two Steps From Hell Vol. 2.mp3": No such file or directory
+Mar 27 22:52 : player: played "1-Hour Epic Music _ Two Steps From Hell Vol. 2.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/10 - Motherboard.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/10 - Motherboard.mp3": No such file or directory
+Mar 27 22:52 : player: played "10 - Motherboard.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/10 - The Call to Arms.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/10 - The Call to Arms.mp3": No such file or directory
+Mar 27 22:52 : player: played "10 - The Call to Arms.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/11 - Fragments of Time (feat. Todd Edwards).mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/11 - Fragments of Time (feat. Todd Edwards).mp3": No such file or directory
+Mar 27 22:52 : player: played "11 - Fragments of Time (feat. Todd Edwards).mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/11 - Troyard.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/11 - Troyard.mp3": No such file or directory
+Mar 27 22:52 : player: played "11 - Troyard.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/12 - Kasei.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/12 - Kasei.mp3": No such file or directory
+Mar 27 22:52 : player: played "12 - Kasei.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/13 - Contact.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/13 - Contact.mp3": No such file or directory
+Mar 27 22:52 : player: played "13 - Contact.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/13 - R0B0T.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/13 - R0B0T.mp3": No such file or directory
+Mar 27 22:52 : player: played "13 - R0B0T.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/14 - SiTE-n0w1.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/14 - SiTE-n0w1.mp3": No such file or directory
+Mar 27 22:52 : player: played "14 - SiTE-n0w1.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/15 - al-door0.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/15 - al-door0.mp3": No such file or directory
+Mar 27 22:52 : player: played "15 - al-door0.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/16 - Ver$.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/16 - Ver$.mp3": No such file or directory
+Mar 27 22:52 : player: played "16 - Ver$.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/17 - as-inaho.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/17 - as-inaho.mp3": No such file or directory
+Mar 27 22:52 : player: played "17 - as-inaho.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/18 - Chikyuu wo Kasei.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/18 - Chikyuu wo Kasei.mp3": No such file or directory
+Mar 27 22:52 : player: played "18 - Chikyuu wo Kasei.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/19 - AcyOrt.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/19 - AcyOrt.mp3": No such file or directory
+Mar 27 22:52 : player: played "19 - AcyOrt.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/2 Hours Nightcore and Trance Mix.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/2 Hours Nightcore and Trance Mix.mp3": No such file or directory
+Mar 27 22:52 : player: played "2 Hours Nightcore and Trance Mix.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/20 - BRE@THLESS.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/20 - BRE@THLESS.mp3": No such file or directory
+Mar 27 22:52 : player: played "20 - BRE@THLESS.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Best Melodic Trance Songs 2012 - Reach me.mp4": No such file or directory
+Mar 27 22:52 : player: played "Best Melodic Trance Songs 2012 - Reach me.mp4"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Best Melodic Trance Songs 2012 - Tears of Elysia.mp4": No such file or directory
+Mar 27 22:52 : player: played "Best Melodic Trance Songs 2012 - Tears of Elysia.mp4"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/DFO - TRAIN TRAIN I LOVE MY STATION.mp4": No such file or directory
+Mar 27 22:52 : player: played "DFO - TRAIN TRAIN I LOVE MY STATION.mp4"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Dj S3rl - Break Em.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Dj S3rl - Break Em.mp3": No such file or directory
+Mar 27 22:52 : player: played "Dj S3rl - Break Em.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Epic 1 Hour Nightcore Mix.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Epic 1 Hour Nightcore Mix.mp3": No such file or directory
+Mar 27 22:52 : player: played "Epic 1 Hour Nightcore Mix.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/ForeverPandering - A SONG ABOUT LONELY WEEABOOS.mp4": No such file or directory
+Mar 27 22:52 : player: played "ForeverPandering - A SONG ABOUT LONELY WEEABOOS.mp4"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/ForeverPandering - Madoka - Ante Up.mp4": No such file or directory
+Mar 27 22:52 : player: played "ForeverPandering - Madoka - Ante Up.mp4"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Highschool never ends. Nightcore..mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Highschool never ends. Nightcore..mp3": No such file or directory
+Mar 27 22:52 : player: played "Highschool never ends. Nightcore..mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/League of Legends Music_ Get Jinxed.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/League of Legends Music_ Get Jinxed.mp3": No such file or directory
+Mar 27 22:52 : player: played "League of Legends Music_ Get Jinxed.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Machine Doll wa Kizutsukanai ED TV Size Loop.mp4": No such file or directory
+Mar 27 22:52 : player: played "Machine Doll wa Kizutsukanai ED TV Size Loop.mp4"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/maria holic ED full!!-e3K7p3tFxvw.mp4": No such file or directory
+Mar 27 22:52 : player: played "maria holic ED full!!-e3K7p3tFxvw.mp4"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/MTC - S3RL.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/MTC - S3RL.mp3": No such file or directory
+Mar 27 22:52 : player: played "MTC - S3RL.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore  - Lucifer's  Angel.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore  - Lucifer's  Angel.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore  - Lucifer's  Angel.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - A Demon's Fate.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - A Demon's Fate.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore - A Demon's Fate.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Always.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Always.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore - Always.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Always(1).mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Always(1).mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore - Always(1).mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Angel of Darkness lyrics.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Angel of Darkness lyrics.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore - Angel of Darkness lyrics.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Bring Me To Life.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Bring Me To Life.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore - Bring Me To Life.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Calling All The Monsters.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Calling All The Monsters.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore - Calling All The Monsters.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - changed the way you kiss me.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - changed the way you kiss me.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore - changed the way you kiss me.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Children Of Darkness.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Children Of Darkness.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore - Children Of Darkness.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Cocaine.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Cocaine.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore - Cocaine.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Crawling Back To You.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Crawling Back To You.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore - Crawling Back To You.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Deliver Us From Evil.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Deliver Us From Evil.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore - Deliver Us From Evil.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Dirty dancer.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Dirty dancer.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore - Dirty dancer.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - dirty little secret.mp4": No such file or directory
+Mar 27 22:52 : player: played "Nightcore - dirty little secret.mp4"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - hero.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - hero.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore - hero.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Infinity.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Infinity.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore - Infinity.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Last resort.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Last resort.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore - Last resort.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Lights.mp4": No such file or directory
+Mar 27 22:52 : player: played "Nightcore - Lights.mp4"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Magenta.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Magenta.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore - Magenta.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Me Against The World.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Me Against The World.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore - Me Against The World.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Monsters.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Monsters.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore - Monsters.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Numb.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Numb.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore - Numb.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Poison.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Poison.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore - Poison.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - She Wolf.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - She Wolf.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore - She Wolf.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Star Struck.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Star Struck.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore - Star Struck.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Sweetest Ass In The World.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Sweetest Ass In The World.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore - Sweetest Ass In The World.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - The Hell Song.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - The Hell Song.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore - The Hell Song.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Vanilla Twilight..mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Vanilla Twilight..mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore - Vanilla Twilight..mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Who's That Chick.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore - Who's That Chick.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore - Who's That Chick.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore -Raindrops.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore -Raindrops.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore -Raindrops.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore Face Down.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore Face Down.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore Face Down.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore II_ Ravers Fantasy.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore II_ Ravers Fantasy.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore II_ Ravers Fantasy.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore Mix 1 Hour.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore Mix 1 Hour.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore Mix 1 Hour.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/NightCore SPECIAL REMIX _-).mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/NightCore SPECIAL REMIX _-).mp3": No such file or directory
+Mar 27 22:52 : player: played "NightCore SPECIAL REMIX _-).mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore- Dance With the Devil.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore- Dance With the Devil.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore- Dance With the Devil.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore- Glad You Came.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore- Glad You Came.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore- Glad You Came.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore- Good Time.mp4": No such file or directory
+Mar 27 22:52 : player: played "Nightcore- Good Time.mp4"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore- Headphones.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore- Headphones.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore- Headphones.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore--Cannibal.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore--Cannibal.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore--Cannibal.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore-Scream For my ice Cream.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore-Scream For my ice Cream.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore-Scream For my ice Cream.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore-Whispers in the Dark.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Nightcore-Whispers in the Dark.mp3": No such file or directory
+Mar 27 22:52 : player: played "Nightcore-Whispers in the Dark.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/Before my body is dry.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/Before my body is dry.mp3": No such file or directory
+Mar 27 22:52 : player: played "KLK OST MP3/Before my body is dry.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/Blumenkranz.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/Blumenkranz.mp3": No such file or directory
+Mar 27 22:52 : player: played "KLK OST MP3/Blumenkranz.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/I want to know.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/I want to know.mp3": No such file or directory
+Mar 27 22:52 : player: played "KLK OST MP3/I want to know.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK.mp3": No such file or directory
+Mar 27 22:52 : player: played "KLK OST MP3/KLK.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK1.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK1.mp3": No such file or directory
+Mar 27 22:52 : player: played "KLK OST MP3/KLK1.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK10.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK10.mp3": No such file or directory
+Mar 27 22:52 : player: played "KLK OST MP3/KLK10.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK11.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK11.mp3": No such file or directory
+Mar 27 22:52 : player: played "KLK OST MP3/KLK11.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK2.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK2.mp3": No such file or directory
+Mar 27 22:52 : player: played "KLK OST MP3/KLK2.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK3.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK3.mp3": No such file or directory
+Mar 27 22:52 : player: played "KLK OST MP3/KLK3.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK4.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK4.mp3": No such file or directory
+Mar 27 22:52 : player: played "KLK OST MP3/KLK4.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK5.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK5.mp3": No such file or directory
+Mar 27 22:52 : player: played "KLK OST MP3/KLK5.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK6.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK6.mp3": No such file or directory
+Mar 27 22:52 : player: played "KLK OST MP3/KLK6.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK7.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK7.mp3": No such file or directory
+Mar 27 22:52 : player: played "KLK OST MP3/KLK7.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK8.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK8.mp3": No such file or directory
+Mar 27 22:52 : player: played "KLK OST MP3/KLK8.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK9.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/KLK9.mp3": No such file or directory
+Mar 27 22:52 : player: played "KLK OST MP3/KLK9.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/Light your heart up.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/Light your heart up.mp3": No such file or directory
+Mar 27 22:52 : player: played "KLK OST MP3/Light your heart up.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/Suck your blood.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/Suck your blood.mp3": No such file or directory
+Mar 27 22:52 : player: played "KLK OST MP3/Suck your blood.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/Till I Die.mp3": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/KLK OST MP3/Till I Die.mp3": No such file or directory
+Mar 27 22:52 : player: played "KLK OST MP3/Till I Die.mp3"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/01.Savant - Mother Earth.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/01.Savant - Mother Earth.flac": No such file or directory
+Mar 27 22:52 : player: played "Savant - Alchemist (2012) FLAC/01.Savant - Mother Earth.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/02.Savant - Sky Is The Limit (feat Donny Goines).flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/02.Savant - Sky Is The Limit (feat Donny Goines).flac": No such file or directory
+Mar 27 22:52 : player: played "Savant - Alchemist (2012) FLAC/02.Savant - Sky Is The Limit (feat Donny Goines).flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/04.Savant - Alchemist (feat Gino Sydal).flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/04.Savant - Alchemist (feat Gino Sydal).flac": No such file or directory
+Mar 27 22:52 : player: played "Savant - Alchemist (2012) FLAC/04.Savant - Alchemist (feat Gino Sydal).flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/05.Savant - Dancer In The Dark.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/05.Savant - Dancer In The Dark.flac": No such file or directory
+Mar 27 22:52 : player: played "Savant - Alchemist (2012) FLAC/05.Savant - Dancer In The Dark.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/06.Savant - Hungry Eyes (feat Qwentalis).flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/06.Savant - Hungry Eyes (feat Qwentalis).flac": No such file or directory
+Mar 27 22:52 : player: played "Savant - Alchemist (2012) FLAC/06.Savant - Hungry Eyes (feat Qwentalis).flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/07.Savant - Sustainer.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/07.Savant - Sustainer.flac": No such file or directory
+Mar 27 22:52 : player: played "Savant - Alchemist (2012) FLAC/07.Savant - Sustainer.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/08.Savant - Witchcraft.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/08.Savant - Witchcraft.flac": No such file or directory
+Mar 27 22:52 : player: played "Savant - Alchemist (2012) FLAC/08.Savant - Witchcraft.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/09.Savant - Redemption.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/09.Savant - Redemption.flac": No such file or directory
+Mar 27 22:52 : player: played "Savant - Alchemist (2012) FLAC/09.Savant - Redemption.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/10.Savant - Konami Kode (feat. Donny Goines).flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/10.Savant - Konami Kode (feat. Donny Goines).flac": No such file or directory
+Mar 27 22:52 : player: played "Savant - Alchemist (2012) FLAC/10.Savant - Konami Kode (feat. Donny Goines).flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/11.Savant - Melody Circus.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/11.Savant - Melody Circus.flac": No such file or directory
+Mar 27 22:52 : player: played "Savant - Alchemist (2012) FLAC/11.Savant - Melody Circus.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/12.Savant - Fat Cat Shuffle.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/12.Savant - Fat Cat Shuffle.flac": No such file or directory
+Mar 27 22:52 : player: played "Savant - Alchemist (2012) FLAC/12.Savant - Fat Cat Shuffle.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/14.Savant - The Horror.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/14.Savant - The Horror.flac": No such file or directory
+Mar 27 22:52 : player: played "Savant - Alchemist (2012) FLAC/14.Savant - The Horror.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/13.Savant - Bananonymous.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/13.Savant - Bananonymous.flac": No such file or directory
+Mar 27 22:52 : player: played "Savant - Alchemist (2012) FLAC/13.Savant - Bananonymous.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/15.Savant - Manslaughter (feat Svanur Papparazzi).flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/15.Savant - Manslaughter (feat Svanur Papparazzi).flac": No such file or directory
+Mar 27 22:52 : player: played "Savant - Alchemist (2012) FLAC/15.Savant - Manslaughter (feat Svanur Papparazzi).flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/16.Savant - Paradisco.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/16.Savant - Paradisco.flac": No such file or directory
+Mar 27 22:52 : player: played "Savant - Alchemist (2012) FLAC/16.Savant - Paradisco.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/17.Savant - Black Magic.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/17.Savant - Black Magic.flac": No such file or directory
+Mar 27 22:52 : player: played "Savant - Alchemist (2012) FLAC/17.Savant - Black Magic.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/18.Savant - Face Off.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/18.Savant - Face Off.flac": No such file or directory
+Mar 27 22:52 : player: played "Savant - Alchemist (2012) FLAC/18.Savant - Face Off.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/19.Savant - Pirate Bay (feat Twistex).flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/19.Savant - Pirate Bay (feat Twistex).flac": No such file or directory
+Mar 27 22:52 : player: played "Savant - Alchemist (2012) FLAC/19.Savant - Pirate Bay (feat Twistex).flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/20.Savant - No Time For Pussy.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/20.Savant - No Time For Pussy.flac": No such file or directory
+Mar 27 22:52 : player: played "Savant - Alchemist (2012) FLAC/20.Savant - No Time For Pussy.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/21.Savant - The Beginning Is Near.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/21.Savant - The Beginning Is Near.flac": No such file or directory
+Mar 27 22:52 : player: played "Savant - Alchemist (2012) FLAC/21.Savant - The Beginning Is Near.flac"
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac": No such file or directory
+Mar 27 22:52 : errno: Failed to open "/mnt/nfs4/music/Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac": No such file or directory
+Mar 27 22:52 : player: played "Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac"
+Mar 27 22:52 : client: [12] closed
+Mar 28 00:15 : client: [17] opened from [::1]:36882
+Mar 28 00:15 : client: [17] closed
