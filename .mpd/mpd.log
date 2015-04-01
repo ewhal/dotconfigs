@@ -20927,3 +20927,8 @@ Apr 01 23:54 : player: played "https://r-a-d.io/main.mp3"
 Apr 01 23:54 : client: [40] closed
 Apr 02 00:12 : client: [41] opened from [::1]:44345
 Apr 02 00:12 : client: [41] closed
+Apr 02 00:53 : client: [42] opened from [::1]:44560
+Apr 02 00:53 : client: [42] closed
+Apr 02 00:53 : client: [43] opened from [::1]:44561
+Apr 02 00:53 : player: played "https://r-a-d.io/main.mp3"
+Apr 02 00:53 : client: [43] closed
