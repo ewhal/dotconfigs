@@ -168,10 +168,10 @@ desktop() {
     ssh ewhal4@192.168.0.17
 }
 pi() {
-    ssh pi@192.168.0.21
+    ssh pi@192.168.0.16
 }
 fancontrol() {
-    echo level $1 | sudo tee /proc/acpi/ibm/fan
+   sudo /home/ewhal/.fancontrol $1
 }
 
 countdown() {

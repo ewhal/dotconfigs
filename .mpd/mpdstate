@@ -1,9 +1,9 @@
-sw_volume: 98
+sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
-state: pause
-current: 130
-time: 4973.049000
+state: play
+current: 0
+time: 2346.289000
 random: 0
 repeat: 0
 single: 0
@@ -12,160 +12,9 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:01 - Give Life Back to Music.mp3
-1:~_1 Hour Ultimate Nightcore Mix_~.mp3
-2:01 - Give Life Back to Music.mp3
-3:01 - No differences.mp3
-4:02 - AZPV.mp3
-5:02 - The Game of Love.mp3
-6:03 - A-0picturez.mp3
-7:03 - Giorgio by Moroder.mp3
-8:04 - MKAlieZ.mp3
-9:04 - Within.mp3
-10:05 - 20140910.mp3
-11:06 - AZ-Kat.mp3
-12:05 - Instant Crush (feat. Julian Casablancas).mp3
-13:06 - Lose Yourself to Dance (feat. Pharrell Williams).mp3
-14:07 - Kanascene.mp3
-15:07 - Touch (feat. Paul Williams).mp3
-16:08 - AD2014-7.5 7.9-0A.mp3
-17:08 - Get Lucky (feat. Pharrell Williams).mp3
-18:09 - AL C-@.mp3
-19:09 - Beyond.mp3
-20:1 Hour Unbelievable Nightcore Mega Mix.mp3
-21:1-Hour Epic Music _ Two Steps From Hell Vol. 1 - YouTube.mp3
-22:1-Hour Epic Music _ Two Steps From Hell Vol. 2.mp3
-23:10 - Motherboard.mp3
-24:10 - The Call to Arms.mp3
-25:11 - Fragments of Time (feat. Todd Edwards).mp3
-26:11 - Troyard.mp3
-27:12 - Kasei.mp3
-28:13 - Contact.mp3
-29:13 - R0B0T.mp3
-30:14 - SiTE-n0w1.mp3
-31:15 - al-door0.mp3
-32:16 - Ver$.mp3
-33:17 - as-inaho.mp3
-34:18 - Chikyuu wo Kasei.mp3
-35:19 - AcyOrt.mp3
-36:2 Hours Nightcore and Trance Mix.mp3
-37:20 - BRE@THLESS.mp3
-38:Best Melodic Trance Songs 2012 - Reach me.mp4
-39:Best Melodic Trance Songs 2012 - Tears of Elysia.mp4
-40:DFO - TRAIN TRAIN I LOVE MY STATION.mp4
-41:Dj S3rl - Break Em.mp3
-42:Epic 1 Hour Nightcore Mix.mp3
-43:ForeverPandering - A SONG ABOUT LONELY WEEABOOS.mp4
-44:ForeverPandering - Madoka - Ante Up.mp4
-45:Highschool never ends. Nightcore..mp3
-46:League of Legends Music_ Get Jinxed.mp3
-47:Machine Doll wa Kizutsukanai ED TV Size Loop.mp4
-48:maria holic ED full!!-e3K7p3tFxvw.mp4
-49:MTC - S3RL.mp3
-50:Nightcore  - Lucifer's  Angel.mp3
-51:Nightcore - A Demon's Fate.mp3
-52:Nightcore - Always.mp3
-53:Nightcore - Always(1).mp3
-54:Nightcore - Angel of Darkness lyrics.mp3
-55:Nightcore - Bring Me To Life.mp3
-56:Nightcore - Calling All The Monsters.mp3
-57:Nightcore - changed the way you kiss me.mp3
-58:Nightcore - Children Of Darkness.mp3
-59:Nightcore - Cocaine.mp3
-60:Nightcore - Crawling Back To You.mp3
-61:Nightcore - Deliver Us From Evil.mp3
-62:Nightcore - Dirty dancer.mp3
-63:Nightcore - dirty little secret.mp4
-64:Nightcore - hero.mp3
-65:Nightcore - Infinity.mp3
-66:Nightcore - Last resort.mp3
-67:Nightcore - Lights.mp4
-68:Nightcore - Magenta.mp3
-69:Nightcore - Me Against The World.mp3
-70:Nightcore - Monsters.mp3
-71:Nightcore - Numb.mp3
-72:Nightcore - Poison.mp3
-73:Nightcore - She Wolf.mp3
-74:Nightcore - Star Struck.mp3
-75:Nightcore - Sweetest Ass In The World.mp3
-76:Nightcore - The Hell Song.mp3
-77:Nightcore - Vanilla Twilight..mp3
-78:Nightcore - Who's That Chick.mp3
-79:Nightcore -Raindrops.mp3
-80:Nightcore Face Down.mp3
-81:Nightcore II_ Ravers Fantasy.mp3
-82:Nightcore Mix 1 Hour.mp3
-83:NightCore SPECIAL REMIX _-).mp3
-84:Nightcore- Dance With the Devil.mp3
-85:Nightcore- Glad You Came.mp3
-86:Nightcore- Good Time.mp4
-87:Nightcore- Headphones.mp3
-88:Nightcore--Cannibal.mp3
-89:Nightcore-Scream For my ice Cream.mp3
-90:Nightcore-Whispers in the Dark.mp3
-91:KLK OST MP3/Before my body is dry.mp3
-92:KLK OST MP3/Blumenkranz.mp3
-93:KLK OST MP3/I want to know.mp3
-94:KLK OST MP3/KLK.mp3
-95:KLK OST MP3/KLK1.mp3
-96:KLK OST MP3/KLK10.mp3
-97:KLK OST MP3/KLK11.mp3
-98:KLK OST MP3/KLK2.mp3
-99:KLK OST MP3/KLK3.mp3
-100:KLK OST MP3/KLK4.mp3
-101:KLK OST MP3/KLK5.mp3
-102:KLK OST MP3/KLK6.mp3
-103:KLK OST MP3/KLK7.mp3
-104:KLK OST MP3/KLK8.mp3
-105:KLK OST MP3/KLK9.mp3
-106:KLK OST MP3/Light your heart up.mp3
-107:KLK OST MP3/Suck your blood.mp3
-108:KLK OST MP3/Till I Die.mp3
-109:Savant - Alchemist (2012) FLAC/01.Savant - Mother Earth.flac
-110:Savant - Alchemist (2012) FLAC/02.Savant - Sky Is The Limit (feat Donny Goines).flac
-111:Savant - Alchemist (2012) FLAC/04.Savant - Alchemist (feat Gino Sydal).flac
-112:Savant - Alchemist (2012) FLAC/05.Savant - Dancer In The Dark.flac
-113:Savant - Alchemist (2012) FLAC/06.Savant - Hungry Eyes (feat Qwentalis).flac
-114:Savant - Alchemist (2012) FLAC/07.Savant - Sustainer.flac
-115:Savant - Alchemist (2012) FLAC/08.Savant - Witchcraft.flac
-116:Savant - Alchemist (2012) FLAC/09.Savant - Redemption.flac
-117:Savant - Alchemist (2012) FLAC/10.Savant - Konami Kode (feat. Donny Goines).flac
-118:Savant - Alchemist (2012) FLAC/11.Savant - Melody Circus.flac
-119:Savant - Alchemist (2012) FLAC/12.Savant - Fat Cat Shuffle.flac
-120:Savant - Alchemist (2012) FLAC/14.Savant - The Horror.flac
-121:Savant - Alchemist (2012) FLAC/13.Savant - Bananonymous.flac
-122:Savant - Alchemist (2012) FLAC/15.Savant - Manslaughter (feat Svanur Papparazzi).flac
-123:Savant - Alchemist (2012) FLAC/16.Savant - Paradisco.flac
-124:Savant - Alchemist (2012) FLAC/17.Savant - Black Magic.flac
-125:Savant - Alchemist (2012) FLAC/18.Savant - Face Off.flac
-126:Savant - Alchemist (2012) FLAC/19.Savant - Pirate Bay (feat Twistex).flac
-127:Savant - Alchemist (2012) FLAC/20.Savant - No Time For Pussy.flac
-128:Savant - Alchemist (2012) FLAC/21.Savant - The Beginning Is Near.flac
-129:Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac
-song_begin: https://stream.r-a-d.io/main.mp3
-Title: Terui Haruka, Mimori Suzuko, Uchiyama Yumi & Kurosawa Tomoyo - Hoshi to Hana
+song_begin: https://r-a-d.io/main.mp3
+Title: DAISHI DANCE - A Fleeting Dream
 Name: R/a/dio
 mtime: 0
 song_end
-131:Biosphere & Pete Namlook - The Fires Of Ork 2/CDImage.ape
-132:02 - AZPV.mp3
-133:01 aldnoah0rch-&z.flac
-134:02 aldnoah0rch-aCY0rt.flac
-135:03 aldnoah0rch-4rain.flac
-136:04 aldnoah0rch-@0p.flac
-137:05 aldnoah0rch-adlib.flac
-138:06 birth・gt・music.flac
-139:07 battle・game・music.flac
-140:08 bpm・gain・mute.flac
-141:09 haondla-orez1.flac
-142:10 haondla-orez2.flac
-143:11 haondla-orez3.flac
-144:12 haondla-orez4.flac
-145:13 az-p1@n05罪vers.flac
-146:14 az-p1@n0adlib1.flac
-147:15 az-p1@n0adlib2.flac
-148:16 az-p1@n0adlib3.flac
-149:17 Harmonious.flac
-150:18 Harmonious -Instrumental-.flac
-151:19 Harmonious -Short Ver.-.flac
 playlist_end

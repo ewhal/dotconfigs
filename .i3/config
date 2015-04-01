@@ -60,7 +60,7 @@ assign [class="(?i)thunderbird"] → 10
 assign [class="(?i)mpv"] → 9
 
 # WINDOW CONTROL
-for_window [class="*"] floating enable
+#for_window [class="*"] floating enable
 #assign [class="sublime-text-2"] 3
 #for_window [class="sublime-text-2"] border 1pixel
 #for_window [class="Gnome-mplayer"] floating enable
@@ -77,7 +77,7 @@ for_window [title="Download"] floating enable
 #for_window [title="Xfce-notifyd"] floating enable
 #for_window [class="Sakura"] floating enable
 #for_window [class="Sakara"] border normal
-for_window [class="URxvt"] floating enable
+#for_window [class="URxvt"] floating enable
 for_window [class="URxvt"] border 1pixel #none
 for_window [class="Thunar"] floating enable
 #for_window [class="Leafpad"] floating enable
