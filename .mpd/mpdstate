@@ -1,9 +1,9 @@
 sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
-state: pause
+state: play
 current: 0
-time: 308.837000
+time: 289.001000
 random: 0
 repeat: 0
 single: 0
@@ -13,8 +13,171 @@ mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
 song_begin: https://r-a-d.io/main.mp3
-Title: Okamura Yasuyuki - Healthy Merci
+Title: zts - worldenddominator
 Name: R/a/dio
 mtime: 0
 song_end
+1:KLK OST MP3/Before my body is dry.mp3
+2:KLK OST MP3/Blumenkranz.mp3
+3:KLK OST MP3/I want to know.mp3
+4:KLK OST MP3/KLK.mp3
+5:KLK OST MP3/KLK1.mp3
+6:KLK OST MP3/KLK10.mp3
+7:KLK OST MP3/KLK11.mp3
+8:KLK OST MP3/KLK2.mp3
+9:KLK OST MP3/KLK3.mp3
+10:KLK OST MP3/KLK4.mp3
+11:KLK OST MP3/KLK5.mp3
+12:KLK OST MP3/KLK6.mp3
+13:KLK OST MP3/KLK7.mp3
+14:KLK OST MP3/KLK8.mp3
+15:KLK OST MP3/KLK9.mp3
+16:KLK OST MP3/Light your heart up.mp3
+17:KLK OST MP3/Suck your blood.mp3
+18:KLK OST MP3/Till I Die.mp3
+19:Savant - Alchemist (2012) FLAC/01.Savant - Mother Earth.flac
+20:Savant - Alchemist (2012) FLAC/02.Savant - Sky Is The Limit (feat Donny Goines).flac
+21:Savant - Alchemist (2012) FLAC/04.Savant - Alchemist (feat Gino Sydal).flac
+22:Savant - Alchemist (2012) FLAC/05.Savant - Dancer In The Dark.flac
+23:Savant - Alchemist (2012) FLAC/06.Savant - Hungry Eyes (feat Qwentalis).flac
+24:Savant - Alchemist (2012) FLAC/07.Savant - Sustainer.flac
+25:Savant - Alchemist (2012) FLAC/08.Savant - Witchcraft.flac
+26:Savant - Alchemist (2012) FLAC/09.Savant - Redemption.flac
+27:Savant - Alchemist (2012) FLAC/10.Savant - Konami Kode (feat. Donny Goines).flac
+28:Savant - Alchemist (2012) FLAC/11.Savant - Melody Circus.flac
+29:Savant - Alchemist (2012) FLAC/12.Savant - Fat Cat Shuffle.flac
+30:Savant - Alchemist (2012) FLAC/13.Savant - Bananonymous.flac
+31:Savant - Alchemist (2012) FLAC/14.Savant - The Horror.flac
+32:Savant - Alchemist (2012) FLAC/15.Savant - Manslaughter (feat Svanur Papparazzi).flac
+33:Savant - Alchemist (2012) FLAC/16.Savant - Paradisco.flac
+34:Savant - Alchemist (2012) FLAC/17.Savant - Black Magic.flac
+35:Savant - Alchemist (2012) FLAC/18.Savant - Face Off.flac
+36:Savant - Alchemist (2012) FLAC/19.Savant - Pirate Bay (feat Twistex).flac
+37:Savant - Alchemist (2012) FLAC/20.Savant - No Time For Pussy.flac
+38:Savant - Alchemist (2012) FLAC/21.Savant - The Beginning Is Near.flac
+39:Savant - Alchemist (2012) FLAC/22.Savant - Sayonara.flac
+40:Shiro Sagisu - The End of Evangelion (1997) [FLAC]/01. ''Interference of Others'' (他人の干渉 Tanin no Kanshō).flac
+41:Shiro Sagisu - The End of Evangelion (1997) [FLAC]/02. ''The End of Midsummer'' (真夏の終演 Manatsu no Shūen).flac
+42:Shiro Sagisu - The End of Evangelion (1997) [FLAC]/03. ''Emergency Evacuation to Regression'' (退行への緊急避難 Taikō he no Kinkyūhinan).flac
+43:Shiro Sagisu - The End of Evangelion (1997) [FLAC]/04. ''False Regeneration'' (偽りの、再生 Itsuwari no, Saisei).flac
+44:Shiro Sagisu - The End of Evangelion (1997) [FLAC]/05. ''Substitute Invasion'' (身代わりの侵入 Migawari no Shinnyū).flac
+45:Shiro Sagisu - The End of Evangelion (1997) [FLAC]/06. ''II Air'' (Orchestral Suite No. 3 in D Major, BWV 1068).flac
+46:Shiro Sagisu - The End of Evangelion (1997) [FLAC]/07. ''The Flow of Emptiness'' (空しき流れ Munashiki Nagare).flac
+47:Shiro Sagisu - The End of Evangelion (1997) [FLAC]/08. ''THANATOS -If I Can't Be Yours-''.flac
+48:Shiro Sagisu - The End of Evangelion (1997) [FLAC]/09. ''Escape to The Beginning'' (始まりへの逃避 Hajimari he no Tōhi).flac
+49:Shiro Sagisu - The End of Evangelion (1997) [FLAC]/10. ''Honeymoon with Anxiety'' (不安との密月 Fuan to no Mitsugetsu).flac
+50:Shiro Sagisu - The End of Evangelion (1997) [FLAC]/11. ''Komm, süsser Tod'' (M-10 Director's Edit Version).flac
+51:Shiro Sagisu - The End of Evangelion (1997) [FLAC]/12. ''Jesus bleibet meine Freude'' (Herz und Mund und Tat und Leben, BWV 147).flac
+52:Shiro Sagisu - The End of Evangelion (1997) [FLAC]/13. ''Expansion of Blockade'' (閉塞の拡大 Heisoku no Kakudai).flac
+53:Shiro Sagisu - The End of Evangelion (1997) [FLAC]/14. ''Opening of Dream'' (夢のスキマ Yume no Sukima).flac
+54:THE ROLLING GIRLS - THE ROLLING GIRLS THEME SONGS COLLECTION (2015) [FLAC]/1-01 Hito ni Yasashiku.flac
+55:THE ROLLING GIRLS - THE ROLLING GIRLS THEME SONGS COLLECTION (2015) [FLAC]/1-02 Tsuki no Bakugekiki.flac
+56:THE ROLLING GIRLS - THE ROLLING GIRLS THEME SONGS COLLECTION (2015) [FLAC]/1-03 1000 no Violin.flac
+57:~_1 Hour Ultimate Nightcore Mix_~.mp3
+58:01 - Give Life Back to Music.mp3
+59:02 - The Game of Love.mp3
+60:03 - Giorgio by Moroder.mp3
+61:04 - Within.mp3
+62:05 - Instant Crush (feat. Julian Casablancas).mp3
+63:06 - Lose Yourself to Dance (feat. Pharrell Williams).mp3
+64:07 - Touch (feat. Paul Williams).mp3
+65:08 - Get Lucky (feat. Pharrell Williams).mp3
+66:09 - Beyond.mp3
+67:01 - No differences.mp3
+68:03 - A-0picturez.mp3
+69:02 - AZPV.mp3
+70:05 - 20140910.mp3
+71:06 - AZ-Kat.mp3
+72:07 - Kanascene.mp3
+73:08 - AD2014-7.5 7.9-0A.mp3
+74:09 - AL C-@.mp3
+75:01 aldnoah0rch-&z.flac
+76:02 aldnoah0rch-aCY0rt.flac
+77:03 aldnoah0rch-4rain.flac
+78:04 - MKAlieZ.mp3
+79:04 aldnoah0rch-@0p.flac
+80:05 aldnoah0rch-adlib.flac
+81:06 birth・gt・music.flac
+82:07 battle・game・music.flac
+83:08 bpm・gain・mute.flac
+84:09 haondla-orez1.flac
+85:1 Hour Unbelievable Nightcore Mega Mix.mp3
+86:1-Hour Epic Music _ Two Steps From Hell Vol. 1 - YouTube.mp3
+87:1-Hour Epic Music _ Two Steps From Hell Vol. 2.mp3
+88:10 - Motherboard.mp3
+89:10 - The Call to Arms.mp3
+90:10 haondla-orez2.flac
+91:11 - Fragments of Time (feat. Todd Edwards).mp3
+92:11 - Troyard.mp3
+93:11 haondla-orez3.flac
+94:12 - Kasei.mp3
+95:12 haondla-orez4.flac
+96:13 - Contact.mp3
+97:13 - R0B0T.mp3
+98:13 az-p1@n05罪vers.flac
+99:14 - SiTE-n0w1.mp3
+100:14 az-p1@n0adlib1.flac
+101:15 - al-door0.mp3
+102:15 az-p1@n0adlib2.flac
+103:16 - Ver$.mp3
+104:16 az-p1@n0adlib3.flac
+105:17 - as-inaho.mp3
+106:17 Harmonious.flac
+107:18 - Chikyuu wo Kasei.mp3
+108:18 Harmonious -Instrumental-.flac
+109:19 - AcyOrt.mp3
+110:19 Harmonious -Short Ver.-.flac
+111:2 Hours Nightcore and Trance Mix.mp3
+112:20 - BRE@THLESS.mp3
+113:Best Melodic Trance Songs 2012 - Reach me.mp4
+114:Best Melodic Trance Songs 2012 - Tears of Elysia.mp4
+115:Dj S3rl - Break Em.mp3
+116:Epic 1 Hour Nightcore Mix.mp3
+117:ForeverPandering - A SONG ABOUT LONELY WEEABOOS.mp4
+118:Highschool never ends. Nightcore..mp3
+119:League of Legends Music_ Get Jinxed.mp3
+120:Machine Doll wa Kizutsukanai ED TV Size Loop.mp4
+121:maria holic ED full!!-e3K7p3tFxvw.mp4
+122:MTC - S3RL.mp3
+123:Nightcore  - Lucifer's  Angel.mp3
+124:Nightcore - A Demon's Fate.mp3
+125:Nightcore - Always.mp3
+126:Nightcore - Always(1).mp3
+127:Nightcore - Angel of Darkness lyrics.mp3
+128:Nightcore - Bring Me To Life.mp3
+129:Nightcore - Calling All The Monsters.mp3
+130:Nightcore - changed the way you kiss me.mp3
+131:Nightcore - Children Of Darkness.mp3
+132:Nightcore - Cocaine.mp3
+133:Nightcore - Crawling Back To You.mp3
+134:Nightcore - Deliver Us From Evil.mp3
+135:Nightcore - Dirty dancer.mp3
+136:Nightcore - dirty little secret.mp4
+137:Nightcore - hero.mp3
+138:Nightcore - Infinity.mp3
+139:Nightcore - Last resort.mp3
+140:Nightcore - Lights.mp4
+141:Nightcore - Magenta.mp3
+142:Nightcore - Me Against The World.mp3
+143:Nightcore - Monsters.mp3
+144:Nightcore - Numb.mp3
+145:Nightcore - Poison.mp3
+146:Nightcore - She Wolf.mp3
+147:Nightcore - Star Struck.mp3
+148:Nightcore - Sweetest Ass In The World.mp3
+149:Nightcore - The Hell Song.mp3
+150:Nightcore - Vanilla Twilight..mp3
+151:Nightcore - Who's That Chick.mp3
+152:Nightcore -Raindrops.mp3
+153:Nightcore Face Down.mp3
+154:Nightcore II_ Ravers Fantasy.mp3
+155:Nightcore Mix 1 Hour.mp3
+156:NightCore SPECIAL REMIX _-).mp3
+157:Nightcore- Dance With the Devil.mp3
+158:Nightcore- Glad You Came.mp3
+159:Nightcore- Good Time.mp4
+160:Nightcore- Headphones.mp3
+161:Nightcore--Cannibal.mp3
+162:Nightcore-Scream For my ice Cream.mp3
+163:Nightcore-Whispers in the Dark.mp3
 playlist_end

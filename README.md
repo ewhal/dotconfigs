@@ -29,3 +29,6 @@ https://github.com/vosh/scripts
 
 For a different colourscheme visit
 http://terminal.sexy/
+
+git submodule update
+to clone vosh/scripts into .bin
