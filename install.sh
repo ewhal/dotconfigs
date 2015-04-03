@@ -24,11 +24,15 @@ done
 
 #Packages for rice
 echo "Installing needed packages"
-yaourt -S i3 conky powerline-fonts-git rxvt-unicode mpd ncmpcpp mpc dmenu network-manager network-manager-applet vim mpv-git tmux zsh mpc screenfetch speedtest-cli scrot  xfce4-screenshooter python2-potr youtube-dl firefox zsh-syntax-highlighting pulseaudio pavucontrol
+yaourt -S i3 conky powerline-fonts-git rxvt-unicode mpd ncmpcpp mpc dmenu network-manager network-manager-applet vim mpv-git tmux zsh mpc screenfetch speedtest-cli scrot  xfce4-screenshooter python2-potr youtube-dl firefox zsh-syntax-highlighting pulseaudio pavucontrol ttf-opensans
 
 #zsh > bash
 echo "Installing oh-my-zsh"
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+
+#change shell
+echo "chsh then type in /usr/bin/zsh"
+chsh
 
 #link .config files to git repo
 for f in $FILES
@@ -47,7 +51,7 @@ for a in $ADDONS
 do
     firefox $a
 done
-#cd ..
+cd ..
 
 ln -fs $HOME/twily.vimp /home/$NAME/.vimperator/colors/twily.vimp
 echo "Please visit twily.info for more Firefox rice and run vim to install plugins"
