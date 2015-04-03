@@ -19,6 +19,7 @@ eval `dbus-launch --sh-syntax --exit-with-session`
 # Setup dual display...
 #exec startxfce4
 #gnome-sessio
+setxkbmap -rules evdev -model evdev -layout us -variant altgr-intl -option caps:escape
 
 GPG_ENVFILE="$HOME/.gnupg/gpg-agent.env"
 if [ -x $(which gpg-agent) ]; then

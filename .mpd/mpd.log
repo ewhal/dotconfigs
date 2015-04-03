@@ -20970,3 +20970,11 @@ Apr 02 21:41 : player: played "https://r-a-d.io/main.mp3"
 Apr 02 21:41 : client: [58] closed
 Apr 02 21:45 : client: [59] opened from [::1]:53067
 Apr 02 21:45 : client: [59] closed
+Apr 03 18:13 : client: [60] opened from [::1]:55868
+Apr 03 18:13 : player: played "https://r-a-d.io/main.mp3"
+Apr 03 18:13 : client: [60] closed
+Apr 03 18:18 : client: [61] opened from [::1]:55948
+Apr 03 18:18 : client: [61] closed
+Apr 03 18:52 : client: [62] opened from [::1]:56173
+Apr 03 18:52 : player: played "https://r-a-d.io/main.mp3"
+Apr 03 18:52 : client: [62] closed

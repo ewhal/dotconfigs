@@ -13,18 +13,18 @@ fi
 cd /tmp;
 for pkg in "${packages[@]}"
 do
- mkdir $pkg
- cd $pkg
- curl -O https://aur.archlinux.org/packages/$(echo $pkg | cut -c 1-2)/$pkg/PKGBUILD
- makepkg -si --noconfirm
- cd ..
- rm -rf $pkg
+    mkdir $pkg
+    cd $pkg
+    curl -O https://aur.archlinux.org/packages/$(echo $pkg | cut -c 1-2)/$pkg/PKGBUILD
+    makepkg -si --noconfirm
+    cd ..
+    rm -rf $pkg
 done
 
 
 #Packages for rice
 echo "Installing needed packages"
-yaourt -S i3 conky powerline-fonts-git rxvt-unicode mpd ncmpcpp mpc dmenu network-manager network-manager-applet vim mpv-git tmux zsh mpc screenfetch speedtest-cli scrot  xfce4-screenshooter python2-potr youtube-dl firefox zsh-syntax-highlighting pulseaudio pavucontrol ttf-opensans
+yaourt -S i3 conky powerline-fonts-git rxvt-unicode mpd ncmpcpp mpc dmenu network-manager network-manager-applet vim mpv-git tmux zsh mpc screenfetch speedtest-cli scrot  xfce4-screenshooter python2-potr youtube-dl firefox zsh-syntax-highlighting pulseaudio pavucontrol ttf-opensans ctags
 
 #zsh > bash
 echo "Installing oh-my-zsh"
