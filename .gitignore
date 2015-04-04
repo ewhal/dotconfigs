@@ -1,6 +1,7 @@
 .weechat/irc.conf
 .weechat/logs
 .weechat/weechat.log
+.mpd/mpd.log
 chromium
 .mozilla
 

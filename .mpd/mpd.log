@@ -21180,3 +21180,6 @@ Apr 04 13:48 : client: [76] opened from [::1]:60318
 Apr 04 13:48 : client: [76] closed
 Apr 04 13:53 : client: [77] opened from [::1]:60329
 Apr 04 13:53 : client: [77] closed
+Apr 04 16:00 : client: [78] opened from [::1]:33264
+Apr 04 16:00 : player: played "https://r-a-d.io/main.mp3"
+Apr 04 16:00 : client: [78] closed
