@@ -334,12 +334,12 @@ set nocompatible
         " vim-multiple-cursors
         let g:multi_cursor_use_default_mapping=0
         " Default mapping
-        let g:multi_cursor_next_key='<C-N>'
+        let g:multi_cursor_next_key='<C-g>'
         let g:multi_cursor_prev_key='<C-P>'
         let g:multi_cursor_skip_key='<C-X>'
         let g:multi_cursor_quit_key='<Esc>'
-        let g:multi_cursor_start_key='g<C-N>'
-        let g:multi_cursor_start_word_key='<C-N>'
+        let g:multi_cursor_start_key='g<C-g>'
+        let g:multi_cursor_start_word_key='<C-g>'
 
 
     """ }}}
@@ -674,4 +674,4 @@ set nocompatible
 
 autocmd StdinReadPre * let s:std_in=1
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
- nnoremap ; :
+nnoremap ; :

@@ -7,54 +7,82 @@ USER=$(whoami)
 HOME=$(pwd)
 
 #Install Yaourt
-if [[ $(pacman -Qs base-devel) == "" ]]; then
-  pacman -S base-devel
+if [[ $(pacman -Qs packae-query) == ""   &&   $(pacman -Qs yaourt) ==  "" ]]; then
+    if [[ $(pacman -Qs base-devel) == "" ]]; then
+        pacman -S base-devel
+    fi
+    cd /tmp;
+    for pkg in "${packages[@]}"
+    do
+        mkdir $pkg
+        cd $pkg
+        curl -O https://aur.archlinux.org/packages/$(echo $pkg | cut -c 1-2)/$pkg/PKGBUILD
+        makepkg -si --noconfirm
+        cd ..
+        rm -rf $pkg
+    done
 fi
-cd /tmp;
-for pkg in "${packages[@]}"
-do
-    mkdir $pkg
-    cd $pkg
-    curl -O https://aur.archlinux.org/packages/$(echo $pkg | cut -c 1-2)/$pkg/PKGBUILD
-    makepkg -si --noconfirm
-    cd ..
-    rm -rf $pkg
-done
-
 
 #Packages for rice
 echo "Installing needed packages"
-yaourt -S i3 conky powerline-fonts-git rxvt-unicode mpd ncmpcpp mpc network-manager network-manager-applet vim mpv-git tmux zsh mpc screenfetch speedtest-cli scrot  xfce4-screenshooter python2-potr youtube-dl firefox zsh-syntax-highlighting pulseaudio pavucontrol ttf-opensans ctags dmenu-extended
+yaourt -S i3 conky powerline-fonts-git rxvt-unicode mpd ncmpcpp mpc networkmanager network-manager-applet ladspa-bs2b vim mpv-git tmux zsh mpc screenfetch speedtest-cli scrot  xfce4-screenshooter python2-potr youtube-dl firefox zsh-syntax-highlighting pulseaudio pavucontrol ttf-opensans ctags dmenu-extended
 
 #zsh > bash
 echo "Installing oh-my-zsh"
-curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
-
-#change shell
-echo "chsh then type in /usr/bin/zsh"
-chsh
+if [ -n "`$SHELL -c 'echo $ZSH_VERSION'`" ]; then
+    if [ ! -d /home/$USER/.oh-my-zsh/ ]; then
+        curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+    fi
+elif [ -n "`$SHELL -c 'echo $BASH_VERSION'`" ]; then
+   # assume Bash
+    if [ ! -d /home/$USER/.oh-my-zsh ]; then
+        curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+    fi
+    echo "chsh then type in /usr/bin/zsh"
+    chsh
+else
+   echo "Fix your god damn shell"
+fi
 
 #link .config files to git repo
 for f in $FILES
 do
-   ln -fs $HOME/$f /home/$NAME/$f
+    if [[ ! -e /home/$USER/$f && ! -L /home/$USER/$f ]]; then
+         ln -fs $HOME/$f /home/$USER/$f
+    fi
 done
 
-ln -fs $HOME/mpv.conf /home/$NAME/.config/mpv/mpv.conf
-ln -fs $HOME/user.js /home/$NAME/.mozilla/firefox/*.default/user.js
-ln -fs $HOME/dmenuExtended_preferences.txt /home/$NAME/.config/dmenu-extended/config/dmenuExtended_preferences.txt
+if [[ ! -e /home/$USER/.config/mpv/mpv.conf && ! -L /home/$USER/.config/mpv/mpv.conf ]]; then
+    ln -fs $HOME/mpv.conf /home/$USER/.config/mpv/mpv.conf
+fi
+if [[ ! -e /home/$USER/.config/dmenu-extended/config/dmenuExtended_preferences.txt && ! -L /home/$USER/.config/dmenu-extended/config/dmenuExtended_preferences.txt ]]; then
+    ln -fs $HOME/dmenuExtended_preferences.txt /home/$USER/.config/dmenu-extended/config/dmenuExtended_preferences.txt
+fi
 
-echo "Setting up firefox"
+read -p "Do you wish to setup firefox? type y or n " ANSWER
 
-mkdir extensions
-cd extensions
-for a in $ADDONS
-do
-    firefox $a
-done
-cd ..
+if [[ $ANSWER = "y" ]]; then
+    if [[ ! -e  /home/$USER/.mozilla/firefox/*.default/user.js &&  ! -L  /home/$USER/.mozilla/firefox/*.default/user.js ]]; then
+        ln -fs $HOME/user.js /home/$USER/.mozilla/firefox/*.default/user.js
+    fi
 
-ln -fs $HOME/twily.vimp /home/$NAME/.vimperator/colors/twily.vimp
-echo "Please visit twily.info for more Firefox rice and run vim to install plugins"
+    for a in $ADDONS
+    do
+        firefox $a
+    done
 
+    if [ ! -d /home/$USER/.vimperator/colors ]; then
+        mkdir -p /home/$USER/.vimperator/colors
+        if [[ ! -e /home/$USER/.vimperator/colors/twily.vimp && ! -L /home/$USER/.vimperator/colors/twily.vimp ]]; then
+            ln -fs $HOME/twily.vimp /home/$USER/.vimperator/colors/twily.vimp
+        fi
 
+    elif [ -d /home/$USER/.vimperator/colors]; then
+        if [[ ! -e /home/$USER/.vimperator/colors/twily.vimp && ! -L /home/$USER/.vimperator/colors/twily.vimp ]]; then
+            ln -fs $HOME/twily.vimp /home/$USER/.vimperator/colors/twily.vimp
+        fi
+    fi
+    echo "Please visit twily.info for more Firefox rice and run vim to install plugins"
+elif [[ $ANSWER = "n" ]]; then
+    echo "Please visit twily.info for more Firefox rice and run vim to install plugins"
+fi
