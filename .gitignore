@@ -2,6 +2,7 @@
 .weechat/logs
 .weechat/weechat.log
 .mpd/mpd.log
+.mpd/mpdstate
 chromium
 .mozilla
 
