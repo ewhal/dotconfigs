@@ -1,5 +1,5 @@
 #!/bin/bash
-#Variables and such
+#Arrays and such to be used throughout the program
 packages=(package-query yaourt)
 FILES=".zshrc .Xresources .vimrc .weechat .i3 .tmux.conf .bin .xinitrc .ncmpcpp .conkyrc .mpd .vimperatorrc "
 ADDONS="https://addons.mozilla.org/firefox/downloads/file/161685/greasemonkey-0.9.22-fx.xpi https://addons.cdn.mozilla.net/user-media/addons/415846/self_destructing_cookies-0.4.7-fx+an.xpi https://addons.mozilla.org/firefox/downloads/latest/722/addon-722-latest.xpi https://https-finder.googlecode.com/files/httpsfinder_0.91b.xpi https://addons.mozilla.org/firefox/downloads/latest/6623/addon-6623-latest.xpi https://addons.mozilla.org/firefox/downloads/latest/953/addon-953-latest.xpi https://addons.mozilla.org/firefox/downloads/latest/2108/addon-2108-latest.xpi  https://www.eff.org/files/https-everywhere-latest.xpi https://github.com/RequestPolicyContinued/requestpolicy/releases/download/v1.0.beta8.2/requestpolicy-1-0-beta8-2.xpi https://ccd0.github.io/4chan-x/builds/4chan-X.user.js https://nebukazar.github.io/OneeChan/builds/OneeChan.user.js"
@@ -7,7 +7,7 @@ USER=$(whoami)
 HOME=$(pwd)
 NPM="bower grunt-cli yo generator-angular-fullstack generator-angular"
 
-#Install Yaourt
+#Install Yaourt and package-query
 if [[ $(pacman -Qs packae-query) == ""   &&   $(pacman -Qs yaourt) ==  "" ]]; then
     if [[ $(pacman -Qs base-devel) == "" ]]; then
         pacman -S base-devel
@@ -24,11 +24,11 @@ if [[ $(pacman -Qs packae-query) == ""   &&   $(pacman -Qs yaourt) ==  "" ]]; th
     done
 fi
 
-#Packages for rice
+#Installs all of the packages that I use
 echo "Installing needed packages"
 yaourt -S i3 conky powerline-fonts-git rxvt-unicode mpd ncmpcpp mpc networkmanager network-manager-applet ladspa-bs2b vim mpv-git tmux zsh mpc screenfetch speedtest-cli scrot  xfce4-screenshooter python2-potr youtube-dl firefox zsh-syntax-highlighting pulseaudio pavucontrol ttf-opensans ctags dmenu-extended numix-themes gtk-theme-flatstudio numix-icon-theme-git thunar lxappearance
 
-#zsh > bash
+#Sets up oh-my-zsh and ZSH
 echo "Installing oh-my-zsh"
 if [ -n "`$SHELL -c 'echo $ZSH_VERSION'`" ]; then
     if [ ! -d /home/$USER/.oh-my-zsh/ ]; then
@@ -42,17 +42,17 @@ elif [ -n "`$SHELL -c 'echo $BASH_VERSION'`" ]; then
     echo "chsh then type in /usr/bin/zsh"
     chsh
 else
-   echo "Fix your god damn shell"
+   echo "Error unknown Shell"
 fi
 
-#link .config files to git repo
+#Symbolic link dot-config files to user directory
 for f in $FILES
 do
     if [[ ! -e /home/$USER/$f && ! -L /home/$USER/$f ]]; then
          ln -fs $HOME/$f /home/$USER/$f
     fi
 done
-
+#Same thing as above but for files with different paths
 if [[ ! -e /home/$USER/.config/mpv/mpv.conf && ! -L /home/$USER/.config/mpv/mpv.conf ]]; then
     ln -fs $HOME/mpv.conf /home/$USER/.config/mpv/mpv.conf
 fi
@@ -60,6 +60,7 @@ if [[ ! -e /home/$USER/.config/dmenu-extended/config/dmenuExtended_preferences.t
     ln -fs $HOME/dmenuExtended_preferences.txt /home/$USER/.config/dmenu-extended/config/dmenuExtended_preferences.txt
 fi
 
+#sets up firefox with plugins and such
 read -p "Do you wish to setup firefox? type y or n " ANSWER
 
 if [[ $ANSWER = "y" ]]; then
@@ -88,6 +89,7 @@ elif [[ $ANSWER = "n" ]]; then
     echo "Please visit twily.info for more Firefox rice and run vim to install plugins"
 fi
 
+#installs npm packages
 for n in $NPM
 do
     if [[ ! -e /usr/lib/node_modules/$n ]]; then
