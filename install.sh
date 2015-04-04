@@ -24,7 +24,7 @@ done
 
 #Packages for rice
 echo "Installing needed packages"
-yaourt -S i3 conky powerline-fonts-git rxvt-unicode mpd ncmpcpp mpc dmenu network-manager network-manager-applet vim mpv-git tmux zsh mpc screenfetch speedtest-cli scrot  xfce4-screenshooter python2-potr youtube-dl firefox zsh-syntax-highlighting pulseaudio pavucontrol ttf-opensans ctags dmenu-extended
+yaourt -S i3 conky powerline-fonts-git rxvt-unicode mpd ncmpcpp mpc network-manager network-manager-applet vim mpv-git tmux zsh mpc screenfetch speedtest-cli scrot  xfce4-screenshooter python2-potr youtube-dl firefox zsh-syntax-highlighting pulseaudio pavucontrol ttf-opensans ctags dmenu-extended
 
 #zsh > bash
 echo "Installing oh-my-zsh"
