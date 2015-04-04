@@ -82,6 +82,9 @@ set nocompatible
     " Align your = etc.
     Plugin 'vim-scripts/Align'
 
+    "Multi-cursors
+    Plugin 'terryma/vim-multiple-cursors'
+
     " Snippets like textmate
     Plugin 'MarcWeber/vim-addon-mw-utils'
     Plugin 'tomtom/tlib_vim'
@@ -328,6 +331,17 @@ set nocompatible
         nnoremap gN :bprevious<CR>
         nnoremap gd :bdelete<CR>
         nnoremap gf <C-^>
+        " vim-multiple-cursors
+        let g:multi_cursor_use_default_mapping=0
+        " Default mapping
+        let g:multi_cursor_next_key='<C-N>'
+        let g:multi_cursor_prev_key='<C-P>'
+        let g:multi_cursor_skip_key='<C-X>'
+        let g:multi_cursor_quit_key='<Esc>'
+        let g:multi_cursor_start_key='g<C-N>'
+        let g:multi_cursor_start_word_key='<C-N>'
+
+
     """ }}}
     """ Functions and/or fancy keybinds {{{{
         """ Vim motion on next found object like ci", but for ([{< etc
