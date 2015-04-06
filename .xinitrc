@@ -28,7 +28,8 @@ if [ -x $(which gpg-agent) ]; then
 fi
 
 #compton --config ~/.i3/compton.conf &
-i3
+exec i3
+#exec startkde
 
 [ -x $(which gpg-agent) ] && kill $(grep GPG_AGENT_INFO "$GPG_ENVFILE" | cut -d: -f 2) 2>/dev/null
 

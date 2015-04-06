@@ -21187,3 +21187,46 @@ Apr 04 16:33 : client: [79] opened from [::1]:33425
 Apr 04 16:33 : client: [79] closed
 Apr 04 16:34 : client: [80] opened from [::1]:33428
 Apr 04 16:34 : client: [80] closed
+Apr 04 22:24 : avahi: Service 'Music Player' successfully established.
+Apr 04 22:40 : client: [0] opened from [::1]:48355
+Apr 04 22:40 : client: [0] closed
+Apr 04 22:53 : client: [1] opened from [::1]:48388
+Apr 04 22:53 : client: [1] closed
+Apr 04 22:53 : client: [2] opened from [::1]:48389
+Apr 04 22:53 : player: played "https://r-a-d.io/main.mp3"
+Apr 04 22:53 : client: [2] closed
+Apr 04 23:15 : client: [3] opened from [::1]:48579
+Apr 04 23:15 : client: [3] closed
+Apr 04 23:25 : client: [4] opened from [::1]:48585
+Apr 04 23:25 : client: [4] closed
+Apr 04 23:25 : client: [5] opened from [::1]:48586
+Apr 04 23:25 : player: played "https://r-a-d.io/main.mp3"
+Apr 04 23:25 : client: [5] closed
+Apr 04 23:32 : client: [6] opened from [::1]:48644
+Apr 04 23:32 : client: [6] closed
+Apr 04 23:37 : client: [7] opened from [::1]:48785
+Apr 04 23:37 : client: [7] closed
+Apr 04 23:41 : client: [8] opened from [::1]:48795
+Apr 04 23:41 : client: [8] closed
+Apr 04 23:53 : avahi: Service 'Music Player' successfully established.
+Apr 06 00:50 : client: [0] opened from [::1]:58320
+Apr 06 00:50 : player: played "https://r-a-d.io/main.mp3"
+Apr 06 00:50 : client: [0] closed
+Apr 06 01:39 : client: [1] opened from [::1]:58635
+Apr 06 01:39 : client: [1] closed
+Apr 06 02:30 : client: [2] opened from [::1]:58981
+Apr 06 02:30 : client: [2] closed
+Apr 06 13:09 : client: [3] opened from [::1]:60152
+Apr 06 13:09 : player: played "https://r-a-d.io/main.mp3"
+Apr 06 13:09 : client: [3] closed
+Apr 06 13:14 : client: [4] opened from [::1]:60312
+Apr 06 13:14 : client: [4] closed
+Apr 06 13:37 : client: [5] opened from [::1]:60935
+Apr 06 13:37 : client: [5] closed
+Apr 06 13:37 : curl: curl failed: SSL read: error:00000000:lib(0):func(0):reason(0), errno 104
+Apr 06 13:38 : player: played "https://r-a-d.io/main.mp3"
+Apr 06 13:42 : player: played "KLK OST MP3/Before my body is dry.mp3"
+Apr 06 13:46 : player: played "KLK OST MP3/Blumenkranz.mp3"
+Apr 06 13:50 : player: played "KLK OST MP3/I want to know.mp3"
+Apr 06 13:53 : client: [6] opened from [::1]:32823
+Apr 06 13:53 : client: [6] closed

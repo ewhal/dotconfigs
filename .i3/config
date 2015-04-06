@@ -237,7 +237,7 @@ bar {
     # mode hide
     mode dock
     output LVDS-0
-    font pango:Terminus 11px
+    font pango:Terminess Powerline 11px
 
     colors {
         statusline  #76c2d6
