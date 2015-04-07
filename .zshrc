@@ -79,6 +79,18 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+man() {
+    env \
+        LESS_TERMCAP_mb=$(printf "\e[1;31m") \
+        LESS_TERMCAP_md=$(printf "\e[1;31m") \
+        LESS_TERMCAP_me=$(printf "\e[0m") \
+        LESS_TERMCAP_se=$(printf "\e[0m") \
+        LESS_TERMCAP_so=$(printf "\e[1;40;33m") \
+        LESS_TERMCAP_ue=$(printf "\e[0m") \
+        LESS_TERMCAP_us=$(printf "\e[1;32m") \
+    man "$@"
+}
+
 alias grep='grep --color=auto'
     alias more='less'
     alias df='df -h'
@@ -153,11 +165,6 @@ RPROMPT="%{$fg_bold[blue]%}%~%{$reset_color%}"
 
 export PATH=$PATH:/home/ewhal/.bin
 
-#framebuffer colors
-if [ "$TERM" = "linux" ]; then
-    /home/dwv/.tty-colorize
-fi
-
 
 #functions
 yt() {
@@ -228,7 +235,7 @@ getwindowgeometry() {
 
 # infinality (Kori)
 export INFINALITY_FT_FILTER_PARAMS='25 30 40 30 25'
-#export INFINALITY_FT_FILTER_PARAMS='15 25 45 25 15'
+export INFINALITY_FT_FILTER_PARAMS='15 25 45 25 15'
 export INFINALITY_FT_AUTOHINT_HORIZONTAL_STEM_DARKEN_STRENGTH=0
 export INFINALITY_FT_AUTOHINT_VERTICAL_STEM_DARKEN_STRENGTH=0
 export INFINALITY_FT_AUTOHINT_INCREASE_GLYPH_HEIGHTS=true
