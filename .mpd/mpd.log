@@ -21328,3 +21328,39 @@ Apr 08 15:41 : client: [46] opened from [::1]:52476
 Apr 08 15:41 : client: [46] closed
 Apr 08 16:02 : client: [47] opened from [::1]:52511
 Apr 08 16:02 : client: [47] closed
+Apr 08 17:26 : avahi: Service 'Music Player' successfully established.
+Apr 08 20:46 : client: [0] opened from [::1]:33189
+Apr 08 20:46 : player: played "https://r-a-d.io/main.mp3"
+Apr 08 20:46 : client: [0] closed
+Apr 08 20:50 : client: [1] opened from [::1]:33293
+Apr 08 20:50 : client: [2] opened from [::1]:33294
+Apr 08 20:50 : client: [2] closed
+Apr 09 13:00 : client: [3] opened from [::1]:42827
+Apr 09 13:00 : player: played "https://r-a-d.io/main.mp3"
+Apr 09 13:00 : client: [3] closed
+Apr 09 13:01 : client: [4] opened from [::1]:42995
+Apr 09 13:01 : client: [4] closed
+Apr 09 13:03 : client: [5] opened from [::1]:43102
+Apr 09 13:03 : client: [5] closed
+Apr 09 13:27 : client: [6] opened from [::1]:43250
+Apr 09 13:27 : client: [6] closed
+Apr 09 14:26 : client: [7] opened from [::1]:43702
+Apr 09 14:26 : client: [7] closed
+Apr 09 14:29 : client: [8] opened from [::1]:43717
+Apr 09 14:29 : player: played "https://r-a-d.io/main.mp3"
+Apr 09 14:29 : player: played "https://r-a-d.io/main.mp3"
+Apr 09 14:29 : client: [8] closed
+Apr 09 14:51 : client: [9] opened from [::1]:44048
+Apr 09 14:51 : client: [9] closed
+Apr 09 14:57 : client: [10] opened from [::1]:44209
+Apr 09 14:57 : client: [10] closed
+Apr 09 15:41 : client: [11] opened from [::1]:44384
+Apr 09 15:41 : client: [11] closed
+Apr 09 15:54 : client: [12] opened from [::1]:44404
+Apr 09 15:54 : client: [12] closed
+Apr 09 15:59 : client: [13] opened from [::1]:45110
+Apr 09 15:59 : client: [13] closed
+Apr 09 16:00 : client: [14] opened from [::1]:45155
+Apr 09 16:00 : client: [14] closed
+Apr 09 16:08 : client: [15] opened from [::1]:45466
+Apr 09 16:08 : client: [15] closed

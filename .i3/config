@@ -204,8 +204,8 @@ client.urgent                  #383a3b #383a3b  #ee0000
 bindsym $MOD+Return exec urxvt
 #bindsym $MOD+SHIFT+Return exec sakura
 bindsym $MOD+SHIFT+w exec firefox
-#bindsym $MOD+SHIFT+x exec i3lock -c 424242 -n
-bindsym $MOD+SHIFT+x exec i3lock -i /home/ewhal4/Pictures/Wallpapers/space.jpg
+#bindsym $MOD+SHIFT+x exec i3lock -c 313131 -n
+bindsym $MOD+SHIFT+x exec i3lock -c 0c0c0c -n
 bindsym $MOD+SHIFT+s exec xfce4-screenshooter
 bindsym Mod4+SHIFT+Left workspace prev
 bindsym Mod4+SHIFT+Right workspace next
