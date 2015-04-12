@@ -4,8 +4,9 @@ ADDONS=( https://addons.mozilla.org/firefox/downloads/file/161685/greasemonkey-0
 FILES=( .zshrc .Xresources .vimrc .weechat .i3 .tmux.conf .bin .xinitrc .ncmpcpp .conkyrc .mpd .vimperatorrc  )
 USER=$(whoami)
 HOME=$(pwd)
-PROGRAMS=( i3-wm i3lock i3status conky powerline-fonts-git rxvt-unicode mpd ncmpcpp mpc networkmanager network-manager-applet ladspa-bs2b vim mpv-git tmux zsh screenfetch speedtest-cli scrot  xfce4-screenshooter python2-potr youtube-dl firefox zsh-syntax-highlighting pulseaudio pavucontrol ttf-opensans ctags dmenu-extended numix-themes gtk-theme-flatstudio numix-icon-theme-git thunar lxappearance tor unbound dnscrypt-proxy)
+ARCH=( i3-wm i3lock i3status conky powerline-fonts-git rxvt-unicode mpd ncmpcpp mpc networkmanager network-manager-applet ladspa-bs2b vim mpv-git tmux zsh screenfetch speedtest-cli scrot  xfce4-screenshooter python2-potr youtube-dl firefox zsh-syntax-highlighting pulseaudio pavucontrol ttf-opensans ctags dmenu-extended numix-themes gtk-theme-flatstudio numix-icon-theme-git thunar lxappearance tor unbound dnscrypt-proxy)
 NPM=( bower grunt-cli yo generator-angular-fullstack generator-angular )
+GENTOO=()
 
 if [[ -f $HOME/sharfunct.sh ]]; then
     source sharfunct.sh
@@ -13,11 +14,7 @@ else
     echo "missing file: sharedfuncs"
     exit 1
 fi
-update
-echo "Checking to see if programs need to be installed to continue"
-check_installed "${PROGRAMS[*]}"
-AUR "${INSTALL[*]}"
-
+detect_os
 #Sets up oh-my-zsh and ZSH
 echo  "Checking to see if Oh-My-ZSH is installed"
 shell_check

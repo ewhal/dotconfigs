@@ -1,34 +1,60 @@
 #!/bin/bash
 #Checks to see if packages are installed
 function is_installed() {
-    if pacman -Q $1 &> /dev/null; then
-        return 0
+    if $OS == "ARCH"; then
+
+        if pacman -Q $1 &> /dev/null; then
+            return 0
+        else
+            return 1
+        fi
+    elif $OS == "GENTOO"; then
+        if emerge $1 &> /dev/null; then
+            return 0
+        else
+            return 1
+        fi
     else
-        return 1
+        echo "Error"
+        exit 1
     fi
 }
-function update() {
-    pacman -Syy
+function update()  {
+    if $OS == "ARCH"; then
+        pacman -Syy
+    elif $OS == "GENTOO"; then
+        emerge -av @world
+    else
+        echo "Error"
+        exit 1
+    fi
 }
 #checks to see if package-query and yaourt are installed
-function AUR() {
+function install() {
     for pkg in $1
     do
-        if is_installed package_query || is_installed yaourt  ;then
-            yaourt -S --noconfirm $pkg
-            echo_pass $pkg
-        else
-            if ! is_installed base-devel ; then
-                pacman -S base-devel
-            fi
-            cd /tmp;
-            mkdir $pkg
-            cd $pkg
-            curl -O https://aur.archlinux.org/packages/$(echo $pkg | cut -c 1-2)/$pkg/1BUILD
-            makepkg -si --noconfirm
-            cd ..
-            rm -rf $pkg
+        if $OS == "ARCH"; then
+            if is_installed package_query || is_installed yaourt  ;then
+                yaourt -S --noconfirm $pkg
+                echo_pass $pkg
+            else
+                if ! is_installed base-devel ; then
+                    pacman -S base-devel
+                fi
+                cd /tmp;
+                mkdir $pkg
+                cd $pkg
+                curl -O https://aur.archlinux.org/packages/$(echo $pkg | cut -c 1-2)/$pkg/1BUILD
+                makepkg -si --noconfirm
+                cd ..
+                rm -rf $pkg
 
+            fi
+        elif $OS == "GENTOO"; then
+            emerge -av $pkg
+        else
+            echo "Error"
+            exit 1
         fi
     done
 }
@@ -95,11 +121,9 @@ function shell_check() {
         echo "Error unknown Shell"
     fi
 }
-
 function zsh_install() {
     curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 }
-
 function symbolicdot() {
     for f in $1
     do
@@ -111,7 +135,6 @@ function symbolicdot() {
         fi
     done
 }
-
 function npm_checkinstalled() {
     for n in $1
     do
@@ -122,22 +145,16 @@ function npm_checkinstalled() {
             echo_pass $n
         fi
     done
-    system_ctl mongodb
+    init mongodb
 }
-
 function firefox_addons() {
     for a in $1
     do
         firefox $a
     done
 }
-
-function system_ctl() {
-    systemctl enable $1
-    systemctl start $1
-}
 function setup_tor() {
-    echo lel
+    tor stuff
 }
 function setup_unbound_dnscrypt() {
     ln_files $HOME/dnscrypt-config /etc/conf.d/dnscrypt-config
@@ -145,6 +162,63 @@ function setup_unbound_dnscrypt() {
     ln_files $HOME/unbound /etc/unbound
     ln_files $HOME/resolv.conf /etc/resolv.conf
     chattr +i /etc/resolv.conf
-    system_ctl unbound
-    system_ctl dnscrypt-proxy
+    init unbound
+    init dnscrypt-proxy
+}
+function detect_os() {
+    if is_FileOrDirectory /etc/arch-release; then
+        OS="ARCH"
+        echo "Updating"
+        update
+        echo "Checking to see if programs need to be installed to continue"
+        check_installed $ARCH
+        echo "Installing packages"
+        install $INSTALL
+    elif is_FileOrDirectory /etc/gentoo-release; then
+        OS="GENTOO"
+        echo "Updating"
+        update
+        echo "Checking to see if programs need to be installed to continue"
+        check_installed $GENTOO
+        echo "Installing packages"
+        install $INSTALL
+    else
+        echo "Unsuported OS"
+        exit 1
+    fi
+}
+function init() {
+    if $OS == "ARCH"; then
+        if is_running $1; then
+            echo "Error $1 is running"
+        else
+            systemctl enable $1
+            systemctl start $1
+        fi
+    elif $OS == "GENTOO"; then
+        if is_running $1; then
+            echo "Error $1 is running"
+        else
+            openrc enable $1
+            openrc start $1
+        fi
+    else
+        echo "Error"
+        exit 1
+    fi
+}
+function is_running() {
+    if $OS == "ARCH"; then
+        if is running; then
+            return 0
+        else
+            return 1
+        fi
+    elif $OS == "GENTOO"; then
+        if is running; then
+            return 0
+        else
+            return 1
+        fi
+    fi
 }
