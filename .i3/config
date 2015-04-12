@@ -205,7 +205,8 @@ bindsym $MOD+Return exec urxvt
 #bindsym $MOD+SHIFT+Return exec sakura
 bindsym $MOD+SHIFT+w exec firefox
 #bindsym $MOD+SHIFT+x exec i3lock -c 313131 -n
-bindsym $MOD+SHIFT+x exec i3lock -c 0c0c0c -n
+#bindsym $MOD+SHIFT+x exec i3lock -c 0c0c0c -n
+bindsym $MOD+SHIFT+x exec i3lock --textcolor=ffffff00 --insidecolor=ffffff1c --ringcolor=ffffff3e --linecolor=ffffff00 --keyhlcolor=00000080 --ringvercolor=00000000 --insidevercolor=0000001c --ringwrongcolor=00000055 --insidewrongcolor=0000001c -c 0c0c0c
 bindsym $MOD+SHIFT+s exec xfce4-screenshooter
 bindsym Mod4+SHIFT+Left workspace prev
 bindsym Mod4+SHIFT+Right workspace next

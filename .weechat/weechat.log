@@ -1,21 +1,39 @@
-[2015-04-09 16:18:31] WeeChat 1.1.1 (compiled on Jan 27 2015 11:17:07)
-[2015-04-09 16:18:31] Reading configuration file sec.conf
-[2015-04-09 16:18:31] Reading configuration file weechat.conf
-[2015-04-09 16:18:31] Reading configuration file plugins.conf
-[2015-04-09 16:18:31] Reading configuration file iset.conf
-[2015-04-09 16:18:31] Reading configuration file buffers.conf
-[2015-04-09 16:18:31] Reading configuration file aspell.conf
-[2015-04-09 16:18:31] Reading configuration file script.conf
-[2015-04-09 16:18:31] Reading configuration file logger.conf
-[2015-04-09 16:18:31] Reading configuration file alias.conf
-[2015-04-09 16:18:31] Reading configuration file trigger.conf
-[2015-04-09 16:18:31] Reading configuration file irc.conf
-[2015-04-09 16:18:31] Reading configuration file fish.conf
-[2015-04-09 16:18:31] Reading configuration file otr.conf
-[2015-04-09 16:18:31] Reading configuration file charset.conf
-[2015-04-09 16:18:31] Reading configuration file exec.conf
-[2015-04-09 16:18:31] Reading configuration file xfer.conf
-[2015-04-09 16:18:31] irc: connecting to server chat.freenode.net/6697 (SSL)...
-[2015-04-09 16:18:31] irc: connecting to server irc.intercat.net/6697 (SSL)...
-[2015-04-09 16:18:31] irc: connecting to server irc.ecnet.org/6697 (SSL)...
-[2015-04-09 16:18:31] irc: connecting to server irc.rizon.net/6697 (SSL)...
+[2015-04-12 05:03:54] WeeChat 1.1.1 (compiled on Jan 27 2015 11:17:07)
+[2015-04-12 05:03:54] Reading configuration file sec.conf
+[2015-04-12 05:03:54] Reading configuration file weechat.conf
+[2015-04-12 05:03:54] Reading configuration file plugins.conf
+[2015-04-12 05:03:54] Reading configuration file iset.conf
+[2015-04-12 05:03:54] Reading configuration file buffers.conf
+[2015-04-12 05:03:54] Reading configuration file aspell.conf
+[2015-04-12 05:03:54] Reading configuration file script.conf
+[2015-04-12 05:03:54] Reading configuration file logger.conf
+[2015-04-12 05:03:54] Reading configuration file alias.conf
+[2015-04-12 05:03:54] Reading configuration file trigger.conf
+[2015-04-12 05:03:54] Reading configuration file irc.conf
+[2015-04-12 05:03:54] Reading configuration file fish.conf
+[2015-04-12 05:03:54] Reading configuration file otr.conf
+[2015-04-12 05:03:54] Reading configuration file charset.conf
+[2015-04-12 05:03:54] Reading configuration file exec.conf
+[2015-04-12 05:03:54] Reading configuration file xfer.conf
+[2015-04-12 05:03:54] irc: connecting to server chat.freenode.net/6697 (SSL)...
+[2015-04-12 05:03:54] irc: connecting to server irc.intercat.net/6697 (SSL)...
+[2015-04-12 05:03:54] irc: connecting to server irc.ecnet.org/6697 (SSL)...
+[2015-04-12 05:03:54] irc: connecting to server irc.rizon.net/6697 (SSL)...
+[2015-04-12 07:10:26] irc: connecting to server irc.rizon.net/6697 (SSL)...
+[2015-04-12 07:31:45] Writing configuration file plugins.conf
+[2015-04-12 07:31:45] Writing configuration file xfer.conf
+[2015-04-12 07:31:45] Writing configuration file exec.conf
+[2015-04-12 07:31:45] Writing configuration file charset.conf
+[2015-04-12 07:31:45] Writing configuration file fish.conf
+[2015-04-12 07:31:45] Writing configuration file fish.conf
+[2015-04-12 07:31:45] Writing configuration file otr.conf
+[2015-04-12 07:31:45] Writing configuration file irc.conf
+[2015-04-12 07:31:45] Writing configuration file trigger.conf
+[2015-04-12 07:31:45] Writing configuration file alias.conf
+[2015-04-12 07:31:45] Writing configuration file logger.conf
+[2015-04-12 07:31:45] Writing configuration file script.conf
+[2015-04-12 07:31:45] Writing configuration file aspell.conf
+[2015-04-12 07:31:45] Writing configuration file buffers.conf
+[2015-04-12 07:31:45] Writing configuration file iset.conf
+[2015-04-12 07:31:45] Writing configuration file weechat.conf
+[2015-04-12 07:31:45] Writing configuration file sec.conf
