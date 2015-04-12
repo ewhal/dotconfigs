@@ -248,13 +248,10 @@ function is_running() {
                 exit 1
             fi
         elif $INIT == "sysv"; then
-            if is running; then
+            if $(ps -ef | grep -v grep | grep $service | wc -l) > 0; then
                 return 0
-            elif is running ;then
-                return 1
             else
-                echo "Error init system not supported or found"
-                exit 1
+                return 1
             fi
         fi
     else
