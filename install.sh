@@ -29,14 +29,20 @@ ln_files $HOME/mpv.conf /home/$USER/.config/mpv/mpv.conf
 ln_files $HOME/user.js /home/$USER/.mozilla/firefox/*.default/user.js
 ln_files $HOME/twily.vimp /home/$USER/.vimperator/colors/twily.vimp
 #firefox_addons "${ADDONS[*]}"
+for a in "${ADDONS[*]}"$
+do
+    firefox $a
+done
+
 
 #Check and install npm packages
 npm_checkinstalled "${NPM[*]}"
 
 #setup unbound and dnscrypt
-#unbound_dnscrypt_setup
+unbound_dnscrypt_setup
 
 #setup tor
+setup_tor
 
 echo "Please visit http://twily.info for more Firefox rice and run vim to install plugins"
 echo "Run vim"

@@ -9,32 +9,37 @@ function is_installed() {
             return 1
         fi
     elif $OS == "GENTOO"; then
-        if emerge $1 &> /dev/null; then
+        if emerge  $1 &> /dev/null; then
             return 0
         else
             return 1
         fi
     else
-        echo "Error"
+        echo "Error unsupported OS"
         exit 1
     fi
 }
+
 function update()  {
     if $OS == "ARCH"; then
         pacman -Syy
     elif $OS == "GENTOO"; then
         emerge -av @world
     else
-        echo "Error"
+        echo "Error unsupported OS"
         exit 1
     fi
 }
+
 #checks to see if package-query and yaourt are installed
 function install() {
     for pkg in $1
     do
         if $OS == "ARCH"; then
             if is_installed package_query || is_installed yaourt  ;then
+                if ! is_installed base-devel ; then
+                    pacman -S base-devel
+                fi
                 yaourt -S --noconfirm $pkg
                 echo_pass $pkg
             else
@@ -53,7 +58,7 @@ function install() {
         elif $OS == "GENTOO"; then
             emerge -av $pkg
         else
-            echo "Error"
+            echo "Error unsuported OS"
             exit 1
         fi
     done
@@ -103,7 +108,7 @@ function shell_check() {
     if [ -n "`$SHELL -c 'echo $ZSH_VERSION'`" ]; then
         if is_FileOrDirectory /home/$USER/.oh-my-zsh ; then
             echo_fail "oh-my-zsh not found"
-            zsh_install
+            curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
         else
             echo_pass "oh-my-zsh installed"
         fi
@@ -111,7 +116,8 @@ function shell_check() {
         # assume Bash
         if  is_FileOrDirectory /home/$USER/.oh-my-zsh ; then
             echo_fail "oh-my-zsh not found"
-            zsh_install
+            curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+
             echo "chsh then type in /usr/bin/zsh"
             chsh
         else
@@ -121,9 +127,7 @@ function shell_check() {
         echo "Error unknown Shell"
     fi
 }
-function zsh_install() {
-    curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
-}
+
 function symbolicdot() {
     for f in $1
     do
@@ -135,6 +139,7 @@ function symbolicdot() {
         fi
     done
 }
+
 function npm_checkinstalled() {
     for n in $1
     do
@@ -147,15 +152,13 @@ function npm_checkinstalled() {
     done
     init mongodb
 }
-function firefox_addons() {
-    for a in $1
-    do
-        firefox $a
-    done
-}
+
 function setup_tor() {
-    tor stuff
+    echo "Setting up TOR"
+    ln_files
+    init tor
 }
+
 function setup_unbound_dnscrypt() {
     ln_files $HOME/dnscrypt-config /etc/conf.d/dnscrypt-config
     ln_files $HOME/dnscrypt-proxy /etc/conf.d/dnscrypt-proxy
@@ -165,9 +168,11 @@ function setup_unbound_dnscrypt() {
     init unbound
     init dnscrypt-proxy
 }
+
 function detect_os() {
     if is_FileOrDirectory /etc/arch-release; then
         OS="ARCH"
+        check_init
         echo "Updating"
         update
         echo "Checking to see if programs need to be installed to continue"
@@ -176,6 +181,7 @@ function detect_os() {
         install $INSTALL
     elif is_FileOrDirectory /etc/gentoo-release; then
         OS="GENTOO"
+        check_init
         echo "Updating"
         update
         echo "Checking to see if programs need to be installed to continue"
@@ -187,6 +193,7 @@ function detect_os() {
         exit 1
     fi
 }
+
 function init() {
     if $OS == "ARCH"; then
         if is_running $1; then
@@ -196,29 +203,72 @@ function init() {
             systemctl start $1
         fi
     elif $OS == "GENTOO"; then
-        if is_running $1; then
-            echo "Error $1 is running"
+        if $INIT == systemd; then
+            if is_running $1; then
+                echo "Error $1 is running"
+            else
+                systemctl enable $1
+                systemctl start $1
+            fi
+        elif $INIT == "sysv"; then
+            if is_running $1; then
+                echo "Error $1 is running"
+            else
+                rc-update add $1 default
+                /etc/init.d/$1 start
+            fi
         else
-            openrc enable $1
-            openrc start $1
+            echo "Error init system not supported or found"
+            exit 1
         fi
     else
-        echo "Error"
+        echo "Error init system not supported or found"
         exit 1
     fi
 }
+
 function is_running() {
     if $OS == "ARCH"; then
-        if is running; then
+        if $(systemctl is-active $1) == "active"; then
             return 0
-        else
+        elif $(systemctl is-active $1) == "inactive"; then
             return 1
+        else
+            echo "Error"
+            exit 1
         fi
     elif $OS == "GENTOO"; then
-        if is running; then
-            return 0
-        else
-            return 1
+        if $INIT == "systemd"; then
+            if $(systemctl is-active $1) == "active"; then
+                return 0
+            elif $(systemctl is-active $1) == "inactive"; then
+                return 1
+            else
+                echo "Error init system not supported or found"
+                exit 1
+            fi
+        elif $INIT == "sysv"; then
+            if is running; then
+                return 0
+            elif is running ;then
+                return 1
+            else
+                echo "Error init system not supported or found"
+                exit 1
+            fi
         fi
+    else
+        echo "Error init system not supported or found"
+    fi
+}
+
+function check_init() {
+    if $(ps 1 | grep /sbin/init);then
+        INIT="systemd"
+    elif $(ps 1 | grep init); then
+        INIT="sysv"
+    else
+        echo "Init system not supported"
+        exit 1
     fi
 }
