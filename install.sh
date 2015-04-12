@@ -6,7 +6,7 @@ USER=$(whoami)
 HOME=$(pwd)
 ARCH=( i3-wm i3lock i3status conky powerline-fonts-git rxvt-unicode mpd ncmpcpp mpc networkmanager network-manager-applet ladspa-bs2b vim mpv-git tmux zsh screenfetch speedtest-cli scrot  xfce4-screenshooter python2-potr youtube-dl firefox zsh-syntax-highlighting pulseaudio pavucontrol ttf-opensans ctags dmenu-extended numix-themes gtk-theme-flatstudio numix-icon-theme-git thunar lxappearance tor unbound dnscrypt-proxy)
 NPM=( bower grunt-cli yo generator-angular-fullstack generator-angular )
-GENTOO=()
+GENTOO=( i3 i3lock i3status conky powerline-fonts-git rxvt-unicode mpd ncmpcpp mpc networkmanager network-manager-applet ladspa-bs2b vim mpv tmux zsh screenfetch speedtest-cli scrot  xfce4-screenshooter python2-potr youtube-dl firefox zsh-syntax-highlighting pulseaudio pavucontrol ttf-opensans ctags dmenu-extended numix-themes gtk-theme-flatstudio numix-icon-theme-git thunar lxappearance tor unbound dnscrypt-proxy)
 
 if [[ -f $HOME/sharfunct.sh ]]; then
     source sharfunct.sh
