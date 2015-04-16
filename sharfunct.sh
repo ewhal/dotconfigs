@@ -166,7 +166,7 @@ function setup_unbound_dnscrypt() {
     ln_files $HOME/resolv.conf /etc/resolv.conf
     chattr +i /etc/resolv.conf
     init unbound
-    init dnscrypt-proxy
+    init dnscrypt-proxy(
 }
 
 function detect_os() {
@@ -260,9 +260,9 @@ function is_running() {
 }
 
 function check_init() {
-    if $(ps 1 | grep /sbin/init);then
+    if ps "1" | grep /sbin/init ;then
         INIT="systemd"
-    elif $(ps 1 | grep init); then
+    elif ps "1" | grep init; then
         INIT="sysv"
     else
         echo "Init system not supported"
