@@ -1,2 +1,3 @@
 colorscheme twily
 set defsearch=duckduckgo
+nmap U ;:execute '!m="' + buffer.URL + '" ; mpv --really-quiet "$m" &'<CR><CR> 

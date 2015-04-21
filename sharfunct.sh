@@ -166,12 +166,13 @@ function setup_unbound_dnscrypt() {
     ln_files $HOME/resolv.conf /etc/resolv.conf
     chattr +i /etc/resolv.conf
     init unbound
-    init dnscrypt-proxy(
+    init dnscrypt-proxy
 }
 
 function detect_os() {
-    if is_FileOrDirectory /etc/arch-release; then
+    if ! is_FileOrDirectory /etc/arch-release; then
         OS="ARCH"
+        echo $OS
         check_init
         echo "Updating"
         update
@@ -179,8 +180,10 @@ function detect_os() {
         check_installed $ARCH
         echo "Installing packages"
         install $INSTALL
-    elif is_FileOrDirectory /etc/gentoo-release; then
+        return 0
+    elif ! is_FileOrDirectory /etc/gentoo-release; then
         OS="GENTOO"
+        echo $OS
         check_init
         echo "Updating"
         update
@@ -188,12 +191,56 @@ function detect_os() {
         check_installed $GENTOO
         echo "Installing packages"
         install $INSTALL
+        return 0
     else
         echo "Unsuported OS"
         exit 1
     fi
 }
 
+function is_running() {
+    if $OS == "ARCH"; then
+        if $(systemctl is-active $1) == "active"; then
+            return 0
+        elif $(systemctl is-active $1) == "inactive"; then
+            return 1
+        else
+            echo "Error"
+            exit 1
+        fi
+    elif $OS == "GENTOO"; then
+        if $INITSYS == "systemd"; then
+            if $(systemctl is-active $1) == "active"; then
+                return 0
+            elif $(systemctl is-active $1) == "inactive"; then
+                return 1
+            else
+                echo "Error init system not supported or found"
+                exit 1
+            fi
+        elif $INITSYS == "sysv"; then
+            if $(ps -ef | grep -v grep | grep $service | wc -l) > 0; then
+                return 0
+            else
+                return 1
+            fi
+        fi
+    else
+        echo "Error init system not supported or found"
+    fi
+}
+
+function check_init() {
+    if $(ps '1' | grep -o /sbin/init) == "/sbin/init"; then
+        INITSYS="systemd"
+        echo $INITSYS
+    elif $(ps '1' | grep -o init) == "init"; then
+        INITSYS="sysv"
+    else
+        echo "Init system not supported"
+        exit 1
+    fi
+}
 function init() {
     if $OS == "ARCH"; then
         if is_running $1; then
@@ -203,14 +250,14 @@ function init() {
             systemctl start $1
         fi
     elif $OS == "GENTOO"; then
-        if $INIT == systemd; then
+        if $INITSYS == systemd; then
             if is_running $1; then
                 echo "Error $1 is running"
             else
                 systemctl enable $1
                 systemctl start $1
             fi
-        elif $INIT == "sysv"; then
+        elif $INITSYS == "sysv"; then
             if is_running $1; then
                 echo "Error $1 is running"
             else
@@ -227,45 +274,4 @@ function init() {
     fi
 }
 
-function is_running() {
-    if $OS == "ARCH"; then
-        if $(systemctl is-active $1) == "active"; then
-            return 0
-        elif $(systemctl is-active $1) == "inactive"; then
-            return 1
-        else
-            echo "Error"
-            exit 1
-        fi
-    elif $OS == "GENTOO"; then
-        if $INIT == "systemd"; then
-            if $(systemctl is-active $1) == "active"; then
-                return 0
-            elif $(systemctl is-active $1) == "inactive"; then
-                return 1
-            else
-                echo "Error init system not supported or found"
-                exit 1
-            fi
-        elif $INIT == "sysv"; then
-            if $(ps -ef | grep -v grep | grep $service | wc -l) > 0; then
-                return 0
-            else
-                return 1
-            fi
-        fi
-    else
-        echo "Error init system not supported or found"
-    fi
-}
 
-function check_init() {
-    if ps "1" | grep /sbin/init ;then
-        INIT="systemd"
-    elif ps "1" | grep init; then
-        INIT="sysv"
-    else
-        echo "Init system not supported"
-        exit 1
-    fi
-}

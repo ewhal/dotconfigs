@@ -15,6 +15,7 @@ else
     exit 1
 fi
 detect_os
+echo $OS
 #Sets up oh-my-zsh and ZSH
 echo  "Checking to see if Oh-My-ZSH is installed"
 shell_check
@@ -29,10 +30,7 @@ ln_files $HOME/mpv.conf /home/$USER/.config/mpv/mpv.conf
 ln_files $HOME/user.js /home/$USER/.mozilla/firefox/*.default/user.js
 ln_files $HOME/twily.vimp /home/$USER/.vimperator/colors/twily.vimp
 #firefox_addons "${ADDONS[*]}"
-for a in "${ADDONS[*]}"$
-do
-    firefox $a
-done
+firefox "${ADDONS[@]}"
 
 
 #Check and install npm packages
