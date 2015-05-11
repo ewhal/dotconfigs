@@ -1,65 +1,38 @@
 #!/bin/bash
 #Checks to see if packages are installed
 function is_installed() {
-    if $OS == "ARCH"; then
-
-        if pacman -Q $1 &> /dev/null; then
-            return 0
-        else
-            return 1
-        fi
-    elif $OS == "GENTOO"; then
-        if emerge  $1 &> /dev/null; then
-            return 0
-        else
-            return 1
-        fi
+    if pacman -Q $1 &> /dev/null; then
+        return 0
     else
-        echo "Error unsupported OS"
-        exit 1
+        return 1
     fi
 }
 
 function update()  {
-    if $OS == "ARCH"; then
-        pacman -Syy
-    elif $OS == "GENTOO"; then
-        emerge -av @world
-    else
-        echo "Error unsupported OS"
-        exit 1
-    fi
+    pacman -Syy
 }
 
 #checks to see if package-query and yaourt are installed
 function install() {
     for pkg in $1
     do
-        if $OS == "ARCH"; then
-            if is_installed package_query || is_installed yaourt  ;then
-                if ! is_installed base-devel ; then
-                    pacman -S base-devel
-                fi
-                yaourt -S --noconfirm $pkg
-                echo_pass $pkg
-            else
-                if ! is_installed base-devel ; then
-                    pacman -S base-devel
-                fi
-                cd /tmp;
-                mkdir $pkg
-                cd $pkg
-                curl -O https://aur.archlinux.org/packages/$(echo $pkg | cut -c 1-2)/$pkg/1BUILD
-                makepkg -si --noconfirm
-                cd ..
-                rm -rf $pkg
-
+        if is_installed package_query || is_installed yaourt  ;then
+            if ! is_installed base-devel ; then
+                pacman -S base-devel
             fi
-        elif $OS == "GENTOO"; then
-            emerge -av $pkg
+            yaourt -S --noconfirm $pkg
+            echo_pass $pkg
         else
-            echo "Error unsuported OS"
-            exit 1
+            if ! is_installed base-devel ; then
+                pacman -S base-devel
+            fi
+            cd /tmp;
+            mkdir $pkg
+            cd $pkg
+            curl -O https://aur.archlinux.org/packages/$(echo $pkg | cut -c 1-2)/$pkg/1BUILD
+            makepkg -si --noconfirm
+            cd ..
+            rm -rf $pkg
         fi
     done
 }
@@ -171,24 +144,10 @@ function setup_unbound_dnscrypt() {
 
 function detect_os() {
     if ! is_FileOrDirectory /etc/arch-release; then
-        OS="ARCH"
-        echo $OS
-        check_init
         echo "Updating"
         update
         echo "Checking to see if programs need to be installed to continue"
         check_installed $ARCH
-        echo "Installing packages"
-        install $INSTALL
-        return 0
-    elif ! is_FileOrDirectory /etc/gentoo-release; then
-        OS="GENTOO"
-        echo $OS
-        check_init
-        echo "Updating"
-        update
-        echo "Checking to see if programs need to be installed to continue"
-        check_installed $GENTOO
         echo "Installing packages"
         install $INSTALL
         return 0
@@ -199,79 +158,23 @@ function detect_os() {
 }
 
 function is_running() {
-    if $OS == "ARCH"; then
-        if $(systemctl is-active $1) == "active"; then
-            return 0
-        elif $(systemctl is-active $1) == "inactive"; then
-            return 1
-        else
-            echo "Error"
-            exit 1
-        fi
-    elif $OS == "GENTOO"; then
-        if $INITSYS == "systemd"; then
-            if $(systemctl is-active $1) == "active"; then
-                return 0
-            elif $(systemctl is-active $1) == "inactive"; then
-                return 1
-            else
-                echo "Error init system not supported or found"
-                exit 1
-            fi
-        elif $INITSYS == "sysv"; then
-            if $(ps -ef | grep -v grep | grep $service | wc -l) > 0; then
-                return 0
-            else
-                return 1
-            fi
-        fi
+    if $(systemctl is-active $1) == "active"; then
+        return 0
+    elif $(systemctl is-active $1) == "inactive"; then
+        return 1
     else
-        echo "Error init system not supported or found"
+        echo "Error"
+        exit 1
     fi
 }
 
-function check_init() {
-    if $(ps '1' | grep -o /sbin/init) == "/sbin/init"; then
-        INITSYS="systemd"
-        echo $INITSYS
-    elif $(ps '1' | grep -o init) == "init"; then
-        INITSYS="sysv"
-    else
-        echo "Init system not supported"
-        exit 1
-    fi
-}
 function init() {
-    if $OS == "ARCH"; then
-        if is_running $1; then
-            echo "Error $1 is running"
-        else
-            systemctl enable $1
-            systemctl start $1
-        fi
-    elif $OS == "GENTOO"; then
-        if $INITSYS == systemd; then
-            if is_running $1; then
-                echo "Error $1 is running"
-            else
-                systemctl enable $1
-                systemctl start $1
-            fi
-        elif $INITSYS == "sysv"; then
-            if is_running $1; then
-                echo "Error $1 is running"
-            else
-                rc-update add $1 default
-                /etc/init.d/$1 start
-            fi
-        else
-            echo "Error init system not supported or found"
-            exit 1
-        fi
+    if is_running $1; then
+        echo "Error $1 is running"
     else
-        echo "Error init system not supported or found"
-        exit 1
-    fi
+        systemctl enable $1
+        systemctl start $1
+	fi
 }
 
 
