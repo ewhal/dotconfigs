@@ -14,7 +14,19 @@ else
     echo "missing file: sharedfuncs"
     exit 1
 fi
-detect_os
+
+if [[ -f /etc/arch-release ]]; then
+    echo "Updating"
+    update
+    echo "Checking to see if programs need to be installed to continue"
+    check_installed "${ARCH[*]}"
+    echo "Installing packages"
+    install "${INSTALL[*]}"
+else
+    echo "Unsupported OS"
+    exit 1
+fi
+
 echo $OS
 #Sets up oh-my-zsh and ZSH
 echo  "Checking to see if Oh-My-ZSH is installed"
@@ -40,7 +52,7 @@ npm_checkinstalled "${NPM[*]}"
 unbound_dnscrypt_setup
 
 #setup tor
-setup_tor
+#setup_tor
 
 echo "Please visit http://twily.info for more Firefox rice and run vim to install plugins"
 echo "Run vim"

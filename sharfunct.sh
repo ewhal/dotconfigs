@@ -1,7 +1,7 @@
 #!/bin/bash
 #Checks to see if packages are installed
 function is_installed() {
-    if pacman -Q $1 &> /dev/null; then
+    if sudo pacman -Q "$1" &> /dev/null; then
         return 0
     else
         return 1
@@ -9,30 +9,26 @@ function is_installed() {
 }
 
 function update()  {
-    pacman -Syy
+    sudo pacman -Syy
 }
 
 #checks to see if package-query and yaourt are installed
 function install() {
     for pkg in $1
     do
-        if is_installed package_query || is_installed yaourt  ;then
-            if ! is_installed base-devel ; then
-                pacman -S base-devel
+        if ! is_installed base-devel ; then
+            if is_installed package_query || is_installed yaourt  ;then
+                yaourt -S --noconfirm "$pkg"
+                echo_pass "$pkg"
+            else
+                cd /tmp;
+                mkdir "$pkg"
+                cd "$pkg"
+                curl -O https://aur.archlinux.org/packages/$(echo "$pkg" | cut -c 1-2)/"$pkg"/1BUILD
+                makepkg -si --noconfirm
+                cd ..
+                rm -rf "$pkg"
             fi
-            yaourt -S --noconfirm $pkg
-            echo_pass $pkg
-        else
-            if ! is_installed base-devel ; then
-                pacman -S base-devel
-            fi
-            cd /tmp;
-            mkdir $pkg
-            cd $pkg
-            curl -O https://aur.archlinux.org/packages/$(echo $pkg | cut -c 1-2)/$pkg/1BUILD
-            makepkg -si --noconfirm
-            cd ..
-            rm -rf $pkg
         fi
     done
 }
@@ -47,11 +43,11 @@ function is_FileOrDirectory() {
 }
 
 function ln_files() {
-    if is_FileOrDirectory $2; then
-        echo_fail $2
-        ln -fs $1 $2
+    if is_FileOrDirectory "$2"; then
+        echo_fail "$2"
+        ln -fs "$1" "$2"
     else
-        echo_pass $2
+        echo_pass "$2"
     fi
 }
 
@@ -78,16 +74,16 @@ function check_installed() {
 }
 
 function shell_check() {
-    if [ -n "`$SHELL -c 'echo $ZSH_VERSION'`" ]; then
-        if is_FileOrDirectory /home/$USER/.oh-my-zsh ; then
+    if [[ -n $($SHELL -c "echo $ZSH_VERSION" ) ]]; then
+        if is_FileOrDirectory /home/"$USER"/.oh-my-zsh ; then
             echo_fail "oh-my-zsh not found"
             curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
         else
             echo_pass "oh-my-zsh installed"
         fi
-    elif [ -n "`$SHELL -c 'echo $BASH_VERSION'`" ]; then
+    elif [[ -n $($SHELL -c "echo $BASH_VERSION") ]]; then
         # assume Bash
-        if  is_FileOrDirectory /home/$USER/.oh-my-zsh ; then
+        if  is_FileOrDirectory /home/"$USER"/.oh-my-zsh ; then
             echo_fail "oh-my-zsh not found"
             curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 
@@ -104,11 +100,11 @@ function shell_check() {
 function symbolicdot() {
     for f in $1
     do
-        if is_FileOrDirectory /home/$USER/$f; then
-            ln -fs $HOME/$f /home/$USER/$f
-            echo_fail $f
+        if is_FileOrDirectory /home/"$USER"/"$f"; then
+            ln -fs "$HOME"/"$f" /home/"$USER"/"$f"
+            echo_fail "$f"
         else
-            echo_pass $f
+            echo_pass "$f"
         fi
     done
 }
@@ -116,51 +112,36 @@ function symbolicdot() {
 function npm_checkinstalled() {
     for n in $1
     do
-        if is_FileOrDirectory /usr/lib/node_modules/$n; then
-            echo_fail $n
-            sudo npm install -g $n
+        if is_FileOrDirectory /usr/lib/node_modules/"$n"; then
+            echo_fail "$n"
+            sudo npm install -g "$n"
         else
-            echo_pass $n
+            echo_pass "$n"
         fi
     done
     init mongodb
 }
 
-function setup_tor() {
-    echo "Setting up TOR"
-    ln_files
-    init tor
-}
+#function setup_tor() {
+#    echo "Setting up TOR"
+#    ln_files
+#    init tor
+#}
 
 function setup_unbound_dnscrypt() {
-    ln_files $HOME/dnscrypt-config /etc/conf.d/dnscrypt-config
-    ln_files $HOME/dnscrypt-proxy /etc/conf.d/dnscrypt-proxy
-    ln_files $HOME/unbound /etc/unbound
-    ln_files $HOME/resolv.conf /etc/resolv.conf
-    chattr +i /etc/resolv.conf
+    ln_files "$HOME"/dnscrypt-config /etc/conf.d/dnscrypt-config
+    ln_files "$HOME"/dnscrypt-proxy /etc/conf.d/dnscrypt-proxy
+    ln_files "$HOME"/unbound /etc/unbound
+    ln_files "$HOME"/resolv.conf /etc/resolv.conf
+    sudo chattr +i /etc/resolv.conf
     init unbound
     init dnscrypt-proxy
 }
-
-function detect_os() {
-    if ! is_FileOrDirectory /etc/arch-release; then
-        echo "Updating"
-        update
-        echo "Checking to see if programs need to be installed to continue"
-        check_installed $ARCH
-        echo "Installing packages"
-        install $INSTALL
-        return 0
-    else
-        echo "Unsuported OS"
-        exit 1
-    fi
-}
-
+#
 function is_running() {
-    if $(systemctl is-active $1) == "active"; then
+    if $(sudo systemctl is-active $1) == "active"; then
         return 0
-    elif $(systemctl is-active $1) == "inactive"; then
+    elif $(sudo systemctl is-active $1) == "inactive"; then
         return 1
     else
         echo "Error"
@@ -169,11 +150,11 @@ function is_running() {
 }
 
 function init() {
-    if is_running $1; then
+    if is_running "$1"; then
         echo "Error $1 is running"
     else
-        systemctl enable $1
-        systemctl start $1
+        sudo systemctl enable "$1"
+        sudo systemctl start "$1"
 	fi
 }
 
