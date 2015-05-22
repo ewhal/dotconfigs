@@ -1,30 +1,62 @@
 #!/bin/bash
 #Checks to see if packages are installed
-function is_installed() {
-    if sudo pacman -Q "$1" &> /dev/null; then
+function is_installed_arch() {
+    if sudo pacman -q "$1" &> /dev/null; then
         return 0
     else
         return 1
     fi
 }
 
-function update()  {
-    sudo pacman -Syy
+function update_arch()  {
+    sudo pacman -syy
 }
 
 #checks to see if package-query and yaourt are installed
-function install() {
+function install_arch() {
     for pkg in $1
     do
         if ! is_installed base-devel ; then
             if is_installed package_query || is_installed yaourt  ;then
-                yaourt -S --noconfirm "$pkg"
+                yaourt -s --noconfirm "$pkg"
                 echo_pass "$pkg"
             else
                 cd /tmp;
                 mkdir "$pkg"
                 cd "$pkg"
-                curl -O https://aur.archlinux.org/packages/$(echo "$pkg" | cut -c 1-2)/"$pkg"/1BUILD
+                curl -o https://aur.archlinux.org/packages/$(echo "$pkg" | cut -c 1-2)/"$pkg"/1build
+                makepkg -si --noconfirm
+                cd ..
+                rm -rf "$pkg"
+            fi
+        fi
+    done
+}
+function is_installed_gentoo() {
+    if sudo emerge -av -q "$1" &> /dev/null; then
+        return 0
+    else
+        return 1
+    fi
+}
+
+function update_gentoo()  {
+    sudo emrge -av @world
+}
+
+#checks to see if package-query and yaourt are installed
+function install_gentoo() {
+    for pkg in $1
+    do
+        if ! is_installed base-devel ; then
+            if is_installed package_query || is_installed yaourt  ;then
+                yaourt -s --noconfirm "$pkg"
+                echo_pass "$pkg"
+            else
+                cd /tmp;
+                mkdir "$pkg"
+                cd "$pkg"
+                curl -o https://aur.archlinux.org/packages/$(echo "$pkg" | cut -c 1-2)/"$pkg"/1build
                 makepkg -si --noconfirm
                 cd ..
                 rm -rf "$pkg"

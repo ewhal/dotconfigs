@@ -17,11 +17,18 @@ fi
 
 if [[ -f /etc/arch-release ]]; then
     echo "Updating"
-    update
+    update_arch
     echo "Checking to see if programs need to be installed to continue"
-    check_installed "${ARCH[*]}"
+    check_installed_arch "${ARCH[*]}"
     echo "Installing packages"
-#    install "${INSTALL[*]}"
+    install_arch "${INSTALL[*]}"
+else if [[ -f /etc/gentoo-release ]]; then
+    echo "Updating"
+    update_gentoo
+    echo "Checking to see if programs need to be installed to continue"
+    check_installed_gentoo "${ARCH[*]}"
+    echo "Installing packages"
+    install_gentoo "${INSTALL[*]}"
 else
     echo "Unsupported OS"
     exit 1
@@ -43,12 +50,11 @@ ln_files $HOME/twily.vimp /home/$USER/.vimperator/colors/twily.vimp
 #firefox_addons "${ADDONS[*]}"
 firefox "${ADDONS[@]}"
 
-
 #Check and install npm packages
 npm_checkinstalled "${NPM[*]}"
 
 #setup unbound and dnscrypt
-unbound_dnscrypt_setup
+#unbound_dnscrypt_setup
 
 #setup tor
 #setup_tor
