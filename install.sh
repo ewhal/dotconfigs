@@ -21,13 +21,12 @@ if [[ -f /etc/arch-release ]]; then
     echo "Checking to see if programs need to be installed to continue"
     check_installed "${ARCH[*]}"
     echo "Installing packages"
-    install "${INSTALL[*]}"
+#    install "${INSTALL[*]}"
 else
     echo "Unsupported OS"
     exit 1
 fi
 
-echo $OS
 #Sets up oh-my-zsh and ZSH
 echo  "Checking to see if Oh-My-ZSH is installed"
 shell_check
