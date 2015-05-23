@@ -22,13 +22,16 @@ if [[ -f /etc/arch-release ]]; then
     check_installed_arch "${ARCH[*]}"
     echo "Installing packages"
     install_arch "${INSTALL[*]}"
-else if [[ -f /etc/gentoo-release ]]; then
+elif [[ -f /etc/gentoo-release ]]; then
     echo "Updating"
     update_gentoo
     echo "Checking to see if programs need to be installed to continue"
-    check_installed_gentoo "${ARCH[*]}"
+    check_installed_gentoo "${GENTOO[*]}"
     echo "Installing packages"
     install_gentoo "${INSTALL[*]}"
+    if [[ ! -f /usr/bin/systemd ]]; then
+        emerge -av systemd
+    fi
 else
     echo "Unsupported OS"
     exit 1
@@ -39,14 +42,14 @@ echo  "Checking to see if Oh-My-ZSH is installed"
 shell_check
 
 #Symbolic link dot-config files to user directory
-symbolicdot ${FILES[*]}
+symbolicdot "${FILES[*]}"
 #Other dotconfig files with weird paths
-ln_files $HOME/dmenuExtended_preferences.txt /home/$USER/.config/dmenu-extended/config/dmenuExtended_preferences.txt
-ln_files $HOME/mpv.conf /home/$USER/.config/mpv/mpv.conf
+ln_files "$HOME"/dmenuExtended_preferences.txt /home/"$USER"/.config/dmenu-extended/config/dmenuExtended_preferences.txt
+ln_files "$HOME"/mpv.conf /home/"$USER"/.config/mpv/mpv.conf
 
 #sets up firefox with plugins and such
-ln_files $HOME/user.js /home/$USER/.mozilla/firefox/*.default/user.js
-ln_files $HOME/twily.vimp /home/$USER/.vimperator/colors/twily.vimp
+ln_files "$HOME"/user.js /home/"$USER"/.mozilla/firefox/*.default/user.js
+ln_files "$HOME"/twily.vimp /home/"$USER"/.vimperator/colors/twily.vimp
 #firefox_addons "${ADDONS[*]}"
 firefox "${ADDONS[@]}"
 
