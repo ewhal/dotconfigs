@@ -1,4 +1,5 @@
 .weechat/logs
+.weechat/irc.conf
 .weechat/weechat.log
 .weechat/weechat.conf
 .mpd/mpd.log

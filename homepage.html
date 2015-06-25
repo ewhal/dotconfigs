@@ -107,9 +107,9 @@ var search=[ // Search engines
 ];
 
 var menus=[ // Menu Titles ["Title", width(px)],                                                   /* menu width */
-    ["News",           200],                                        // menu-1
-    ["4chan",          200],                                        // menu-2
-    ["Entertainment",  200],                                        // menu-3
+    ["Services",           200],                                        // menu-1
+    ["Common sites",          200],                                        // menu-2
+    ["Private Trackers",  200],                                        // menu-3
     ["Other",          200],                                        // menu-4
 ];
 
@@ -119,62 +119,71 @@ var showFavicon = true;                                             // Enable/Di
 // Format: ["Name", "URL", "Custom Favicon"],
 var links=[
     // News -           menu-1
-    ["Couchpotato",                 "http://192.168.1.106:5050/",                 ""],
-    ["sickrage",                    "http://192.168.1.106:8081",              ""],
-    ["transmission",                "http://192.168.1.106:9091/transmission/web/",                         ""],
-    ["mediabrowser",                "http://192.168.1.106:8096/web/login.html",                         ""],
-    ["headphones",                "http://192.168.1.106:8181",                         ""],
-    ["mylar",                "http://192.168.1.106:8090",                         ""],
-    ["sabnzbd",                "http://192.168.1.106:8080/sabnzbd",                         ""],
-    ["router",                "http://192.168.1.1",                         ""],
-    ["modem",                "http://192.168.0.1",                         ""],
+    ["Couchpotato",     "http://mediaserver:5050/",                   ""],
+    ["sickrage",        "http://mediaserver:8081",                    ""],
+    ["transmission",    "http://mediaserver:9091/transmission/web/",  ""],
+    ["mediabrowser",    "http://mediaserver:8096/web/login.html",     ""],
+    ["headphones",      "http://mediaserver:8181",                    ""],
+    ["mylar",           "http://mediaserver:8090",                    ""],
+    ["sabnzbd",         "http://mediaserver:8080/sabnzbd",            ""],
+    ["router",          "http://192.168.2.1",                         ""],
+    ["modem",           "http://192.168.100.1",                         ""],
+    ["switch",          "http://192.168.2.10",                        ""],
 
-    ["",                                "",                                     ""],
+    ["",                "",                                             ""],
 
     // 4chan -          menu-2
-    ["/a/ - Anime",                    "https://boards.4chan.org/a/catalog",   ""],
-    ["/fit/ - Fitness",                    "https://boards.4chan.org/fit/catalog",   ""],
-    ["/fa/ - Fashion",                    "https://boards.4chan.org/fa/catalog",   ""],
-    ["/ck/ - Cooking",                    "https://boards.4chan.org/ck/catalog",   ""],
-    ["/g/ - Tech",                    "https://boards.4chan.org/g/catalog",   ""],
-    ["/out/ - Outdoors",                    "https://boards.4chan.org/out/catalog",   ""],
-    ["reddit",                    "https://reddit.com",   ""],
+    ["/a/ - Anime",     "https://boards.4chan.org/a/catalog",           ""],
+    ["/fit/ - Fitness", "https://boards.4chan.org/fit/catalog",         ""],
+    ["/fa/ - Fashion",  "https://boards.4chan.org/fa/catalog",          ""],
+    ["/ck/ - Cooking",  "https://boards.4chan.org/ck/catalog",          ""],
+    ["/g/ - Tech",      "https://boards.4chan.org/g/catalog",           ""],
+    ["reddit",          "https://reddit.com",                           ""],
 
-    ["",                                "",                                     ""],
+    ["",                                "",                             ""],
 
     // Entertainment -  menu-3
-    ["Imgur",                           "https://imgur.com/",                   ""],
-    ["Pomf",                           "https://pomf.se/",                   ""],
-    ["YouTube",                         "http://youtube.com",                   ""],
-    ["What.cd",                        "https://what.cd",                   ""],
-    ["PTP",                        "https://passthepopcorn.me",                   ""],
-    ["AnimeBytes",                        "https://animebytes.tv",                   ""],
-    ["myanonamouse",                        "https://myanonamouse.net",                   ""],
-    ["32pages",                        "https://32pag.es/login.php",                   ""],
-    ["jpopsuki",                        "https://jpopsuki.eu",                   ""],
-    ["MoreThanTV",                        "https://www.morethan.tv",                   ""],
-    ["Myspleen",                        "http://www.myspleen.org",                   ""],
-    ["AwesomeHD",                        "https://awesome-hd.net",                   ""],
-    ["BaconBits",                        "https://baconbits.org",                   ""],
-    ["oppaitime",                        "https://oppaiti.me",                   ""],
-    ["TitansOfTV",                        "https://titansof.tv",                   ""],
-    ["SCC", "https://sceneaccess.eu", ""],
-    ["AsiaTorrents", "https://www.asiatorrents.me/", ""],
+    ["What.cd",         "https://what.cd",                              ""],
+    ["BTN",             "https://broadcasthe.net/",                     ""],
+    ["PTP",             "https://passthepopcorn.me",                    ""],
+    ["SCC",             "https://sceneaccess.eu",                       ""],
+    ["myanonamouse",    "https://myanonamouse.net",                     ""],
+    ["AnimeBytes",      "https://animebytes.tv",                        ""],
+    ["Bibliotik",       "http://bibliotik.org",                         ""],
+    ["32pages",         "https://32pag.es",                             ""],
+    ["ScienceHD",       "https://sciencehd.me",                         ""],
+    ["jpopsuki",        "https://jpopsuki.eu",                          ""],
+    ["beathau5",        "https://tracker.beathau5.com",                 ""],
+    ["lztr",            "http://lztr.us",                               ""],
+    ["AwesomeHD",       "https://awesome-hd.net",                       ""],
+    ["FreshON",         "https://freshon.tv",                           ""],
+    ["TtV",             "https://titansof.tv",                          ""],
+    ["x265",            "http://x264.me/",                              ""],
+    ["MoreThanTV",      "https://www.morethan.tv",                      ""],
+    ["AlphaRatio CC",   "https://alpharatio.cc",                        ""],
+    ["Myspleen",        "http://www.myspleen.org",                      ""],
+    ["BaconBits",       "https://baconbits.org",                        ""],
+    ["AsiaTorrents",    "https://www.asiatorrents.me",                  ""],
+    ["oppaitime",       "https://oppaiti.me",                           ""],
+    ["dmhy",            "http://u2.dmhy.org",                           ""],
 
-    ["",                                "",                                     ""],
+    ["",                                "",                             ""],
 
     // Other -          menu-4
-    ["Altinn",                          "https://www.altinn.no/",               ""],
-    ["CockMail",                        "https://mail.cock.li",                 "https://mail.cock.li/skins/larry/images/favicon.ico"],
-    ["DnB",                             "http://www.dnb.no/en/",                ""],
-    ["Dropbox",                         "https://www.dropbox.com",              "https://dt8kf6553cww8.cloudfront.net/static/images/favicon-vflk5FiAC.ico"],
-    ["Facebook",                        "http://facebook.com",                  ""],
-    ["Outlook",                         "http://outlook.com",                   ""],
-    ["Pastebin",                        "http://pastebin.com",                  ""],
-    ["PayPal",                          "http://www.paypal.com/",               ""],
-    ["Userstyles",                      "http://userstyles.org/",               ""],
-    ["Wallgig",                         "http://wallgig.net",                   ""],
-    ["Wallhaven",                       "http://alpha.wallhaven.cc",            ""],
+    ["Imgur",           "https://imgur.com/",                           ""],
+    ["Pomf",            "https://pomf.se/",                             ""],
+    ["YouTube",         "http://youtube.com",                           ""],
+    ["Altinn",          "https://www.altinn.no/",                       ""],
+    ["CockMail",        "https://mail.cock.li",                         ""],
+    ["DnB",             "http://www.dnb.no/en/",                        ""],
+    ["Dropbox",         "https://www.dropbox.com",                      ""],
+    ["Facebook",        "http://facebook.com",                          ""],
+    ["Outlook",         "http://outlook.com",                           ""],
+    ["Pastebin",        "http://pastebin.com",                          ""],
+    ["PayPal",          "http://www.paypal.com/",                       ""],
+    ["Userstyles",      "http://userstyles.org/",                       ""],
+    ["Wallgig",         "http://wallgig.net",                           ""],
+    ["Wallhaven",       "http://alpha.wallhaven.cc",                    ""],
 ];
 
 

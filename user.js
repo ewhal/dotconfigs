@@ -5,9 +5,18 @@ user_pref("browser.newtab.url", "/home/ewhal/dot-configs/homepage.html");
 
 // Turn off Geolocation
 user_pref("geo.enabled", false); 
+user_pref("geo.wifi.uri", "");
 
 // Override the useragent to the most common useragent
-user_pref("general.useragent.override", "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:20.0) Gecko/20100101 Firefox/20.0"); 
+user_pref("general.appname.override", "Netscape");
+user_pref("general.appversion.override", "5.0 (Windows)");
+user_pref("general.buildID.override", "20100101");
+user_pref("general.oscpu.override", "Windows NT 6.1");
+user_pref("general.platform.override", "Win32");
+user_pref("general.productSub.override", "20100101");
+user_pref("general.useragent.override", "Mozilla/5.0 (Windows NT 6.1; rv:38.0) Gecko/20100101 Firefox/38.0");
+user_pref("general.useragent.vendor", "");
+user_pref("general.useragent.vendorSub", "");
 
 // Force installation of non-updated add-ons on Firefox 20 
 user_pref("extensions.checkCompatibility.20", false); 
@@ -35,9 +44,8 @@ user_pref("network.http.max-persistent-connections-per-server", 32);
 user_pref("browser.tabs.animate", false);
 
 // Put cache on RAM
-user_pref("browser.cache.disk.enable", false);
-user_pref("browser.cache.memory.enable", true
-user_pref("browser.cache.memory.max_entry_size", -1);
+user_pref("browser.cache.disk.enable", true);
+user_pref("browser.cache.memory.enable", true);
 
 // Reduce page loading delay
 user_pref("nglayout.initialpaint.delay", 0); 
@@ -56,3 +64,25 @@ user_pref("privacy.donottrackheader.enabled", true);
 
 user_pref("browser.startup.homepage", "/home/ewhal/dot-configs/homepage.html");
 
+//Disable useless features
+user_pref("loop.enabled", false);
+user_pref("browser.pocket.enabled", false);
+user_pref("browser.devedition.theme.enabled", true);
+user_pref("devtools.theme", "dark");
+
+user_pref("media.navigator.enabled", false);
+user_pref("media.peerconnection.enabled", false);
+user_pref("network.cookie.cookieBehavior", 1);
+user_pref("plugins.hide_infobar_for_missing_plugin", true);
+user_pref("social.remote-install.enabled", false);
+user_pref("browser.download.useDownloadDir", false);
+user_pref("browser.newtabpage.enabled", false);
+user_pref("browser.safebrowsing.downloads.enabled", false);
+user_pref("browser.safebrowsing.enabled", false);
+user_pref("browser.safebrowsing.malware.enabled", false);
+user_pref("browser.search.geoSpecificDefaults", false);
+user_pref("browser.selfsupport.url", "");
+user_pref("datareporting.healthreport.service.enabled", false);
+user_pref("datareporting.healthreport.uploadEnabled", false);
+user_pref("datareporting.policy.dataSubmissionEnabled", false);
+user_pref("dom.ipc.plugins.reportCrashURL", false);

@@ -7,7 +7,21 @@ HOME=$(pwd)
 ARCH=( i3-wm i3lock i3status conky powerline-fonts-git rxvt-unicode mpd ncmpcpp mpc networkmanager network-manager-applet ladspa-bs2b vim mpv-git tmux zsh screenfetch speedtest-cli scrot  xfce4-screenshooter python2-potr youtube-dl firefox zsh-syntax-highlighting pulseaudio pavucontrol ttf-opensans ctags dmenu-extended numix-themes gtk-theme-flatstudio numix-icon-theme-git thunar lxappearance tor unbound dnscrypt-proxy)
 NPM=( bower grunt-cli yo generator-angular-fullstack generator-angular )
 GENTOO=( i3 i3lock i3status conky powerline-fonts-git rxvt-unicode mpd ncmpcpp mpc networkmanager network-manager-applet ladspa-bs2b vim mpv tmux zsh screenfetch speedtest-cli scrot  xfce4-screenshooter python2-potr youtube-dl firefox zsh-syntax-highlighting pulseaudio pavucontrol ttf-opensans ctags dmenu-extended numix-themes gtk-theme-flatstudio numix-icon-theme-git thunar lxappearance tor unbound dnscrypt-proxy)
+check_files(){
+    if [[ -f $HOME/sharefunct.sh ]]; then
+        source sharefunct.sh
+    fi
+    if [[ !-f $HOME/.mpd ]]; then
+        wget mpd
+    fi
+    if [[ !-f $HOME/mpv.conf ]]; then
+        wget mpv
+    fi
+    if [[ !-f $HOME/mpv.conf ]]; then
+        wget mpv
+    fi
 
+}
 if [[ -f $HOME/sharfunct.sh ]]; then
     source sharfunct.sh
 else
