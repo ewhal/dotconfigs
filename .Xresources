@@ -56,7 +56,7 @@ URxvt*buffered: false
 ! -- perl
 URxvt.perl-ext-common: default,clipboard,vtwheel,matcher
 URxvt.keysym.Mod4-v: perl:clipboard:paste
-URxvt.url-launcher: /usr/bin/firefox-developer
+URxvt.url-launcher: /usr/bin/firefox
 URxvt*imLocale: en_AU.UTF-8
 URxvt.matcher.button: 1
 !URxvt.colorUL: #9472ec

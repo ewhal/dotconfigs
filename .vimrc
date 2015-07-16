@@ -62,6 +62,7 @@ set nocompatible
     " Super easy commenting, toggle comments etc
     Plugin 'scrooloose/nerdcommenter'
 
+    " File navigation
     Plugin 'scrooloose/nerdtree'
 
     " Autoclose (, " etc
