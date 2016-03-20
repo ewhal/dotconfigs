@@ -45,11 +45,12 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git, git-extras, python, tmux, docker, vi-mode)
+plugins=(git, git-extras)
 
 # User configuration
 
-export PATH="/usr/lib/hardening-wrapper/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/opt/opencascade/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
+export GOPATH=$HOME/work
+export PATH="/usr/lib/hardening-wrapper/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/opt/opencascade/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$GOPATH/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -59,7 +60,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
+export EDITOR='nvim'
 # else
 #   export EDITOR='mvim'
 # fi
@@ -121,7 +122,8 @@ alias grep='grep --color=auto'
 ## Privileged access
 if [ $UID -ne 0 ]; then
     alias scat='sudo cat'
-    alias svim='sudo vim'
+    alias svim='sudo nvim'
+    alias vim='nvim'
     alias root='sudo su'
 fi
 
@@ -138,8 +140,8 @@ fi
     alias :x=' exit'
     alias quit=' exit'
     alias cd..='cd ..'
-    alias vi='vim'
-    alias vmi='vim'
+    alias vi='nvim'
+    alias vmi='nvim'
 #}}}
 
 
@@ -171,16 +173,6 @@ yt() {
     IFS='&' read -r URL LIST <<< "$@"
     mpv $(youtube-dl -g "$URL")
 }
-desktop() {
-    ssh ewhal4@192.168.0.17
-}
-pi() {
-    ssh pi@192.168.0.16
-}
-fancontrol() {
-   sudo /home/ewhal/.fancontrol $1
-}
-
 countdown() {
     secs=$(($1 * 60))
     while [ $secs -gt 0 ]; do
@@ -192,46 +184,13 @@ countdown() {
 
 note() {
     case $@ in
-        "-e") vim ~/.note;;
+        "-e") nvim ~/.note;;
           "") cat ~/.note|less;;
            *) echo -e "$@\n" >> ~/.note
               echo -e "\033[0;37m\"$@\" \033[1;30madded to your notes.\033[0m\n";;
     esac
 }
 
-secrets() {
-    if [ ! -f ~/.secrets ]; then touch ~/.secrets; fi
-    case $@ in
-        "-e") cat ~/.secrets|xxd -r -p|base64 -d > ~/secrets.open; rm -f ~/.secrets
-              vim ~/secrets.open
-              cat ~/secrets.open|base64|xxd -p -c 16 > ~/.secrets; rm -f ~/secrets.open;;
-           *) cat ~/.secrets|xxd -r -p|base64 -d|less;;
-    esac
-}
-
-run_bg() {
-    nohup $@ > /dev/null 2>&1 &
-}
-
-th() { resize -s $1 $COLUMNS > /dev/null }
-tw()  { resize -s $LINES $1 > /dev/null }
-td() {
-    getwindowgeometry
-    cH=$h
-    resize -s $1 $COLUMNS > /dev/null
-    getwindowgeometry
-    nH=`expr $cH - $h`
-    xdotool getactivewindow windowmove $x `expr $y + $nH - 24`
-}
-
-getwindowgeometry() {
-    unset x y w h
-    eval $(xwininfo -id $(xdotool getactivewindow) | 
-        sed -n -e "s/^ \+Absolute upper-left X: \+\([0-9]\+\).*/x=\1/p" \
-               -e "s/^ \+Absolute upper-left Y: \+\([0-9]\+\).*/y=\1/p" \
-               -e "s/^ \+Width: \+\([0-9]\+\).*/w=\1/p" \
-               -e "s/^ \+Height: \+\([0-9]\+\).*/h=\1/p" )
-}
 
 # infinality (Kori)
 export INFINALITY_FT_FILTER_PARAMS='25 30 40 30 25'
@@ -257,3 +216,56 @@ export INFINALITY_FT_USE_VARIOUS_TWEAKS=true
 # Enable Zsh command highlighting
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export DEFAULT_USER="ewhal"
+
+function 4chan() {
+
+    if [ $# -ne 1 ]
+    then
+        echo 'No URL specified! Give the URL to thread as the ONLY argument'
+        return 1
+    fi
+
+    url=$1
+
+    grep 'boards\.4chan\.org/[a-z0-9]\{1,3\}/thread/[0-9]\{4,12\}.*' <<< $url 2>&1 > /dev/null
+    exit_code=$?    # I know this isn't the best approach, but it's the best I can come up with.
+    if [ $exit_code -ne 0 ]
+    then
+        echo 'Malformed URL! Give the URL to thread as the ONLY argument'
+        return 2
+    fi
+
+    curl -k -f -s $url 2>&1 > /dev/null
+    exit_code=$?    # I know this isn't the best approach, but it's the best I can come up with.
+    if [ $exit_code -ne 0 ]
+    then
+        echo 'Invalid URL! Or you don`t have permission to view the page'
+        return 3
+    fi
+
+    if [ $(grep '^http' <<< $url) ]    # If thread doesn't have any protocol, add https
+    then
+        :
+    else
+        url=$(sed 's/^/https:\/\//' <<< $url)
+    fi
+
+    if [ $(grep '^http:' <<< $url) ]
+    then
+        url=$(sed 's/^http\(.*\)$/https\1/' <<< $url)
+    fi
+
+    total=$(curl -k -s $url | grep -o 'File: <' | wc -l)
+    counter=1
+
+    for image_url in $(curl -k -s $url | grep -o '\/\/i\.4cdn\.org\/.\{1,3\}\/[0-9]\{6,15\}\.[a-z]\{3,4\}' | uniq | sed 's/^/https:/')
+    do
+        echo -n Downloading image $counter of $total...
+        wget --no-check-certificate -q -nc $image_url
+        echo ' Done'
+        counter=$(($counter + 1))
+    done
+}
+function mp3-dl() {
+	youtube-dl --extract-audio --audio-format mp3  --audio-quality 0 "$@"
+}

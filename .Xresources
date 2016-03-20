@@ -4,10 +4,9 @@
 !dzen2.font: -*-droidsans-*-r-normal-*-*-100-*-*-*-*-*-*
 !dzen2.foreground: #d6d7d9
 !dzen2.background: #222326
-
-URxvt*depth: 24
+urxvt*termName: rxvt-256color
 URxvt*geometry: 100x25
-URxvt.borderColor: #111113
+!URxvt.borderColor: #111113
 URxvt.internalBorder: 8
 !URxvt.cursorUnderline: true
 !URxvt.cursorBlink: true
@@ -106,3 +105,6 @@ URxvt.matcher.button: 1
 *.color7:       #d3d7cf
 *.color15:      #eeeeec
 
+URxvt.depth: 32
+URxvt.background: [80]#0c0c0c
+URxvt.borderColor: [80]#0c0c0c

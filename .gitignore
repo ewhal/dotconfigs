@@ -5,3 +5,4 @@
 .mpd/mpd.log
 .mpd/mpdstate
 .nv/
+.weechat/otr*
