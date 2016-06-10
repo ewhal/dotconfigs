@@ -29,7 +29,7 @@ urxvtd &
 compton --config ~/.i3/compton.conf &
 
 # Network Manager applet
->> /dev/null which nm-applet && nm-applet &
+nm-applet &
 i3
 
 true

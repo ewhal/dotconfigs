@@ -273,5 +273,5 @@ exec mpd
 #exec nitrogen --restore
 #exec xscreensaver -no-splash
 #exec --no-startup-id xfce4-volumed
-exec feh --bg-scale ~/Pictures/wallpapers/oyddhj.jpg
+exec feh --bg-scale ~/Pictures/Wallpapers/simpledesktops.com.png
 #exec compton --config ~/.i3/compton.conf

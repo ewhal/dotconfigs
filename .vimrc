@@ -50,6 +50,9 @@ set showcmd                                 " show cmds being typed
 set title                                   " window title
 set vb t_vb=                                " disable beep and flashing
 set autoindent                                  " preserve indentation
+set tabstop=4
+set softtabstop=0 noexpandtab
+set shiftwidth=4
 
 set history=1000                                " default 20
 let mapleader=","
@@ -136,7 +139,7 @@ if maparg('<C-L>', 'n') ==# ''
 	nnoremap <silent> <C-L> :nohlsearch<CR><C-L>
 endif
 set smarttab " Autotabs for certain code
-set shiftwidth=4
+set softtabstop=0 noexpandtab
 set tabstop=4 
 set noexpandtab
 
